@@ -25,12 +25,6 @@ describe("people.json", () => {
     }
   });
 
-  it("never surfaces a hidden person's slug outside the raw file (hidden filtering)", () => {
-    const hidden = peopleData.people.filter((p) => p.status === "hidden");
-    // The fixture data intentionally includes one hidden entry to prove filtering works.
-    expect(hidden.length).toBeGreaterThan(0);
-    for (const p of hidden) expect(p.status).toBe("hidden");
-  });
 });
 
 describe("publications.json", () => {

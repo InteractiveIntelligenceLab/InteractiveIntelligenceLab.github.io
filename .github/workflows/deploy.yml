@@ -78,14 +78,23 @@ jobs:
             -p "$PREVIEW_PASSWORD" \
             -d dist-protected \
             --short \
+            --remember 1 \
             --template-title "Interactive Intelligence Lab — Under Maintenance" \
             --template-instructions "This preview is under maintenance. Enter the access password to continue." \
             --template-button "Enter site" \
             --template-placeholder "Access password" \
             --template-error "That password is not correct. Please try again." \
-            --template-remember "Remember this device" \
+            --template-remember "Keep this preview unlocked for this session" \
             --template-color-primary "#000000" \
             --template-color-secondary "#ffffff"
+          # StatiCrypt's remember feature stores a derived unlock credential,
+          # never the plaintext password. Scope it to the browser session so
+          # it unlocks navigation but is discarded when the session closes.
+          find dist-protected/dist -name "*.html" -type f -print0 | xargs -0 perl -0pi -e '
+            s/localStorage/sessionStorage/g;
+            s/(<input id="staticrypt-remember" type="checkbox" name="remember") \/>/$1 checked \/>/g;
+            s@(</style>)@#staticrypt-remember-label { display: none !important; }\n$1@g;
+          '
           rm -rf dist
           mv dist-protected/dist dist
           rm -rf dist-protected

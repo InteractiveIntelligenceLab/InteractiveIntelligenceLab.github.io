@@ -1,10 +1,9 @@
 #!/usr/bin/env tsx
 // Generates src/data/generated/people.json (and public/images/people/*.webp)
-// from the People Google Sheet that the admin-only Google Form writes to.
+// from either a private Google Sheet or a published public roster Sheet.
 // See README.md "Google setup" and "People management" for the full workflow.
 //
-// Without GOOGLE_SERVICE_ACCOUNT_JSON / GOOGLE_SHEET_ID configured, this
-// script falls back to the deterministic sample dataset in
+// Without a configured Sheet source, this script falls back to the deterministic sample dataset in
 // scripts/fixtures/people.sample.json so `npm run build` and the test suite
 // work out of the box for local development (spec: never make the site
 // depend on Google being reachable, and always leave a working local build).
@@ -13,9 +12,12 @@ import { loadEnv } from "./lib/env.js";
 import { readJsonIfExists, writeJsonDeterministic } from "./lib/fs-json.js";
 import {
   hasGoogleCredentials,
+  hasPublicGoogleSheet,
   readSheetRows,
+  readPublicSheetRows,
   extractDriveFileId,
   downloadDriveFile,
+  downloadPublicPhoto,
   isFileInExpectedFolder,
 } from "./lib/google.js";
 import { processProfileImage, UnsafeImageError } from "./lib/image.js";
@@ -179,7 +181,35 @@ async function attachPhoto(row: Record<string, string>, person: Person): Promise
   }
 }
 
-async function loadRows(): Promise<{ rows: Record<string, string>[]; source: "google-sheets" | "fixture" }> {
+async function attachPublicPhoto(row: Record<string, string>, person: Person): Promise<Person> {
+  const photoCell = (row["Profile Photo"] ?? "").trim();
+  if (!photoCell) return person;
+
+  try {
+    const raw = await downloadPublicPhoto(photoCell);
+    const processed = await processProfileImage(raw);
+    mkdirSync(IMAGES_DIR, { recursive: true });
+    const outPath = `${IMAGES_DIR}/${person.slug}.webp`;
+    writeFileSync(outPath, processed.buffer);
+    return { ...person, image: `/images/people/${person.slug}.webp` };
+  } catch (err) {
+    const reason = err instanceof UnsafeImageError ? err.message : (err as Error).message;
+    console.warn(`[sync-people] ${person.slug}: public photo rejected/failed (${reason}) — falling back to no photo`);
+    return person;
+  }
+}
+
+async function loadRows(): Promise<{
+  rows: Record<string, string>[];
+  source: "google-sheets" | "public-google-sheets" | "fixture";
+}> {
+  if (hasPublicGoogleSheet()) {
+    const sheetId = process.env.PUBLIC_GOOGLE_SHEET_ID!;
+    const gid = process.env.PUBLIC_GOOGLE_SHEET_GID || "0";
+    console.log("[sync-people] Public Google Sheet detected — reading published CSV data.");
+    const rows = await readPublicSheetRows(sheetId, gid);
+    return { rows, source: "public-google-sheets" };
+  }
   if (hasGoogleCredentials()) {
     const sheetId = process.env.GOOGLE_SHEET_ID!;
     console.log("[sync-people] Google credentials detected — reading live Sheet data.");
@@ -187,8 +217,8 @@ async function loadRows(): Promise<{ rows: Record<string, string>[]; source: "go
     return { rows, source: "google-sheets" };
   }
   console.log(
-    "[sync-people] GOOGLE_SERVICE_ACCOUNT_JSON / GOOGLE_SHEET_ID not set — using scripts/fixtures/people.sample.json. " +
-      "See README.md 'Google setup' to connect the real pipeline.",
+    "[sync-people] No Google Sheet source configured — using scripts/fixtures/people.sample.json. " +
+      "Set PUBLIC_GOOGLE_SHEET_ID for the no-Cloud public-sheet mode.",
   );
   const rows = JSON.parse(readFileSync(FIXTURE_PATH, "utf-8")) as Record<string, string>[];
   return { rows, source: "fixture" };
@@ -198,7 +228,7 @@ async function main() {
   const previous = readJsonIfExists<PeopleFileT>(OUTPUT_PATH);
 
   let rows: Record<string, string>[];
-  let source: "google-sheets" | "fixture";
+  let source: "google-sheets" | "public-google-sheets" | "fixture";
   try {
     ({ rows, source } = await loadRows());
   } catch (err) {
@@ -212,7 +242,6 @@ async function main() {
     return;
   }
 
-  const canProcessPhotos = source === "google-sheets";
   const people: Person[] = [];
   const rowErrors: { row: number; slug: string; errors: string[] }[] = [];
 
@@ -226,7 +255,12 @@ async function main() {
       console.error(`[sync-people] Skipping row ${i + 1} (${result.slug}): ${result.errors?.join("; ")}`);
       continue;
     }
-    const withPhoto = canProcessPhotos ? await attachPhoto(rows[i], result.person) : result.person;
+    const withPhoto =
+      source === "google-sheets"
+        ? await attachPhoto(rows[i], result.person)
+        : source === "public-google-sheets"
+          ? await attachPublicPhoto(rows[i], result.person)
+          : result.person;
     people.push(withPhoto);
   }
 

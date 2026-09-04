@@ -13,6 +13,70 @@ export function hasGoogleCredentials(): boolean {
   return Boolean(process.env.GOOGLE_SERVICE_ACCOUNT_JSON && process.env.GOOGLE_SHEET_ID);
 }
 
+/** A published Google Sheet can be read as CSV without Cloud credentials. */
+export function hasPublicGoogleSheet(): boolean {
+  return Boolean(process.env.PUBLIC_GOOGLE_SHEET_ID);
+}
+
+function parseCsv(text: string): string[][] {
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let value = "";
+  let quoted = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i];
+    if (quoted) {
+      if (char === '"' && text[i + 1] === '"') {
+        value += '"';
+        i++;
+      } else if (char === '"') {
+        quoted = false;
+      } else {
+        value += char;
+      }
+    } else if (char === '"') {
+      quoted = true;
+    } else if (char === ",") {
+      row.push(value);
+      value = "";
+    } else if (char === "\n") {
+      row.push(value.replace(/\r$/, ""));
+      rows.push(row);
+      row = [];
+      value = "";
+    } else {
+      value += char;
+    }
+  }
+  if (value || row.length > 0) {
+    row.push(value.replace(/\r$/, ""));
+    rows.push(row);
+  }
+  return rows;
+}
+
+/** Reads a public Sheet's CSV export (row 1 = headers). */
+export async function readPublicSheetRows(sheetId: string, gid = "0"): Promise<Record<string, string>[]> {
+  const url = new URL(`https://docs.google.com/spreadsheets/d/${encodeURIComponent(sheetId)}/export`);
+  url.searchParams.set("format", "csv");
+  url.searchParams.set("gid", gid);
+  const res = await fetch(url, { headers: { accept: "text/csv" } });
+  if (!res.ok) throw new Error(`Public Sheet CSV export failed with HTTP ${res.status}`);
+  const rows = parseCsv((await res.text()).replace(/^\uFEFF/, ""));
+  if (rows.length === 0) return [];
+  const [header, ...body] = rows;
+  return body
+    .filter((row) => row.some((cell) => cell.trim()))
+    .map((row) => {
+      const record: Record<string, string> = {};
+      header.forEach((key, i) => {
+        record[key.trim()] = row[i] ?? "";
+      });
+      return record;
+    });
+}
+
 function getAuth() {
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
   if (!raw) throw new Error("GOOGLE_SERVICE_ACCOUNT_JSON is not set");
@@ -93,4 +157,16 @@ export async function downloadDriveFile(fileId: string): Promise<Buffer> {
     { responseType: "arraybuffer" },
   );
   return Buffer.from(res.data as ArrayBuffer);
+}
+
+/** Downloads an image shared publicly by URL or public Google Drive link. */
+export async function downloadPublicPhoto(value: string): Promise<Buffer> {
+  const fileId = extractDriveFileId(value);
+  const url = fileId
+    ? `https://drive.usercontent.google.com/download?id=${encodeURIComponent(fileId)}&export=download&confirm=t`
+    : value;
+  if (!/^https:\/\//i.test(url)) throw new Error("Profile Photo must be a public HTTPS URL or Google Drive link");
+  const res = await fetch(url, { redirect: "follow" });
+  if (!res.ok) throw new Error(`Public photo download failed with HTTP ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
 }

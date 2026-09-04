@@ -38,6 +38,8 @@ jobs:
 
       - name: Sync people from Google Sheets
         env:
+          PUBLIC_GOOGLE_SHEET_ID: ${{ vars.PUBLIC_GOOGLE_SHEET_ID }}
+          PUBLIC_GOOGLE_SHEET_GID: ${{ vars.PUBLIC_GOOGLE_SHEET_GID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}

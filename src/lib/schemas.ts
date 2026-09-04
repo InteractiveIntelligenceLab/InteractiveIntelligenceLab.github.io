@@ -86,7 +86,7 @@ export type Person = z.infer<typeof Person>;
 
 export const PeopleFile = z.object({
   generatedAt: isoDate,
-  source: z.enum(["google-sheets", "fixture"]),
+  source: z.enum(["google-sheets", "public-google-sheets", "fixture"]),
   count: z.number().int(),
   people: z.array(Person),
 });

@@ -104,9 +104,9 @@ responses)` Drive folder for the uploaded photos; set that folder to **Anyone
 with the link → Viewer** so the sync can download and safely re-encode them.
 Responders must sign in to a Google account to upload a file.
 
-1. Give the Form questions these exact names: `Slug`, `Full Name`, `Role /
-   Title`, `Category`, `Professional Website`, `Research Interests`, `Short
-   Bio`, `Profile Photo`, `Status`, `Joined Year`, `Alumni Year`, `Current
+1. Give the Form questions these exact names: `Full Name`, `Role / Title`,
+   `Category`, `Professional Website`, `Research Interests`, `Short Bio`,
+   `Profile Photo`, `Status`, `Joined Year`, `Alumni Year`, `Current
    Position`, and `Current Institution`. The `Profile Photo`
    question must use the File upload type; the others can use the appropriate
    text or dropdown type.

@@ -9,18 +9,20 @@ import newsData from "../src/data/generated/news.json";
 import categories from "../src/data/categories.json";
 
 describe("people.json", () => {
+  const parsedPeople = PeopleFile.parse(peopleData);
+
   it("validates against the PeopleFile schema", () => {
     expect(PeopleFile.safeParse(peopleData).success).toBe(true);
   });
 
   it("has no duplicate slugs", () => {
-    const slugs = peopleData.people.map((p) => p.slug);
+    const slugs = parsedPeople.people.map((p) => p.slug);
     expect(new Set(slugs).size).toBe(slugs.length);
   });
 
   it("only references known categories", () => {
     const knownIds = new Set(categories.map((c) => c.id));
-    for (const person of peopleData.people) {
+    for (const person of parsedPeople.people) {
       expect(knownIds.has(person.category)).toBe(true);
     }
   });

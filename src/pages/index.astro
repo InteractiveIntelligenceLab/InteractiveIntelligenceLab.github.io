@@ -6,6 +6,7 @@ import newsData from "../data/generated/news.json";
 import publicationsData from "../data/generated/publications.json";
 import peopleData from "../data/generated/people.json";
 import { externalAttrs } from "../lib/links";
+import type { PeopleFile } from "../lib/schemas";
 
 const researchAreas = [
   {
@@ -36,7 +37,10 @@ const researchAreas = [
 const latestNews = newsData.items.slice(0, 3);
 const recentPublications = publicationsData.items.slice(0, 5);
 
-const currentPeopleCount = peopleData.people.filter((p) => p.status === "current").length;
+// JSON imports infer an empty array as `never[]`; retain the data contract even
+// when the people sheet has no valid rows yet.
+const people = peopleData as PeopleFile;
+const currentPeopleCount = people.people.filter((p) => p.status === "current").length;
 const stats = [
   { value: String(publicationsData.count), label: "Publications tracked" },
   { value: String(currentPeopleCount), label: "Current lab members" },

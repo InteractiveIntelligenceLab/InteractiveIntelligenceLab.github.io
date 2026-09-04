@@ -1,6 +1,23 @@
 {
-  "count": 0,
-  "generatedAt": "2026-09-04T15:40:29.216Z",
-  "people": [],
+  "count": 1,
+  "generatedAt": "2026-09-04T15:45:50.508Z",
+  "people": [
+    {
+      "category": "ms",
+      "currentInstitution": "WSAI, IITM",
+      "image": "/images/people/swadesh-b.webp",
+      "joinedYear": 2026,
+      "name": "Swadesh B",
+      "order": 0,
+      "professionalUrl": "https://swadeshbalajee.github.io/",
+      "researchInterests": [
+        "Natural Language Processing",
+        "Reinforcement Learning"
+      ],
+      "role": "Student",
+      "slug": "swadesh-b",
+      "status": "current"
+    }
+  ],
   "source": "public-google-sheets"
 }

@@ -87,6 +87,22 @@ export function toStringList(raw: string): string[] {
     .filter(Boolean);
 }
 
+/**
+ * Google Forms uses question text as Sheet headers. Match headings despite
+ * harmless spacing, punctuation, or capitalization edits (e.g. Role/Title
+ * instead of Role / Title), while keeping the field names documented plainly.
+ */
+function normalizeHeader(header: string): string {
+  return header.trim().toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
+export function getSheetCell(row: Record<string, string>, heading: string): string {
+  if (heading in row) return row[heading] ?? "";
+  const normalizedHeading = normalizeHeader(heading);
+  const matchingKey = Object.keys(row).find((key) => normalizeHeader(key) === normalizedHeading);
+  return matchingKey ? (row[matchingKey] ?? "") : "";
+}
+
 interface RowResult {
   ok: boolean;
   slug: string;
@@ -96,25 +112,25 @@ interface RowResult {
 }
 
 export function normalizeRow(row: Record<string, string>, index: number): RowResult {
-  const name = (row["Full Name"] ?? "").trim();
-  const explicitSlug = (row["Slug"] ?? "").trim();
+  const name = getSheetCell(row, "Full Name").trim();
+  const explicitSlug = getSheetCell(row, "Slug").trim();
   const slug = slugify(explicitSlug || name || `row-${index}`);
   const errors: string[] = [];
   const warnings: string[] = [];
 
   if (!name) errors.push("Missing Full Name");
 
-  const role = (row["Role / Title"] ?? "").trim();
+  const role = getSheetCell(row, "Role / Title").trim();
   if (!role) errors.push("Missing Role / Title");
 
-  const rawCategory = (row["Category"] ?? "").trim();
+  const rawCategory = getSheetCell(row, "Category").trim();
   const category = normalizeCategory(rawCategory);
   if (!category) errors.push(`Unrecognized Category "${rawCategory}"`);
 
-  const { status, warning: statusWarning } = normalizeStatus(row["Status"] ?? "");
+  const { status, warning: statusWarning } = normalizeStatus(getSheetCell(row, "Status"));
   if (statusWarning) warnings.push(statusWarning);
 
-  const professionalUrlRaw = (row["Professional Website"] ?? "").trim();
+  const professionalUrlRaw = getSheetCell(row, "Professional Website").trim();
 
   if (errors.length > 0) {
     return { ok: false, slug, errors, warnings };
@@ -127,14 +143,14 @@ export function normalizeRow(row: Record<string, string>, index: number): RowRes
     category: category!,
     status,
     professionalUrl: professionalUrlRaw || undefined,
-    researchInterests: toStringList(row["Research Interests"] ?? ""),
-    bio: (row["Short Bio"] ?? "").trim() || undefined,
+    researchInterests: toStringList(getSheetCell(row, "Research Interests")),
+    bio: getSheetCell(row, "Short Bio").trim() || undefined,
     image: undefined as string | undefined, // filled in after image processing, if any
-    order: toOptionalYear(row["Display Order"] ?? "") ?? index,
-    joinedYear: toOptionalYear(row["Joined Year"] ?? ""),
-    alumniYear: toOptionalYear(row["Alumni Year"] ?? ""),
-    currentPosition: (row["Current Position"] ?? "").trim() || undefined,
-    currentInstitution: (row["Current Institution"] ?? "").trim() || undefined,
+    order: toOptionalYear(getSheetCell(row, "Display Order")) ?? index,
+    joinedYear: toOptionalYear(getSheetCell(row, "Joined Year")),
+    alumniYear: toOptionalYear(getSheetCell(row, "Alumni Year")),
+    currentPosition: getSheetCell(row, "Current Position").trim() || undefined,
+    currentInstitution: getSheetCell(row, "Current Institution").trim() || undefined,
   };
 
   const parsed = Person.safeParse(candidate);
@@ -151,7 +167,7 @@ export function normalizeRow(row: Record<string, string>, index: number): RowRes
 }
 
 async function attachPhoto(row: Record<string, string>, person: Person): Promise<Person> {
-  const photoCell = (row["Profile Photo"] ?? "").trim();
+  const photoCell = getSheetCell(row, "Profile Photo").trim();
   if (!photoCell) return person;
 
   const fileId = extractDriveFileId(photoCell);
@@ -182,7 +198,7 @@ async function attachPhoto(row: Record<string, string>, person: Person): Promise
 }
 
 async function attachPublicPhoto(row: Record<string, string>, person: Person): Promise<Person> {
-  const photoCell = (row["Profile Photo"] ?? "").trim();
+  const photoCell = getSheetCell(row, "Profile Photo").trim();
   if (!photoCell) return person;
 
   try {

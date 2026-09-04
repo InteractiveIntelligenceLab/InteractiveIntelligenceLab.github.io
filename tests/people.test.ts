@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { normalizeCategory, normalizeStatus, normalizeRow, toStringList, toOptionalYear } from "../scripts/sync-people";
+import { getSheetCell, normalizeCategory, normalizeStatus, normalizeRow, toStringList, toOptionalYear } from "../scripts/sync-people";
 import { groupCurrentByCategory, getAlumni, getVisiblePeople } from "../src/lib/people";
 import type { Person, PersonCategoryDef } from "../src/lib/schemas";
 
@@ -60,6 +60,14 @@ describe("normalizeRow", () => {
     expect(result.ok).toBe(true);
     expect(result.person?.slug).toBe("jane-doe");
     expect(result.person?.category).toBe("phd");
+  });
+
+  it("accepts Google Form header punctuation and capitalization variations", () => {
+    const { ["Role / Title"]: _canonicalRole, ...formRow } = baseRow;
+    const result = normalizeRow({ ...formRow, "Role/Title": "Student", "Profile photo": "https://example.com/photo" }, 0);
+    expect(result.ok).toBe(true);
+    expect(result.person?.role).toBe("Student");
+    expect(getSheetCell({ "Profile photo": "photo-link" }, "Profile Photo")).toBe("photo-link");
   });
 
   it("reports an error and skips rows missing required fields", () => {

@@ -117,9 +117,11 @@ data.
    image link in `Profile Photo`. The sync downloads, validates, strips
    metadata, and re-encodes it before publishing.
 
-The existing **Sync People** workflow reads this published CSV every 20
-minutes. This mode takes precedence whenever `PUBLIC_GOOGLE_SHEET_ID` is set;
-you do not need Google Cloud, a service account, or the private-sheet secrets.
+The existing **Sync People** workflow reads this published CSV weekly, every
+Sunday at 00:00 UTC. Run it manually from the GitHub Actions tab whenever an
+update needs to appear sooner. This mode takes precedence whenever
+`PUBLIC_GOOGLE_SHEET_ID` is set; you do not need Google Cloud, a service
+account, or the private-sheet secrets.
 
 ## Private Google setup (people pipeline)
 
@@ -193,8 +195,8 @@ Never commit these values. `.env.example` lists the variable names only.
 No source-code changes are needed for routine people management.
 
 - **Add a person:** admin fills out the Google Form → row appears in the
-  Sheet → wait for the next scheduled sync (every ~20 minutes) or trigger it
-  manually: **Actions tab → "Sync People" → Run workflow**.
+  Sheet → wait for the weekly Sunday sync or trigger it manually:
+  **Actions tab → "Sync People" → Run workflow**.
 - **Update a person:** edit their row directly in the Sheet → next sync
   picks it up.
 - **Move someone to Alumni:** set their `Status` cell to `alumni` (and fill

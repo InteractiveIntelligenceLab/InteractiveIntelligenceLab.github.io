@@ -3,13 +3,11 @@ name: Sync People
 # Regenerates src/data/generated/people.json (and public/images/people/*.webp)
 # from the People Google Sheet. See README.md "People management".
 #
-# Runs every 20 minutes (within the spec's suggested 15-30 minute range) plus
-# on-demand. GitHub's schedule trigger can lag under platform load — if the
-# lab needs near-instant updates, see README.md "Optional: instant sync via
-# Google Apps Script" for an optional webhook-based alternative.
+# Runs weekly (Sunday at 00:00 UTC) plus on-demand. Use the Actions tab's
+# "Run workflow" control whenever a people update should be published sooner.
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "0 0 * * 0"
   workflow_dispatch: {}
 
 permissions:

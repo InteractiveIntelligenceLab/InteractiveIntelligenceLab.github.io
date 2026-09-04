@@ -95,33 +95,42 @@ Copy `.env.example` to `.env` to configure any of the sync scripts locally.
 
 ## Public roster Sheet setup (no Cloud project)
 
-This is the simplest option for the People page. Create a separate Google
-Sheet or tab named something like **People — Public** and put only information
-you are comfortable publishing in it. Do not use your private Form responses
-tab, which can contain timestamps, internal notes, or other administrative
-data.
+This is the simplest option for the People page. It supports a fully automatic
+Google Form → Google Drive photos + Google Sheets → website workflow, without
+Google Cloud. Create the Form in **My Drive** (not a Shared Drive), add a
+**File upload** question named `Profile Photo`, and link its responses to a
+Google Sheet. Google Forms automatically creates a `Form name (File
+responses)` Drive folder for the uploaded photos; set that folder to **Anyone
+with the link → Viewer** so the sync can download and safely re-encode them.
+Responders must sign in to a Google account to upload a file.
 
-1. Give the public roster tab these columns: `Slug`, `Full Name`, `Role /
+1. Give the Form questions these exact names: `Slug`, `Full Name`, `Role /
    Title`, `Category`, `Professional Website`, `Research Interests`, `Short
    Bio`, `Profile Photo`, `Display Order`, `Status`, `Joined Year`, `Alumni
-   Year`, `Current Position`, and `Current Institution`.
-2. In Google Sheets, select **File → Share → Publish to web**, choose only
-   that roster tab, and publish it as CSV. Anyone can then read every cell in
-   this tab.
+   Year`, `Current Position`, and `Current Institution`. The `Profile Photo`
+   question must use the File upload type; the others can use the appropriate
+   text or dropdown type.
+2. In Google Sheets, select **File → Share → Publish to web**, choose the
+   linked **Form Responses** tab, and publish it as CSV. The sync ignores the
+   extra Timestamp column and reads the named fields directly, so new Form
+   submissions flow to the site automatically.
 3. Set `PUBLIC_GOOGLE_SHEET_ID` and `PUBLIC_GOOGLE_SHEET_GID` as repository
    variables in **Settings → Secrets and variables → Actions → Variables**.
    The Sheet ID is the part between `/d/` and `/edit` in its URL; the GID is
    the number after `gid=` in the tab URL (often `0`). They are public IDs,
    so they are variables rather than secrets.
-4. Put a public HTTPS image URL or an **Anyone with the link** Google Drive
-   image link in `Profile Photo`. The sync downloads, validates, strips
-   metadata, and re-encodes it before publishing.
+4. No manual photo links or uploads are needed after the Form is configured:
+   each uploaded image's Drive link arrives in the `Profile Photo` Sheet
+   column. The sync downloads, validates, strips metadata, and re-encodes it
+   before publishing.
 
 The existing **Sync People** workflow reads this published CSV weekly, every
 Sunday at 00:00 UTC. Run it manually from the GitHub Actions tab whenever an
 update needs to appear sooner. This mode takes precedence whenever
 `PUBLIC_GOOGLE_SHEET_ID` is set; you do not need Google Cloud, a service
-account, or the private-sheet secrets.
+account, or the private-sheet secrets. Every Form response and uploaded photo
+link in this published tab is public, so restrict the Form to trusted people
+and do not include internal notes or sensitive questions.
 
 ## Private Google setup (people pipeline)
 

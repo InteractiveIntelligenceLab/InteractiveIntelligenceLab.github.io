@@ -106,8 +106,8 @@ Responders must sign in to a Google account to upload a file.
 
 1. Give the Form questions these exact names: `Slug`, `Full Name`, `Role /
    Title`, `Category`, `Professional Website`, `Research Interests`, `Short
-   Bio`, `Profile Photo`, `Display Order`, `Status`, `Joined Year`, `Alumni
-   Year`, `Current Position`, and `Current Institution`. The `Profile Photo`
+   Bio`, `Profile Photo`, `Status`, `Joined Year`, `Alumni Year`, `Current
+   Position`, and `Current Institution`. The `Profile Photo`
    question must use the File upload type; the others can use the appropriate
    text or dropdown type.
 2. In Google Sheets, select **File → Share → Publish to web**, choose the

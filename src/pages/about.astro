@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import siteConfig from "../data/site-config.json";
+import { externalAttrs } from "../lib/links";
+---
+
+<BaseLayout
+  title="About"
+  description="About the Interactive Intelligence Lab (IIL) at IIT Madras — an interdisciplinary research group working on machine learning, reinforcement learning, and deep learning."
+>
+  <div class="mx-auto max-w-3xl px-4 py-20 sm:px-6">
+    <p class="kicker">The lab</p>
+    <h1 class="mt-2 text-4xl font-semibold sm:text-5xl">About</h1>
+
+    <section class="prose-academic mt-8">
+      <h2 class="text-xl font-semibold">About Us</h2>
+      <p class="mt-3 text-[var(--color-ink-muted)]">
+        Interactive Intelligence Lab (IIL) is an interdisciplinary research group at the Wadhwani School of Data
+        Science and AI, IIT Madras. We work on research problems across machine learning, reinforcement learning,
+        and deep learning. We also work closely with researchers in related areas (Biological network analysis) and
+        the Center for Computational Brain Research (CCBR).
+      </p>
+    </section>
+
+    <section class="prose-academic mt-10">
+      <h2 class="text-xl font-semibold">Our Vision</h2>
+      <p class="mt-3 text-[var(--color-ink-muted)]">
+        To achieve global prominence in artificial intelligence and data science research with significant societal
+        impact, by carrying out translational research, creating top-quality engineers, particularly in the areas of
+        statistical relational data analytics, causal modelling, data science specific architecture, and
+        reinforcement learning. The centre also envisions to become renowned for teaching and training in data
+        science, especially in programs tailored for different industries and application domains.
+      </p>
+    </section>
+
+    <section class="mt-10 border-t border-[var(--color-border)] pt-8">
+      <h2 class="text-xl font-semibold">Reach us</h2>
+      <address class="mt-3 not-italic leading-relaxed text-[var(--color-ink-muted)]">
+        {siteConfig.address.lines.map((line) => <span class="block">{line}</span>)}
+        <a class="link-accent mt-2 inline-block" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+      </address>
+      <p class="mt-4 text-sm text-[var(--color-ink-muted)]">
+        <a class="link-accent" href={siteConfig.links.iitm} {...externalAttrs(siteConfig.links.iitm)}>IIT Madras</a>
+        {" · "}
+        <a class="link-accent" href={siteConfig.links.dsai} {...externalAttrs(siteConfig.links.dsai)}>
+          Wadhwani School of Data Science and AI
+        </a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

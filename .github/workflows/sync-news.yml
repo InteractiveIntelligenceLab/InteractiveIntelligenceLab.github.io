@@ -1,0 +1,68 @@
+name: Sync News
+
+# Regenerates src/data/generated/news.json from Google News RSS searches.
+# See README.md "News".
+on:
+  schedule:
+    - cron: "23 */6 * * *" # every 6 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-news
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync news from Google News RSS
+        run: npm run sync:news
+
+      - name: Validate content
+        run: npm run validate:content
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Production build (sanity check)
+        run: npm run build:no-check
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git add src/data/generated/news.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(news): sync from Google News RSS [skip ci]"
+          git push
+
+      - name: Trigger deployment
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref ${{ github.ref_name }}

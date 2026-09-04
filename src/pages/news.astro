@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NewsCard from "../components/NewsCard.astro";
+import newsData from "../data/generated/news.json";
+import type { NewsItem } from "../lib/schemas";
+
+const items = newsData.items as NewsItem[];
+---
+
+<BaseLayout
+  title="News"
+  description="News coverage of Prof. Balaraman Ravindran and the Interactive Intelligence Lab, IIT Madras."
+>
+  <div class="mx-auto max-w-3xl px-4 py-20 sm:px-6">
+    <p class="kicker">Coverage</p>
+    <h1 class="mt-2 text-4xl font-semibold sm:text-5xl">News</h1>
+    <p class="prose-academic mt-5 text-lg text-[var(--color-ink-muted)]">
+      Public news coverage involving Prof. Balaraman Ravindran, discovered and filtered automatically. Each item
+      links directly to its original source.
+    </p>
+
+    <div class="mt-10 space-y-4">
+      {
+        items.length > 0 ? (
+          items.map((item) => <NewsCard item={item} headingLevel="h2" />)
+        ) : (
+          <p class="text-sm text-[var(--color-ink-muted)]">No news items are available right now.</p>
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,27 @@
+---
+import type { NewsItem } from "../lib/schemas";
+import { externalAttrs } from "../lib/links";
+
+interface Props {
+  item: NewsItem;
+  /** The page decides the correct level so headings never skip (h1 → h2 → h3). */
+  headingLevel?: "h2" | "h3";
+}
+const { item, headingLevel = "h3" } = Astro.props;
+const Heading = headingLevel;
+const date = new Date(item.publishedAt);
+const formatted = Number.isNaN(date.getTime())
+  ? ""
+  : date.toLocaleDateString("en-IN", { year: "numeric", month: "long", day: "numeric" });
+---
+
+<article class="card p-5">
+  <a href={item.url} {...externalAttrs(item.url)} class="no-underline">
+    <Heading class="link-accent text-base font-semibold leading-snug">{item.title}</Heading>
+  </a>
+  <p class="mt-2 text-xs text-[var(--color-ink-faint)]">
+    {item.source}
+    {formatted && <span> · <time datetime={item.publishedAt}>{formatted}</time></span>}
+  </p>
+  {item.snippet && <p class="mt-2 text-sm text-[var(--color-ink-muted)]">{item.snippet}</p>}
+</article>

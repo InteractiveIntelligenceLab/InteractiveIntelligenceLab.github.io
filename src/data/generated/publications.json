@@ -1,0 +1,5706 @@
+{
+  "count": 308,
+  "generatedAt": "2026-09-04T12:13:53.192Z",
+  "items": [
+    {
+      "authors": [
+        "Ziyue Luo",
+        "Jiaxuan Cai",
+        "Cedric Le Denmat",
+        "Srijith Nair",
+        "Fatemeh Nourzad",
+        "Rohith Krishnan Sudha",
+        "Qinhang Wu",
+        "Jifan Zhang",
+        "Sungjae Lee",
+        "Zhe Li",
+        "Peiwen Qiu",
+        "Siddharth Shah",
+        "Rishabh Sharma",
+        "Yinglun Xia",
+        "Xue Zheng",
+        "Zidong Liu",
+        "Bicheng Ying",
+        "Kaushik Chowdhury",
+        "Gauri Joshi",
+        "Yingbin Liang",
+        "Robert D. Nowak",
+        "Srinivasan Parthasarathy",
+        "Saurav Prakash",
+        "Balaraman Ravindran",
+        "Sanjay Shakkottai",
+        "Ness B. Shroff",
+        "Sundararajan Srinivasan",
+        "Haibo Yang",
+        "Aylin Yener",
+        "Jia Liu"
+      ],
+      "doi": "10.1145/3789240.3828748",
+      "id": "10.1145/3789240.3828748",
+      "oaUrl": "https://doi.org/10.1145/3789240.3828748",
+      "openAlexId": "W7202196558",
+      "publicationDate": "2026-08-11",
+      "source": "openalex",
+      "title": "Toward WAN-Aware LLM Training Across Heterogeneous, Geo-Distributed Sites",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3789240.3828748",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Richa Verma",
+        "Bavish Kulur",
+        "Sanjay Chawla",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.65109/sdrb4374",
+      "id": "10.65109/sdrb4374",
+      "openAlexId": "W7162255032",
+      "publicationDate": "2026-05-24",
+      "source": "openalex",
+      "title": "PREFINE: Preference-based Implicit Reward and Cost Fine-tuning for Safety Alignment",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/sdrb4374",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Richa Verma",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2605.21266",
+      "id": "10.48550/arxiv.2605.21266",
+      "oaUrl": "https://doi.org/10.48550/arxiv.2605.21266",
+      "openAlexId": "W7162031929",
+      "publicationDate": "2026-05-20",
+      "source": "openalex",
+      "title": "How Much Online RL is Enough? Informative Rollouts for Offline Preference Optimization in RLVR",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2605.21266",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Yoshua Bengio",
+        "Stephen Clare",
+        "Carina Prunkl",
+        "Maksym Andriushchenko",
+        "Ben Bucknall",
+        "Peter Fox",
+        "Nestor Maslej",
+        "Conor McGlynn",
+        "Melanie Murray",
+        "Shalaleh Rismani",
+        "Stephen Casper",
+        "Jessica Newman",
+        "Daniel Privitera",
+        "Sören Mindermann",
+        "Daron Acemoğlu",
+        "Thomas G. Dietterich",
+        "F. Heintz",
+        "Geoffrey E. Hinton",
+        "Jennings, Nick",
+        "Susan Leavy",
+        "Teresa Ludermir",
+        "Vidushi Marda",
+        "Helen Margetts",
+        "John McDermid",
+        "Jane Munga",
+        "Arvind Narayanan",
+        "Alondra Nelson",
+        "Clara Neppel",
+        "Ramchurn, Gopal",
+        "Stuart Russell",
+        "Marietje Schaake",
+        "Bernhard Schölkopf",
+        "Soto, Alavaro",
+        "Lee Tiedrich",
+        "Gaël Varoquaux",
+        "Andrew I. Yao",
+        "Ya-Qin Zhang",
+        "Leandro Aguirre",
+        "Ajala, Olubunmi",
+        "Fahad Albalawi",
+        "Noora AlMalek",
+        "Busch, Christian",
+        "André Carvalho",
+        "Jonathan Collas",
+        "Amandeep S. Gill",
+        "Ahmet Hatip",
+        "Heikkilä, Juha",
+        "Chris J. Johnson",
+        "Gill Jolly",
+        "Ziv Katzir",
+        "Mary Kerema",
+        "Hiroaki Kitano",
+        "Krüger, Antonio",
+        "Aoife McLysaght",
+        "Oleksii Molchanovskyi",
+        "Monti, Andrea",
+        "Kyoung Mu Lee",
+        "Mona Nemer",
+        "Nuria Oliver",
+        "R. Pezoa",
+        "Audrey Plonk",
+        "José Portillo",
+        "Balaraman Ravindran",
+        "Hammam Riza",
+        "Crystal Rugege",
+        "Haroon Sheikh",
+        "Wong, Denise",
+        "Yi Zeng",
+        "Liming Zhu"
+      ],
+      "doi": "10.48550/arxiv.2511.19863",
+      "id": "10.48550/arxiv.2511.19863",
+      "oaUrl": "https://arxiv.org/pdf/2511.19863",
+      "openAlexId": "W4416766981",
+      "publicationDate": "2025-11-25",
+      "source": "openalex",
+      "title": "International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2511.19863",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Returaj Burnwal",
+        "Nirav Bhatt",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2511.08136",
+      "id": "10.48550/arxiv.2511.08136",
+      "oaUrl": "https://arxiv.org/pdf/2511.08136",
+      "openAlexId": "W4416332691",
+      "publicationDate": "2025-11-11",
+      "source": "openalex",
+      "title": "SafeMIL: Learning Offline Safe Imitation Policy from Non-Preferred Trajectories",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2511.08136",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Yoshua Bengio",
+        "Stephen Clare",
+        "Carina Prunkl",
+        "Shalaleh Rismani",
+        "Maksym Andriushchenko",
+        "Ben Bucknall",
+        "Peter Fox",
+        "Tiancheng Hu",
+        "Cameron Jones",
+        "Sam Manning",
+        "Nestor Maslej",
+        "Vasilios Mavroudis",
+        "Conor McGlynn",
+        "Melanie Murray",
+        "Charlotte Stix",
+        "Lucia Velasco",
+        "Nicole Wheeler",
+        "Daniel Privitera",
+        "Sören Mindermann",
+        "Daron Acemoğlu",
+        "Thomas G. Dietterich",
+        "F. Heintz",
+        "Geoffrey E. Hinton",
+        "Jennings, Nick",
+        "Susan Leavy",
+        "Teresa Ludermir",
+        "Vidushi Marda",
+        "Helen Margetts",
+        "John McDermid",
+        "Jane Munga",
+        "Arvind Narayanan",
+        "Alondra Nelson",
+        "Clara Neppel",
+        "Ramchurn, Gopal",
+        "Stuart Russell",
+        "Marietje Schaake",
+        "Bernhard Schölkopf",
+        "Soto, Alavaro",
+        "Lee Tiedrich",
+        "Gaël Varoquaux",
+        "Andrew I. Yao",
+        "Ya-Qin Zhang",
+        "Leandro Aguirre",
+        "Ajala, Olubunmi",
+        "Fahad Albalawi Noora AlMalek",
+        "Busch, Christian",
+        "André Carvalho",
+        "Jonathan Collas",
+        "Amandeep S. Gill",
+        "Ahmet Hatip",
+        "Heikkilä, Juha",
+        "Chris J. Johnson",
+        "Gill Jolly",
+        "Ziv Katzir",
+        "Mary Kerema",
+        "Hiroaki Kitano",
+        "Krüger, Antonio",
+        "Aoife McLysaght",
+        "Oleksii Molchanovskyi",
+        "Monti, Andrea",
+        "Kyoung Mu Lee",
+        "Mona Nemer",
+        "Nuria Oliver",
+        "R. Pezoa",
+        "Audrey Plonk",
+        "José Portillo",
+        "Balaraman Ravindran",
+        "Hammam Riza",
+        "Crystal Rugege",
+        "Haroon Sheikh",
+        "Wong, Denise",
+        "Yi Zeng",
+        "Liming Zhu"
+      ],
+      "doi": "10.48550/arxiv.2510.13653",
+      "id": "10.48550/arxiv.2510.13653",
+      "oaUrl": "https://arxiv.org/pdf/2510.13653",
+      "openAlexId": "W4415276815",
+      "publicationDate": "2025-10-15",
+      "source": "openalex",
+      "title": "International AI Safety Report 2025: First Key Update: Capabilities and Risk Implications",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2510.13653",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "G Santhosh",
+        "Akshay Govind S",
+        "Gokul S Krishnan",
+        "Balaraman Ravindran",
+        "Sriraam Natarajan"
+      ],
+      "doi": "10.1609/aies.v8i1.36605",
+      "id": "10.1609/aies.v8i1.36605",
+      "oaUrl": "https://ojs.aaai.org/index.php/AIES/article/download/36605/38743",
+      "openAlexId": "W4415230438",
+      "publicationDate": "2025-10-15",
+      "source": "openalex",
+      "title": "IndiCASA: A Dataset and Bias Evaluation Framework for LLMs Using Contrastive Embedding Similarity in the Indian Context",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aies.v8i1.36605",
+      "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Anju Gupta",
+        "Barathi Lenin",
+        "Sean Current",
+        "Rohit Batra",
+        "Balaraman Ravindran",
+        "Karthik Raman",
+        "Srinivasan Parthasarathy"
+      ],
+      "doi": "10.1186/s13321-025-01090-5",
+      "id": "10.1186/s13321-025-01090-5",
+      "oaUrl": "https://jcheminf.biomedcentral.com/counter/pdf/10.1186/s13321-025-01090-5",
+      "openAlexId": "W4415156476",
+      "publicationDate": "2025-10-14",
+      "source": "openalex",
+      "title": "PURE: policy-guided unbiased REpresentations for structure-constrained molecular generation",
+      "type": "article",
+      "url": "https://doi.org/10.1186/s13321-025-01090-5",
+      "venue": "Journal of Cheminformatics",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "G Santhosh",
+        "Akshay Govind S",
+        "Krishnan, Gokul S",
+        "Balaraman Ravindran",
+        "Sriraam Natarajan"
+      ],
+      "doi": "10.48550/arxiv.2510.02742",
+      "id": "10.48550/arxiv.2510.02742",
+      "oaUrl": "https://arxiv.org/pdf/2510.02742",
+      "openAlexId": "W4416369345",
+      "publicationDate": "2025-10-03",
+      "source": "openalex",
+      "title": "IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Using Contrastive Embedding Similarity in the Indian Context",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2510.02742",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "G Santhosh",
+        "Saurav Prakash",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2509.11155",
+      "id": "10.48550/arxiv.2509.11155",
+      "oaUrl": "https://arxiv.org/pdf/2509.11155",
+      "openAlexId": "W4415087945",
+      "publicationDate": "2025-09-14",
+      "source": "openalex",
+      "title": "AQUA: Attention via QUery mAgnitudes for Memory and Compute Efficient Inference in LLMs",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2509.11155",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Sriram Ravichandran",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran",
+        "Konstantinos V. Katsikopoulos"
+      ],
+      "doi": "10.3389/frai.2025.1562916",
+      "id": "10.3389/frai.2025.1562916",
+      "oaUrl": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1562916/pdf",
+      "openAlexId": "W4413902087",
+      "publicationDate": "2025-09-02",
+      "source": "openalex",
+      "title": "A drop-out mechanism for active learning based on one-attribute heuristics",
+      "type": "article",
+      "url": "https://doi.org/10.3389/frai.2025.1562916",
+      "venue": "Frontiers in Artificial Intelligence",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Shreyash Adappanavar",
+        "Krithi Shailya",
+        "Gokul Krishnan",
+        "Sriraam Natarajan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2509.02007",
+      "id": "10.48550/arxiv.2509.02007",
+      "oaUrl": "https://arxiv.org/pdf/2509.02007",
+      "openAlexId": "W4416702640",
+      "publicationDate": "2025-09-02",
+      "source": "openalex",
+      "title": "mFARM: Towards Multi-Faceted Fairness Assessment based on HARMs in Clinical Decision Support",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2509.02007",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Sai Kiran Narayanaswami",
+        "Gopalakrishnan Srinivasan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/islped65674.2025.11261772",
+      "id": "10.1109/islped65674.2025.11261772",
+      "openAlexId": "W4416963822",
+      "publicationDate": "2025-08-06",
+      "source": "openalex",
+      "title": "QuAKE: Speeding up Model Inference Using Quick and Approximate Kernels for Exponential Non-Linearities",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/islped65674.2025.11261772",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Abhishek Verma",
+        "V Nallarasan",
+        "Balaraman Ravindran"
+      ],
+      "id": "W4415343662",
+      "oaUrl": "https://arxiv.org/pdf/2507.03026",
+      "openAlexId": "W4415343662",
+      "publicationDate": "2025-07-02",
+      "source": "openalex",
+      "title": "Generalized Adaptive Transfer Network: Enhancing Transfer Learning in Reinforcement Learning Across Domains",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.03026",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Krithi Shailya",
+        "Shreya Rajpal",
+        "Gokul Krishnan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3715275.3732104",
+      "id": "10.1145/3715275.3732104",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3715275.3732104",
+      "openAlexId": "W4411541872",
+      "publicationDate": "2025-06-23",
+      "source": "openalex",
+      "title": "LExT: Towards Evaluating Trustworthiness of Natural Language Explanations",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3715275.3732104",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Chandrasekar Subramanian",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3744917",
+      "id": "10.1145/3744917",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3744917",
+      "openAlexId": "W4411403387",
+      "publicationDate": "2025-06-18",
+      "source": "openalex",
+      "title": "Causality in Bandits: A Survey",
+      "type": "article",
+      "url": "https://doi.org/10.1145/3744917",
+      "venue": "ACM Computing Surveys",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Abhishek Verma",
+        "V Nallarasan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2507.00030",
+      "id": "10.48550/arxiv.2507.00030",
+      "oaUrl": "https://arxiv.org/pdf/2507.00030",
+      "openAlexId": "W4416844905",
+      "publicationDate": "2025-06-17",
+      "source": "openalex",
+      "title": "Adaptive Action Duration with Contextual Bandits for Deep Reinforcement Learning in Dynamic Environments",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2507.00030",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1038/d44151-025-00084-4",
+      "id": "10.1038/d44151-025-00084-4",
+      "openAlexId": "W4410545345",
+      "publicationDate": "2025-05-21",
+      "source": "openalex",
+      "title": "How India can build inclusive, culturally relevant language models",
+      "type": "article",
+      "url": "https://doi.org/10.1038/d44151-025-00084-4",
+      "venue": "Nature India",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Gokul S Krishnan",
+        "Sarala Padi",
+        "Craig S. Greenberg",
+        "Balaraman Ravindran",
+        "Dinesh Manocha",
+        "Ram D. Sriram"
+      ],
+      "doi": "10.1109/taffc.2025.3537538",
+      "id": "10.1109/taffc.2025.3537538",
+      "openAlexId": "W4406983175",
+      "publicationDate": "2025-01-30",
+      "source": "openalex",
+      "title": "LineConGraphs : Line Conversation Graphs for Effective Emotion Recognition Using Graph Neural Networks",
+      "type": "article",
+      "url": "https://doi.org/10.1109/taffc.2025.3537538",
+      "venue": "IEEE Transactions on Affective Computing",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Yoshua Bengio",
+        "Sören Mindermann",
+        "Daniel Privitera",
+        "Tamay Besiroglu",
+        "Rishi Bommasani",
+        "Stephen Casper",
+        "Yejin Choi",
+        "Phillips Fox",
+        "Ben Garfinkel",
+        "David A. Goldfarb",
+        "Hoda Heidari",
+        "Anson Ho",
+        "Sayash Kapoor",
+        "Leila Khalatbari",
+        "Shayne Longpre",
+        "Sam Manning",
+        "Vasilios Mavroudis",
+        "Mantas Mazeika",
+        "Julian Michael",
+        "Jessica Newman",
+        "TP Ng",
+        "Chinasa T. Okolo",
+        "Deborah Raji",
+        "Girish Sastry",
+        "Elizabeth Seger",
+        "Theodora Skeadas",
+        "Tobin South",
+        "Emma Strubell",
+        "Florian Tramèr",
+        "Velasco, Lucia",
+        "Nicole Wheeler",
+        "Daron Acemoğlu",
+        "Olubayo Adekanmbi",
+        "David Dalrymple",
+        "Thomas G. Dietterich",
+        "Edward W. Felten",
+        "Pascale Fung",
+        "Pierre‐Olivier Gourinchas",
+        "F. Heintz",
+        "Geoffrey E. Hinton",
+        "Jennings, Nick",
+        "Andreas Krause",
+        "Susan Leavy",
+        "Percy Liang",
+        "Teresa Ludermir",
+        "Vidushi Marda",
+        "Helen Margetts",
+        "John McDermid",
+        "Jane Munga",
+        "Arvind Narayanan",
+        "Alondra Nelson",
+        "Clara Neppel",
+        "Alice Oh",
+        "Ramchurn, Gopal",
+        "Stuart Russell",
+        "Marietje Schaake",
+        "Bernhard Schölkopf",
+        "Dawn Song",
+        "Álvaro Soto",
+        "Lee Tiedrich",
+        "Gaël Varoquaux",
+        "Andrew I. Yao",
+        "Ya-Qin Zhang",
+        "Fahad Albalawi",
+        "Marwan Alserkal",
+        "Ajala, Olubunmi",
+        "Guillaume Avrin",
+        "Busch, Christian",
+        "André C. P. L. F. de Carvalho",
+        "B. D. Fox",
+        "A. S. Gill",
+        "Ahmet Hatip",
+        "Heikkilä, Juha",
+        "Gill Jolly",
+        "Ziv Katzir",
+        "Hiroaki Kitano",
+        "Krüger, Antonio",
+        "Chris A. Johnson",
+        "Saif Khan",
+        "Kyoung Mu Lee",
+        "Dominic Vincent Ligot",
+        "Oleksii Molchanovskyi",
+        "Andrea Monti",
+        "Nusu Mwamanzi",
+        "Mona Nemer",
+        "Nuria Oliver",
+        "José Portillo",
+        "Balaraman Ravindran",
+        "Raquel Pezoa Rivera",
+        "Hammam Riza",
+        "Crystal Rugege",
+        "Ciarán Seoighe",
+        "Sheehan, Jerry",
+        "Haroon Sheikh",
+        "Wong, Denise",
+        "Yi Zeng"
+      ],
+      "doi": "10.48550/arxiv.2501.17805",
+      "id": "10.48550/arxiv.2501.17805",
+      "oaUrl": "https://arxiv.org/pdf/2501.17805",
+      "openAlexId": "W4406975817",
+      "publicationDate": "2025-01-29",
+      "source": "openalex",
+      "title": "International AI Safety Report",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2501.17805",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Ambreesh Parthasarathy",
+        "Chandrasekar Subramanian",
+        "Ganesh Senrayan",
+        "Shreyash Adappanavar",
+        "Aparna Taneja",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "doi": "10.48550/arxiv.2501.13120",
+      "id": "10.48550/arxiv.2501.13120",
+      "oaUrl": "https://arxiv.org/pdf/2501.13120",
+      "openAlexId": "W4406785176",
+      "publicationDate": "2025-01-20",
+      "source": "openalex",
+      "title": "Multilinguality in LLM-Designed Reward Functions for Restless Bandits: Effects on Task Performance and Fairness",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2501.13120",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Krithi Shailya",
+        "Akhilesh Kumar Mishra",
+        "Gokul S Krishnan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.18653/v1/2025.findings-ijcnlp.141",
+      "id": "10.18653/v1/2025.findings-ijcnlp.141",
+      "oaUrl": "https://doi.org/10.18653/v1/2025.findings-ijcnlp.141",
+      "openAlexId": "W7138020101",
+      "publicationDate": "2025-01-01",
+      "source": "openalex",
+      "title": "Where Should I Study? Biased Language Models Decide! Evaluating Fairness in LMs for Academic Recommendations",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2025.findings-ijcnlp.141",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Atharvan Dogra",
+        "Krishna Pillutla",
+        "Ameet Deshpande",
+        "Ananya B. Sai",
+        "John J. Nay",
+        "Tanmay Rajpurohit",
+        "Ashwin Kalyan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.18653/v1/2025.acl-long.1600",
+      "id": "10.18653/v1/2025.acl-long.1600",
+      "oaUrl": "https://aclanthology.org/2025.acl-long.1600.pdf",
+      "openAlexId": "W4412889582",
+      "publicationDate": "2025-01-01",
+      "source": "openalex",
+      "title": "Language Models can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing in Legislation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2025.acl-long.1600",
+      "year": 2025
+    },
+    {
+      "authors": [
+        "Chandrasekar Subramanian",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3389/frai.2024.1346700",
+      "id": "10.3389/frai.2024.1346700",
+      "oaUrl": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1346700/pdf",
+      "openAlexId": "W4405122997",
+      "publicationDate": "2024-12-06",
+      "source": "openalex",
+      "title": "Causal contextual bandits with one-shot data integration",
+      "type": "article",
+      "url": "https://doi.org/10.3389/frai.2024.1346700",
+      "venue": "Frontiers in Artificial Intelligence",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Yogesh Tripathi",
+        "Raghav Donakanti",
+        "Sahil Girhepuje",
+        "Ishan Kavathekar",
+        "Bhaskara Hanuma Vedula",
+        "Gokul Krishnan",
+        "Anmol Goel",
+        "Shreya Goyal",
+        "Balaraman Ravindran",
+        "Ponnurangam Kumaraguru"
+      ],
+      "doi": "10.3233/faia241266",
+      "id": "10.3233/faia241266",
+      "oaUrl": "https://doi.org/10.3233/faia241266",
+      "openAlexId": "W4405042972",
+      "publicationDate": "2024-12-05",
+      "source": "openalex",
+      "title": "InSaAF: Incorporating Safety Through Accuracy and Fairness - Are LLMs Ready for the Indian Legal Domain?",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.3233/faia241266",
+      "venue": "Frontiers in artificial intelligence and applications",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Sriram Ravichandran",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran",
+        "Konstantinos V. Katsikopoulos"
+      ],
+      "doi": "10.3389/frai.2024.1491932",
+      "id": "10.3389/frai.2024.1491932",
+      "oaUrl": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1491932/pdf",
+      "openAlexId": "W4404509705",
+      "publicationDate": "2024-11-19",
+      "source": "openalex",
+      "title": "Active learning with human heuristics: an algorithm robust to labeling bias",
+      "type": "article",
+      "url": "https://doi.org/10.3389/frai.2024.1491932",
+      "venue": "Frontiers in Artificial Intelligence",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Ambreesh Parthasarathy",
+        "Aditya Phalnikar",
+        "Ameen Jauhar",
+        "Dhruv Somayajula",
+        "Gokul Krishnan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2407.13100",
+      "id": "10.48550/arxiv.2407.13100",
+      "oaUrl": "https://arxiv.org/pdf/2407.13100",
+      "openAlexId": "W4402346261",
+      "publicationDate": "2024-06-03",
+      "source": "openalex",
+      "title": "Participatory Approaches in AI Development and Governance: A Principled Approach",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2407.13100",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Ambreesh Parthasarathy",
+        "Aditya Phalnikar",
+        "Gokul Krishnan",
+        "Ameen Jauhar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2407.13103",
+      "id": "10.48550/arxiv.2407.13103",
+      "oaUrl": "https://arxiv.org/pdf/2407.13103",
+      "openAlexId": "W4406058778",
+      "publicationDate": "2024-06-03",
+      "source": "openalex",
+      "title": "Participatory Approaches in AI Development and Governance: Case Studies",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2407.13103",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Sangameshwar Patil",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3643991.3645065",
+      "id": "10.1145/3643991.3645065",
+      "openAlexId": "W4401543750",
+      "publicationDate": "2024-04-15",
+      "source": "openalex",
+      "title": "Zero Shot Learning based Alternatives for Class Imbalanced Learning Problem in Enterprise Software Defect Analysis",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3643991.3645065",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Richa Verma",
+        "Durgesh Kalwar",
+        "Harshad Khadilkar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3632410.3632423",
+      "id": "10.1145/3632410.3632423",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3632410.3632423",
+      "openAlexId": "W4390548073",
+      "publicationDate": "2024-01-03",
+      "source": "openalex",
+      "title": "Guiding Offline Reinforcement Learning Using a Safety Expert",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3632410.3632423",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Siddharth Nishtala",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3632410.3632443",
+      "id": "10.1145/3632410.3632443",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3632410.3632443",
+      "openAlexId": "W4390532434",
+      "publicationDate": "2024-01-03",
+      "source": "openalex",
+      "title": "Cost-Sensitive Trees for Interpretable Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3632410.3632443",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Omkar Shelke",
+        "Pranavi Pathakota",
+        "Anandsingh Chauhan",
+        "Hardik Meisheri",
+        "Harshad Khadilkar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3632410.3632426",
+      "id": "10.1145/3632410.3632426",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3632410.3632426",
+      "openAlexId": "W4390532426",
+      "publicationDate": "2024-01-03",
+      "source": "openalex",
+      "title": "A Learning Approach for Discovering Cost-Efficient Integrated Sourcing and Routing Strategies in E-Commerce",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3632410.3632426",
+      "year": 2024
+    },
+    {
+      "authors": [
+        "Varun Kumar Reja",
+        "Shreya Goyal",
+        "Koshy Varghese",
+        "Balaraman Ravindran",
+        "Q. P. Ha"
+      ],
+      "doi": "10.1016/j.autcon.2023.105225",
+      "id": "10.1016/j.autcon.2023.105225",
+      "openAlexId": "W4389560172",
+      "publicationDate": "2023-12-10",
+      "source": "openalex",
+      "title": "Hybrid self-supervised learning-based architecture for construction progress monitoring",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.autcon.2023.105225",
+      "venue": "Automation in Construction",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Tamizharasan Kanagamani",
+        "Rupak Krishnamurthy",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ramshekhar N. Menon"
+      ],
+      "doi": "10.21203/rs.3.rs-2471036/v1",
+      "id": "10.21203/rs.3.rs-2471036/v1",
+      "oaUrl": "https://www.researchsquare.com/article/rs-2471036/latest.pdf",
+      "openAlexId": "W4389141244",
+      "publicationDate": "2023-11-29",
+      "source": "openalex",
+      "title": "Memory Consolidation with Orthogonal Gradients for avoiding Catastrophic Forgetting",
+      "type": "preprint",
+      "url": "https://doi.org/10.21203/rs.3.rs-2471036/v1",
+      "venue": "Research Square",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Omkar Shelke",
+        "Pranavi Pathakota",
+        "Anandsingh Chauhan",
+        "Harshad Khadilkar",
+        "Hardik Meisheri",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2311.16171",
+      "id": "10.48550/arxiv.2311.16171",
+      "oaUrl": "https://arxiv.org/pdf/2311.16171",
+      "openAlexId": "W4389157285",
+      "publicationDate": "2023-11-20",
+      "source": "openalex",
+      "title": "Multi-Agent Learning of Efficient Fulfilment and Routing Strategies in E-Commerce",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2311.16171",
+      "venue": "arXiv (Cornell University)",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Saket Gurukar",
+        "Shaileshh Bojja Venkatakrishnan",
+        "Balaraman Ravindran",
+        "Srinivasan Parthasarathy"
+      ],
+      "doi": "10.1145/3625007.3627499",
+      "id": "10.1145/3625007.3627499",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3625007.3627499",
+      "openAlexId": "W4392845522",
+      "publicationDate": "2023-11-06",
+      "source": "openalex",
+      "title": "PolicyClusterGCN: Identifying Efficient Clusters for Training Graph Convolutional Networks",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3625007.3627499",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Nitin Shravan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s41060-023-00441-5",
+      "id": "10.1007/s41060-023-00441-5",
+      "openAlexId": "W4386001803",
+      "publicationDate": "2023-08-19",
+      "source": "openalex",
+      "title": "CIAMS: clustering indices-based automatic classification model selection",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s41060-023-00441-5",
+      "venue": "International Journal of Data Science and Analytics",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Mayuresh Kunjir",
+        "Sanjay Chawla",
+        "Siddarth Chandrasekar",
+        "Devika Jay",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3580305.3599459",
+      "id": "10.1145/3580305.3599459",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3580305.3599459",
+      "openAlexId": "W4385568064",
+      "publicationDate": "2023-08-04",
+      "source": "openalex",
+      "title": "Optimizing Traffic Control with Model-Based Learning: A Pessimistic Approach to Data-Efficient Policy Inference",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3580305.3599459",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Sameer Mehta",
+        "Rahul R. Marathe",
+        "Balaraman Ravindran",
+        "Rofia Ramesh"
+      ],
+      "doi": "10.1080/13617672.2023.2228156",
+      "id": "10.1080/13617672.2023.2228156",
+      "openAlexId": "W4385224293",
+      "publicationDate": "2023-07-24",
+      "source": "openalex",
+      "title": "Systematic literature review – unpacking values. How values change over time and link with personality traits and behaviours",
+      "type": "other",
+      "url": "https://doi.org/10.1080/13617672.2023.2228156",
+      "venue": "Journal of Beliefs and Values",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Deepak Maurya",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1371/journal.pone.0288457",
+      "id": "10.1371/journal.pone.0288457",
+      "oaUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0288457&type=printable",
+      "openAlexId": "W3101291308",
+      "publicationDate": "2023-07-21",
+      "source": "openalex",
+      "title": "Hypergraph partitioning using tensor eigenvalue decomposition",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0288457",
+      "venue": "PLoS ONE",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Tamizharasan Kanagamani",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ramshekhar N. Menon"
+      ],
+      "doi": "10.3389/fncir.2023.1092933",
+      "id": "10.3389/fncir.2023.1092933",
+      "oaUrl": "https://doi.org/10.3389/fncir.2023.1092933",
+      "openAlexId": "W4381661927",
+      "publicationDate": "2023-06-21",
+      "source": "openalex",
+      "title": "A deep network-based model of hippocampal memory functions under normal and Alzheimer’s disease conditions",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fncir.2023.1092933",
+      "venue": "Frontiers in Neural Circuits",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Returaj Burnwal",
+        "Anirban Santara",
+        "Nirav Bhatt",
+        "Balaraman Ravindran",
+        "Gaurav Aggarwal"
+      ],
+      "doi": "10.48550/arxiv.2305.19111",
+      "id": "10.48550/arxiv.2305.19111",
+      "oaUrl": "https://arxiv.org/pdf/2305.19111",
+      "openAlexId": "W4378945529",
+      "publicationDate": "2023-05-30",
+      "source": "openalex",
+      "title": "GAN-MPC: Training Model Predictive Controllers with Parameterized Cost Functions using Demonstrations from Non-identical Experts",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2305.19111",
+      "venue": "arXiv (Cornell University)",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Nitin Shravan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2305.13926",
+      "id": "10.48550/arxiv.2305.13926",
+      "oaUrl": "https://arxiv.org/pdf/2305.13926",
+      "openAlexId": "W4378506947",
+      "publicationDate": "2023-05-23",
+      "source": "openalex",
+      "title": "Clustering Indices based Automatic Classification Model Selection",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2305.13926",
+      "venue": "arXiv (Cornell University)",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Tarun Kumar",
+        "Ramanathan Sethuraman",
+        "Sanga Mitra",
+        "Balaraman Ravindran",
+        "Manikandan Narayanan"
+      ],
+      "doi": "10.1371/journal.pcbi.1011022",
+      "id": "10.1371/journal.pcbi.1011022",
+      "oaUrl": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011022&type=printable",
+      "openAlexId": "W4366817264",
+      "publicationDate": "2023-04-24",
+      "source": "openalex",
+      "title": "MultiCens: Multilayer network centrality measures to uncover molecular mediators of tissue-tissue communication",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pcbi.1011022",
+      "venue": "PLoS Computational Biology",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Shreya Goyal",
+        "Sumanth Doddapaneni",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3593042",
+      "id": "10.1145/3593042",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3593042",
+      "openAlexId": "W4225858632",
+      "publicationDate": "2023-04-20",
+      "source": "openalex",
+      "title": "A Survey of Adversarial Defenses and Robustness in NLP",
+      "type": "article",
+      "url": "https://doi.org/10.1145/3593042",
+      "venue": "ACM Computing Surveys",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Aravind Venugopal",
+        "Stephanie Milani",
+        "Fei Fang",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2304.06011",
+      "id": "10.48550/arxiv.2304.06011",
+      "oaUrl": "https://arxiv.org/pdf/2304.06011",
+      "openAlexId": "W4365597186",
+      "publicationDate": "2023-04-12",
+      "source": "openalex",
+      "title": "MABL: Bi-Level Latent-Variable World Model for Sample-Efficient Multi-Agent Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2304.06011",
+      "venue": "arXiv (Cornell University)",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Pavan Ravishankar",
+        "Sudarsan Padmanabhan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1080/15228053.2023.2199012",
+      "id": "10.1080/15228053.2023.2199012",
+      "openAlexId": "W4365150852",
+      "publicationDate": "2023-04-03",
+      "source": "openalex",
+      "title": "Financial exclusion of internal migrant workers of India during COVID-19: can digital financial inclusion be facilitated by AI?",
+      "type": "article",
+      "url": "https://doi.org/10.1080/15228053.2023.2199012",
+      "venue": "Journal of Information Technology Case and Application Research",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Sahil Girhepuje",
+        "Anmol Goel",
+        "Gokul Krishnan",
+        "Shreya Goyal",
+        "Satyendra Pandey",
+        "Ponnurangam Kumaraguru",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2303.07247",
+      "id": "10.48550/arxiv.2303.07247",
+      "oaUrl": "https://arxiv.org/pdf/2303.07247",
+      "openAlexId": "W4327486037",
+      "publicationDate": "2023-03-13",
+      "source": "openalex",
+      "title": "Are Models Trained on Indian Legal Data Fair?",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2303.07247",
+      "venue": "arXiv (Cornell University)",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Tamizharasan Kanagamani",
+        "Madhuvanthi Muliya",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ramshekhar N. Menon"
+      ],
+      "doi": "10.1007/978-3-031-45170-6_13",
+      "id": "10.1007/978-3-031-45170-6_13",
+      "openAlexId": "W4388677787",
+      "publicationDate": "2023-01-01",
+      "source": "openalex",
+      "title": "Oscillatory Network and Deep Value Network Based Memory Replay Model of Hippocampus",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-031-45170-6_13",
+      "venue": "Lecture notes in computer science",
+      "year": 2023
+    },
+    {
+      "authors": [
+        "Harsha Kokel",
+        "Sriraam Natarajan",
+        "Balaraman Ravindran",
+        "Prasad Tadepalli"
+      ],
+      "doi": "10.1007/s00521-022-08119-y",
+      "id": "10.1007/s00521-022-08119-y",
+      "openAlexId": "W4312131294",
+      "publicationDate": "2022-12-12",
+      "source": "openalex",
+      "title": "RePReL: a unified framework for integrating relational planning and reinforcement learning for effective abstraction in discrete and continuous domains",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00521-022-08119-y",
+      "venue": "Neural Computing and Applications",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Adithya Ramesh",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2212.02179",
+      "id": "10.48550/arxiv.2212.02179",
+      "oaUrl": "https://arxiv.org/pdf/2212.02179",
+      "openAlexId": "W4311438126",
+      "publicationDate": "2022-12-05",
+      "source": "openalex",
+      "title": "Physics-Informed Model-Based Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2212.02179",
+      "venue": "arXiv (Cornell University)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Neeraja Kirtane",
+        "Jeshuren Chelladurai",
+        "Balaraman Ravindran",
+        "Ashish V. Tendulkar"
+      ],
+      "doi": "10.48550/arxiv.2211.14770",
+      "id": "10.48550/arxiv.2211.14770",
+      "oaUrl": "https://arxiv.org/pdf/2211.14770",
+      "openAlexId": "W4310418110",
+      "publicationDate": "2022-11-27",
+      "source": "openalex",
+      "title": "ReGrAt: Regularization in Graphs using Attention to handle class imbalance",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2211.14770",
+      "venue": "arXiv (Cornell University)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Anasua Mitra",
+        "Priyesh Vijayan",
+        "Sanasam Ranbir Singh",
+        "Diganta Goswami",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/icdm54844.2022.00046",
+      "id": "10.1109/icdm54844.2022.00046",
+      "openAlexId": "W4318828902",
+      "publicationDate": "2022-11-01",
+      "source": "openalex",
+      "title": "Revisiting Link Prediction on Heterogeneous Graphs with a Multi-view Perspective",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icdm54844.2022.00046",
+      "venue": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Sunita Sarawagi",
+        "Aditi Jain"
+      ],
+      "doi": "10.1145/3556634",
+      "id": "10.1145/3556634",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3556634",
+      "openAlexId": "W4306962679",
+      "publicationDate": "2022-10-20",
+      "source": "openalex",
+      "title": "AI and data science centers in top Indian academic institutions",
+      "type": "article",
+      "url": "https://doi.org/10.1145/3556634",
+      "venue": "Communications of the ACM",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Jay Nandy",
+        "Rishi Saket",
+        "Prateek Jain",
+        "Jatin Chauhan",
+        "Balaraman Ravindran",
+        "Aravindan Raghuveer"
+      ],
+      "doi": "10.1145/3511808.3557293",
+      "id": "10.1145/3511808.3557293",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3511808.3557293",
+      "openAlexId": "W4306317451",
+      "publicationDate": "2022-10-16",
+      "source": "openalex",
+      "title": "Domain-Agnostic Contrastive Representations for Learning from Label Proportions",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3511808.3557293",
+      "venue": "Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Jeshuren Chelladurai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s41060-022-00363-8",
+      "id": "10.1007/s41060-022-00363-8",
+      "openAlexId": "W4304811532",
+      "publicationDate": "2022-10-12",
+      "source": "openalex",
+      "title": "TOMBoost: a topic modeling based boosting approach for learning with class imbalance",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s41060-022-00363-8",
+      "venue": "International Journal of Data Science and Analytics",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Jatin Chauhan",
+        "Aravindan Raghuveer",
+        "Rishi Saket",
+        "Jay Nandy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3534678.3539394",
+      "id": "10.1145/3534678.3539394",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3534678.3539394",
+      "openAlexId": "W4283706581",
+      "publicationDate": "2022-08-12",
+      "source": "openalex",
+      "title": "Multi-Variate Time Series Forecasting on Variable Subsets",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3534678.3539394",
+      "venue": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Harsha Kokel",
+        "Nikhilesh Prabhakar",
+        "Balaraman Ravindran",
+        "Erik Blasch",
+        "Prasad Tadepalli",
+        "Sriraam Natarajan"
+      ],
+      "doi": "10.23919/fusion49751.2022.9841246",
+      "id": "10.23919/fusion49751.2022.9841246",
+      "openAlexId": "W4293094025",
+      "publicationDate": "2022-07-04",
+      "source": "openalex",
+      "title": "Hybrid Deep RePReL: Integrating Relational Planning and Reinforcement Learning for Information Fusion",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.23919/fusion49751.2022.9841246",
+      "venue": "2022 25th International Conference on Information Fusion (FUSION)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Adam Żychowski",
+        "Jacek Mańdziuk",
+        "Elizabeth Bondi",
+        "Aravind Venugopal",
+        "Milind Tambe",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.24963/ijcai.2022/88",
+      "id": "10.24963/ijcai.2022/88",
+      "oaUrl": "https://www.ijcai.org/proceedings/2022/0088.pdf",
+      "openAlexId": "W4225330741",
+      "publicationDate": "2022-07-01",
+      "source": "openalex",
+      "title": "Evolutionary Approach to Security Games with Signaling",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.24963/ijcai.2022/88",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Kushal Chauhan",
+        "Soumya Chatterjee",
+        "Akash Reddy",
+        "Balaraman Ravindran",
+        "Pradeep Shenoy"
+      ],
+      "doi": "10.48550/arxiv.2206.05750",
+      "id": "10.48550/arxiv.2206.05750",
+      "oaUrl": "https://arxiv.org/pdf/2206.05750",
+      "openAlexId": "W4282933926",
+      "publicationDate": "2022-06-12",
+      "source": "openalex",
+      "title": "Matching options to tasks using Option-Indexed Hierarchical Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2206.05750",
+      "venue": "arXiv (Cornell University)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Manoj Bharadhwaj",
+        "Gitakrishnan Ramadurai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/cvprw56347.2022.00360",
+      "id": "10.1109/cvprw56347.2022.00360",
+      "openAlexId": "W4292828567",
+      "publicationDate": "2022-06-01",
+      "source": "openalex",
+      "title": "Detecting Vehicles on the Edge: Knowledge Distillation to Improve Performance in Heterogeneous Road Traffic",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/cvprw56347.2022.00360",
+      "venue": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Priyesh Vijayan",
+        "Yash Chandak",
+        "Mitesh M. Khapra",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3389/fdata.2022.616617",
+      "id": "10.3389/fdata.2022.616617",
+      "oaUrl": "https://doi.org/10.3389/fdata.2022.616617",
+      "openAlexId": "W4226139256",
+      "publicationDate": "2022-04-08",
+      "source": "openalex",
+      "title": "Scaling Graph Propagation Kernels for Predictive Learning",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fdata.2022.616617",
+      "venue": "Frontiers in Big Data",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Shreya Goyal",
+        "Sumanth Doddapaneni",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2203.06414",
+      "id": "10.48550/arxiv.2203.06414",
+      "oaUrl": "https://arxiv.org/pdf/2203.06414",
+      "openAlexId": "W4221141415",
+      "publicationDate": "2022-03-12",
+      "source": "openalex",
+      "title": "A Survey of Adversarial Defences and Robustness in NLP",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2203.06414",
+      "venue": "arXiv (Cornell University)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Joseph H. R. Isaac",
+        "M. Manivannan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3389/frai.2022.759255",
+      "id": "10.3389/frai.2022.759255",
+      "oaUrl": "https://www.frontiersin.org/articles/10.3389/frai.2022.759255/pdf",
+      "openAlexId": "W4212926968",
+      "publicationDate": "2022-02-21",
+      "source": "openalex",
+      "title": "Single Shot Corrective CNN for Anatomically Correct 3D Hand Pose Estimation",
+      "type": "article",
+      "url": "https://doi.org/10.3389/frai.2022.759255",
+      "venue": "Frontiers in Artificial Intelligence",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Sapana Chaudhary",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3493700.3493716",
+      "id": "10.1145/3493700.3493716",
+      "oaUrl": "https://arxiv.org/pdf/2111.02354",
+      "openAlexId": "W3210520478",
+      "publicationDate": "2022-01-07",
+      "source": "openalex",
+      "title": "Smooth Imitation Learning via Smooth Costs and Smooth Policies",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3493700.3493716",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Sruthi Keerthi Nandita",
+        "Goutham Zampani",
+        "Gokul Krishnan",
+        "Gitakrishnan Ramadurai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3493700.3493732",
+      "id": "10.1145/3493700.3493732",
+      "openAlexId": "W4205406854",
+      "publicationDate": "2022-01-07",
+      "source": "openalex",
+      "title": "Automated Incident Location Identification for EMS from Ambulance Geospatial Data",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3493700.3493732",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Sai Kiran Narayanaswami",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3493700.3493712",
+      "id": "10.1145/3493700.3493712",
+      "oaUrl": "https://arxiv.org/pdf/1901.00117",
+      "openAlexId": "W2907704766",
+      "publicationDate": "2022-01-07",
+      "source": "openalex",
+      "title": "An Active Learning Framework for Efficient Robust Policy Search",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3493700.3493712",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Pavan Ravishankar",
+        "Pranshu Malviya",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2111.14348",
+      "id": "10.48550/arxiv.2111.14348",
+      "oaUrl": "https://arxiv.org/pdf/2111.14348",
+      "openAlexId": "W3215189580",
+      "publicationDate": "2021-11-29",
+      "source": "openalex",
+      "title": "A Causal Approach for Unfair Edge Prioritization and Discrimination Removal",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2111.14348",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Harsha Kokel",
+        "Arjun Manoharan",
+        "Sriraam Natarajan",
+        "Balaraman Ravindran",
+        "Prasad Tadepalli"
+      ],
+      "doi": "10.48550/arxiv.2110.08318",
+      "id": "10.48550/arxiv.2110.08318",
+      "oaUrl": "https://arxiv.org/pdf/2110.08318",
+      "openAlexId": "W3205915249",
+      "publicationDate": "2021-10-15",
+      "source": "openalex",
+      "title": "Dynamic probabilistic logic models for effective abstractions in RL",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2110.08318",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Amrit Diggavi Seshadri",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2110.08143",
+      "id": "10.48550/arxiv.2110.08143",
+      "oaUrl": "https://arxiv.org/pdf/2110.08143",
+      "openAlexId": "W3207328917",
+      "publicationDate": "2021-10-15",
+      "source": "openalex",
+      "title": "Multi-Tailed, Multi-Headed, Spatial Dynamic Memory refined Text-to-Image Synthesis",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2110.08143",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Vimaladhasan Senthamizhan",
+        "Balaraman Ravindran",
+        "Karthik Raman"
+      ],
+      "doi": "10.3389/fgene.2021.722198",
+      "id": "10.3389/fgene.2021.722198",
+      "oaUrl": "https://doi.org/10.3389/fgene.2021.722198",
+      "openAlexId": "W3203207117",
+      "publicationDate": "2021-09-23",
+      "source": "openalex",
+      "title": "NetGenes: A Database of Essential Genes Predicted Using Features From Interaction Networks",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fgene.2021.722198",
+      "venue": "Frontiers in Genetics",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Ameya Daigavane",
+        "Balaraman Ravindran",
+        "Gaurav Aggarwal"
+      ],
+      "doi": "10.23915/distill.00032",
+      "id": "10.23915/distill.00032",
+      "oaUrl": "https://doi.org/10.23915/distill.00032",
+      "openAlexId": "W3196581146",
+      "publicationDate": "2021-08-17",
+      "source": "openalex",
+      "title": "Understanding Convolutions on Graphs",
+      "type": "article",
+      "url": "https://doi.org/10.23915/distill.00032",
+      "venue": "Distill",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Anasua Mitra",
+        "Priyesh Vijayan",
+        "Ranbir Sanasam",
+        "Diganta Goswami",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3447548.3467443",
+      "id": "10.1145/3447548.3467443",
+      "openAlexId": "W3167595471",
+      "publicationDate": "2021-08-13",
+      "source": "openalex",
+      "title": "Semi-Supervised Deep Learning for Multiplex Networks",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3447548.3467443",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Nilanjan Banerjee",
+        "Dipanjan Chakraborty",
+        "Anupam Joshi",
+        "Sumit Mittal",
+        "Angshu Rai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/icwsm.v6i1.14312",
+      "id": "10.1609/icwsm.v6i1.14312",
+      "oaUrl": "https://ojs.aaai.org/index.php/ICWSM/article/download/14312/14161",
+      "openAlexId": "W2253139599",
+      "publicationDate": "2021-08-03",
+      "source": "openalex",
+      "title": "Towards Analyzing Micro-Blogs for Detection and Classification of Real-Time Intentions",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/icwsm.v6i1.14312",
+      "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Joseph H. R. Isaac",
+        "M. Manivannan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3389/frvir.2021.663618",
+      "id": "10.3389/frvir.2021.663618",
+      "oaUrl": "https://www.frontiersin.org/articles/10.3389/frvir.2021.663618/pdf",
+      "openAlexId": "W3181729545",
+      "publicationDate": "2021-07-06",
+      "source": "openalex",
+      "title": "Corrective Filter Based on Kinematics of Human Hand for Pose Estimation",
+      "type": "article",
+      "url": "https://doi.org/10.3389/frvir.2021.663618",
+      "venue": "Frontiers in Virtual Reality",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Deepak Maurya",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s41745-021-00225-5",
+      "id": "10.1007/s41745-021-00225-5",
+      "oaUrl": "https://arxiv.org/pdf/2102.04986",
+      "openAlexId": "W3128862102",
+      "publicationDate": "2021-07-01",
+      "source": "openalex",
+      "title": "Hyperedge Prediction Using Tensor Eigenvalue Decomposition",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s41745-021-00225-5",
+      "venue": "Journal of the Indian Institute of Science",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Karthik",
+        "Beethika Tripathi",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran"
+      ],
+      "id": "W3209719539",
+      "openAlexId": "W3209719539",
+      "publicationDate": "2021-06-22",
+      "source": "openalex",
+      "title": "A Joint Training Framework for Open-World Knowledge Graph Embeddings",
+      "type": "article",
+      "url": "https://openreview.net/pdf?id=HozL9BGbnKr",
+      "venue": "Automated Knowledge Base Construction",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Hardik Meisheri",
+        "Nazneen N. Sultana",
+        "Mayank Baranwal",
+        "Vinita Baniwal",
+        "Somjit Nath",
+        "Satyam Verma",
+        "Balaraman Ravindran",
+        "Harshad Khadilkar"
+      ],
+      "doi": "10.1007/s00521-021-06129-w",
+      "id": "10.1007/s00521-021-06129-w",
+      "openAlexId": "W3166380193",
+      "publicationDate": "2021-05-28",
+      "source": "openalex",
+      "title": "Scalable multi-product inventory control with lead time constraints using reinforcement learning",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00521-021-06129-w",
+      "venue": "Neural Computing and Applications",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Daksh Anand",
+        "Vaibhav Gupta",
+        "Praveen Paruchuri",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/aaai.v35i8.16823",
+      "id": "10.1609/aaai.v35i8.16823",
+      "oaUrl": "https://doi.org/10.1609/aaai.v35i8.16823",
+      "openAlexId": "W3174394955",
+      "publicationDate": "2021-05-18",
+      "source": "openalex",
+      "title": "An Enhanced Advising Model in Teacher-Student Framework using State Categorization",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aaai.v35i8.16823",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Ashutosh Kakadiya",
+        "Sriraam Natarajan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/aaai.v35i13.17439",
+      "id": "10.1609/aaai.v35i13.17439",
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/17439/17246",
+      "openAlexId": "W3175406619",
+      "publicationDate": "2021-05-18",
+      "source": "openalex",
+      "title": "Relational Boosted Bandits",
+      "type": "article",
+      "url": "https://doi.org/10.1609/aaai.v35i13.17439",
+      "venue": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Harsha Kokel",
+        "Arjun Manoharan",
+        "Sriraam Natarajan",
+        "Balaraman Ravindran",
+        "Prasad Tadepalli"
+      ],
+      "doi": "10.1609/icaps.v31i1.16001",
+      "id": "10.1609/icaps.v31i1.16001",
+      "oaUrl": "https://ojs.aaai.org/index.php/ICAPS/article/download/16001/15812",
+      "openAlexId": "W3175128928",
+      "publicationDate": "2021-05-17",
+      "source": "openalex",
+      "title": "RePReL: Integrating Relational Planning and Reinforcement Learning for Effective Abstraction",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/icaps.v31i1.16001",
+      "venue": "Proceedings of the International Conference on Automated Planning and Scheduling",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Shayantan Banerjee",
+        "Karthik Raman",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3390/cancers13102366",
+      "id": "10.3390/cancers13102366",
+      "oaUrl": "https://www.mdpi.com/2072-6694/13/10/2366/pdf?version=1620979099",
+      "openAlexId": "W3161939126",
+      "publicationDate": "2021-05-14",
+      "source": "openalex",
+      "title": "Sequence Neighborhoods Enable Reliable Prediction of Pathogenic Mutations in Cancer Genomes",
+      "type": "article",
+      "url": "https://doi.org/10.3390/cancers13102366",
+      "venue": "Cancers",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Pranshu Malviya",
+        "Balaraman Ravindran",
+        "Sarath Chandar"
+      ],
+      "doi": "10.48550/arxiv.2105.05155",
+      "id": "10.48550/arxiv.2105.05155",
+      "oaUrl": "https://arxiv.org/pdf/2105.05155",
+      "openAlexId": "W3162492846",
+      "publicationDate": "2021-05-11",
+      "source": "openalex",
+      "title": "TAG: Task-based Accumulated Gradients for Lifelong learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2105.05155",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Rohan Saphal",
+        "Balaraman Ravindran",
+        "Dheevatsa Mudigere",
+        "Sasikanth Avancha",
+        "Bharat Kaul"
+      ],
+      "doi": "10.65109/yogm8073",
+      "id": "10.65109/yogm8073",
+      "openAlexId": "W3175281560",
+      "publicationDate": "2021-05-03",
+      "source": "openalex",
+      "title": "SEERL: Sample Efficient Ensemble Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/yogm8073",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Aravind Venugopal",
+        "Elizabeth Bondi",
+        "Harshavardhan Kamarthi",
+        "Keval Dholakia",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "doi": "10.65109/xouc5888",
+      "id": "10.65109/xouc5888",
+      "openAlexId": "W3173965112",
+      "publicationDate": "2021-05-03",
+      "source": "openalex",
+      "title": "Reinforcement Learning for Unified Allocation and Patrolling in Signaling Games with Uncertainty",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/xouc5888",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Anirban Santara",
+        "Sohan Rudra",
+        "Sree Aditya Buridi",
+        "Meha Kaushik",
+        "Abhishek Naik",
+        "Bharat Kaul",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1613/jair.1.12531",
+      "id": "10.1613/jair.1.12531",
+      "oaUrl": "https://jair.org/index.php/jair/article/download/12531/26680",
+      "openAlexId": "W3091006519",
+      "publicationDate": "2021-04-30",
+      "source": "openalex",
+      "title": "MADRaS : Multi Agent Driving Simulator",
+      "type": "article",
+      "url": "https://doi.org/10.1613/jair.1.12531",
+      "venue": "Journal of Artificial Intelligence Research",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Ameya Daigavane",
+        "Balaraman Ravindran",
+        "Gaurav Aggarwal"
+      ],
+      "id": "W3156120711",
+      "openAlexId": "W3156120711",
+      "publicationDate": "2021-03-18",
+      "source": "openalex",
+      "title": "Interactive Media for Understanding ML Methods: A Case-Study on Graph Neural Networks",
+      "type": "conference-paper",
+      "url": "https://openreview.net/pdf?id=tUKR9N1ot_H",
+      "venue": "International Conference on Learning Representations",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Siddharth Nishtala",
+        "Lovish Madaan",
+        "Aditya Mate",
+        "Harshavardhan Kamarthi",
+        "Anirudh Grama",
+        "Divy Thakkar",
+        "Dhyanesh Narayanan",
+        "Suresh Chaudhary",
+        "Neha Madhiwalla",
+        "Ramesh Padmanabhan",
+        "Aparna Hegde",
+        "Pradeep Varakantham",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "doi": "10.48550/arxiv.2103.09052",
+      "id": "10.48550/arxiv.2103.09052",
+      "oaUrl": "https://arxiv.org/pdf/2103.09052",
+      "openAlexId": "W4287280937",
+      "publicationDate": "2021-03-07",
+      "source": "openalex",
+      "title": "Selective Intervention Planning using Restless Multi-Armed Bandits to\\n Improve Maternal and Child Health Outcomes",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2103.09052",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Siddharth Nishtala",
+        "Lovish Madaan",
+        "Harshavardhan Kamarthi",
+        "Anirudh Grama",
+        "Divy Thakkar",
+        "Dhyanesh Narayanan",
+        "Suresh Chaudhary",
+        "Neha Madhiwalla",
+        "Ramesh Padmanabhan",
+        "Aparna Hegde",
+        "Pradeep Varakantham",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "id": "W3138086358",
+      "oaUrl": "https://arxiv.org/pdf/2103.09052v2",
+      "openAlexId": "W3138086358",
+      "publicationDate": "2021-03-07",
+      "source": "openalex",
+      "title": "Selective Intervention Planning using RMABs: Increasing Program Engagement to Improve Maternal and Child Health Outcomes",
+      "type": "preprint",
+      "url": "https://arxiv.org/pdf/2103.09052v2",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Jahnvi Patel",
+        "Devika Jay",
+        "Balaraman Ravindran",
+        "K. Shanti Swarup"
+      ],
+      "doi": "10.48550/arxiv.2101.02456",
+      "id": "10.48550/arxiv.2101.02456",
+      "oaUrl": "https://arxiv.org/pdf/2101.02456",
+      "openAlexId": "W3118724749",
+      "publicationDate": "2021-01-07",
+      "source": "openalex",
+      "title": "Neural Fitted Q Iteration based Optimal Bidding Strategy in Real Time Reactive Power Market_1",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2101.02456",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Nahas Pareekutty",
+        "Francis James",
+        "Balaraman Ravindran",
+        "Suril V. Shah"
+      ],
+      "doi": "10.48550/arxiv.2101.02635",
+      "id": "10.48550/arxiv.2101.02635",
+      "oaUrl": "https://arxiv.org/pdf/2101.02635",
+      "openAlexId": "W3120443170",
+      "publicationDate": "2021-01-07",
+      "source": "openalex",
+      "title": "qRRT: Quality-Biased Incremental RRT for Optimal Motion Planning in Non-Holonomic Systems",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2101.02635",
+      "venue": "arXiv (Cornell University)",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Jeshuren Chelladurai",
+        "Sudarsun Santhiappan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-030-75762-5_19",
+      "id": "10.1007/978-3-030-75762-5_19",
+      "oaUrl": "https://arxiv.org/pdf/2207.06802",
+      "openAlexId": "W3161164505",
+      "publicationDate": "2021-01-01",
+      "source": "openalex",
+      "title": "GrabQC: Graph Based Query Contextualization for Automated ICD Coding",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-030-75762-5_19",
+      "venue": "Lecture notes in computer science",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Arjun Manoharan",
+        "Rahul Ramesh",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-030-67661-2_30",
+      "id": "10.1007/978-3-030-67661-2_30",
+      "oaUrl": "https://arxiv.org/pdf/1909.04134",
+      "openAlexId": "W2973178003",
+      "publicationDate": "2021-01-01",
+      "source": "openalex",
+      "title": "Option Encoder: A Framework for Discovering a Policy Basis in Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-030-67661-2_30",
+      "venue": "Lecture notes in computer science",
+      "year": 2021
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Nitin Shravan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3430984.3430997",
+      "id": "10.1145/3430984.3430997",
+      "openAlexId": "W3113997496",
+      "publicationDate": "2020-12-28",
+      "source": "openalex",
+      "title": "Is it hard to learn a classifier on this dataset?",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3430984.3430997",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Vaishnavi Muralidharan",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3430984.3430996",
+      "id": "10.1145/3430984.3430996",
+      "openAlexId": "W3114017696",
+      "publicationDate": "2020-12-28",
+      "source": "openalex",
+      "title": "Inferring customer occupancy status in for-hire vehicles using PU Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3430984.3430996",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3430984.3431009",
+      "id": "10.1145/3430984.3431009",
+      "openAlexId": "W3117755089",
+      "publicationDate": "2020-12-28",
+      "source": "openalex",
+      "title": "A semi-supervised approach to growing classification trees",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3430984.3431009",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Anand A. Rajasekar",
+        "Karthik Raman",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2010.16399",
+      "id": "10.48550/arxiv.2010.16399",
+      "oaUrl": "https://arxiv.org/pdf/2010.16399",
+      "openAlexId": "W3097278333",
+      "publicationDate": "2020-10-30",
+      "source": "openalex",
+      "title": "Goal directed molecule generation using Monte Carlo Tree Search",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2010.16399",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sravan Mylavarapu",
+        "Mahtab Sandhu",
+        "Priyesh Vijayan",
+        "K. Madhava Krishna",
+        "Balaraman Ravindran",
+        "Anoop Namboodiri"
+      ],
+      "doi": "10.1109/iros45743.2020.9341018",
+      "id": "10.1109/iros45743.2020.9341018",
+      "oaUrl": "https://arxiv.org/pdf/2005.04437",
+      "openAlexId": "W3021419006",
+      "publicationDate": "2020-10-24",
+      "source": "openalex",
+      "title": "Understanding Dynamic Scenes using Graph Convolution Networks",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/iros45743.2020.9341018",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sravan Mylavarapu",
+        "Mahtab Sandhu",
+        "Priyesh Vijayan",
+        "K. Madhava Krishna",
+        "Balaraman Ravindran",
+        "Anoop Namboodiri"
+      ],
+      "doi": "10.1109/iv47402.2020.9304822",
+      "id": "10.1109/iv47402.2020.9304822",
+      "oaUrl": "https://arxiv.org/pdf/2002.00786",
+      "openAlexId": "W3004256792",
+      "publicationDate": "2020-10-19",
+      "source": "openalex",
+      "title": "Towards Accurate Vehicle Behaviour Classification With Multi-Relational Graph Convolutional Networks",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/iv47402.2020.9304822",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Tarun Kumar",
+        "Sankaran Vaidyanathan",
+        "Harini Ananthapadmanabhan",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s41109-020-00300-3",
+      "id": "10.1007/s41109-020-00300-3",
+      "oaUrl": "https://appliednetsci.springeropen.com/track/pdf/10.1007/s41109-020-00300-3",
+      "openAlexId": "W3080887330",
+      "publicationDate": "2020-08-20",
+      "source": "openalex",
+      "title": "Hypergraph clustering by iteratively reweighted modularity maximization",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s41109-020-00300-3",
+      "venue": "Applied Network Science",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Pavan Ravishankar",
+        "Pranshu Malviya",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2007.05516",
+      "id": "10.48550/arxiv.2007.05516",
+      "oaUrl": "https://arxiv.org/pdf/2007.05516",
+      "openAlexId": "W3134970429",
+      "publicationDate": "2020-07-10",
+      "source": "openalex",
+      "title": "A Causal Linear Model to Quantify Edge Flow and Edge Unfairness for UnfairEdge Prioritization and Discrimination Removal",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2007.05516",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Pavan Ravishankar",
+        "Pranshu Malviya",
+        "Balaraman Ravindran"
+      ],
+      "id": "W3040988778",
+      "oaUrl": "https://arxiv.org/abs/2007.05516v1",
+      "openAlexId": "W3040988778",
+      "publicationDate": "2020-07-10",
+      "source": "openalex",
+      "title": "A Causal Linear Model to Quantify Edge Unfairness for Unfair Edge Prioritization and Discrimination Removal.",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2007.05516v1",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Siddharth Nishtala",
+        "Harshavardhan Kamarthi",
+        "Divy Thakkar",
+        "Dhyanesh Narayanan",
+        "Anirudh Grama",
+        "Hegde, Aparna",
+        "Ramesh Padmanabhan",
+        "Neha Madhiwalla",
+        "Suresh Chaudhary",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "doi": "10.48550/arxiv.2006.07590",
+      "id": "10.48550/arxiv.2006.07590",
+      "oaUrl": "https://arxiv.org/pdf/2006.07590",
+      "openAlexId": "W3034316584",
+      "publicationDate": "2020-06-13",
+      "source": "openalex",
+      "title": "Missed calls, Automated Calls and Health Support: Using AI to improve maternal health outcomes by increasing program engagement",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2006.07590",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Nazneen N. Sultana",
+        "Hardik Meisheri",
+        "Vinita Baniwal",
+        "Somjit Nath",
+        "Balaraman Ravindran",
+        "Harshad Khadilkar"
+      ],
+      "doi": "10.48550/arxiv.2006.04037",
+      "id": "10.48550/arxiv.2006.04037",
+      "oaUrl": "https://arxiv.org/pdf/2006.04037",
+      "openAlexId": "W3033952201",
+      "publicationDate": "2020-06-07",
+      "source": "openalex",
+      "title": "Reinforcement Learning for Multi-Product Multi-Node Inventory Management in Supply Chains",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2006.04037",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sanjay Ganapathy",
+        "Swagath Venkataramani",
+        "Giridhur Sriraman",
+        "Balaraman Ravindran",
+        "Anand Raghunathan"
+      ],
+      "doi": "10.1145/3372882",
+      "id": "10.1145/3372882",
+      "openAlexId": "W3034779821",
+      "publicationDate": "2020-05-31",
+      "source": "openalex",
+      "title": "D y VED eep",
+      "type": "article",
+      "url": "https://doi.org/10.1145/3372882",
+      "venue": "ACM Transactions on Embedded Computing Systems",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Nikita Moghe",
+        "Priyesh Vijayan",
+        "Balaraman Ravindran",
+        "Mitesh M. Khapra"
+      ],
+      "doi": "10.48550/arxiv.2005.14315",
+      "id": "10.48550/arxiv.2005.14315",
+      "oaUrl": "https://arxiv.org/pdf/2005.14315",
+      "openAlexId": "W4287774598",
+      "publicationDate": "2020-05-28",
+      "source": "openalex",
+      "title": "On Incorporating Structural Information to improve Dialogue Response\\n Generation",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2005.14315",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Harshavardhan Kamarthi",
+        "Priyesh Vijayan",
+        "Bryan Wilder",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "doi": "10.65109/biov1668",
+      "id": "10.65109/biov1668",
+      "openAlexId": "W3037350926",
+      "publicationDate": "2020-05-05",
+      "source": "openalex",
+      "title": "Influence Maximization in Unknown Social Networks: Learning Policies for Effective Graph Sampling",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/biov1668",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Anirban Santara",
+        "Rishabh Madan",
+        "Pabitra Mitra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.65109/dgit5441",
+      "id": "10.65109/dgit5441",
+      "openAlexId": "W3037023372",
+      "publicationDate": "2020-05-05",
+      "source": "openalex",
+      "title": "ExTra: Transfer-guided Exploration",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/dgit5441",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sanchari Sen",
+        "Balaraman Ravindran",
+        "Anand Raghunathan"
+      ],
+      "doi": "10.48550/arxiv.2004.10162",
+      "id": "10.48550/arxiv.2004.10162",
+      "oaUrl": "https://arxiv.org/pdf/2004.10162",
+      "openAlexId": "W3018979822",
+      "publicationDate": "2020-04-21",
+      "source": "openalex",
+      "title": "EMPIR: Ensembles of Mixed Precision Deep Networks for Increased\\n Robustness against Adversarial Attacks",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2004.10162",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Rohan Saphal",
+        "Balaraman Ravindran",
+        "Dheevatsa Mudigere",
+        "Sasikanth Avancha",
+        "Bharat Kaul"
+      ],
+      "doi": "10.1609/aaai.v34i10.7225",
+      "id": "10.1609/aaai.v34i10.7225",
+      "oaUrl": "https://doi.org/10.1609/aaai.v34i10.7225",
+      "openAlexId": "W3037979613",
+      "publicationDate": "2020-04-03",
+      "source": "openalex",
+      "title": "ERLP: Ensembles of Reinforcement Learning Policies (Student Abstract)",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aaai.v34i10.7225",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sangameshwar Patil",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s10664-019-09779-6",
+      "id": "10.1007/s10664-019-09779-6",
+      "openAlexId": "W3006090163",
+      "publicationDate": "2020-02-12",
+      "source": "openalex",
+      "title": "Predicting software defect type using concept-based classification",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10664-019-09779-6",
+      "venue": "Empirical Software Engineering",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Sravan Mylavarapu",
+        "Mahtab Sandhu",
+        "Priyesh Vijayan",
+        "K. Madhava Krishna",
+        "Balaraman Ravindran",
+        "Anoop Namboodiri"
+      ],
+      "doi": "10.48550/arxiv.2002.00786",
+      "id": "10.48550/arxiv.2002.00786",
+      "oaUrl": "https://arxiv.org/pdf/2002.00786",
+      "openAlexId": "W4287871826",
+      "publicationDate": "2020-02-03",
+      "source": "openalex",
+      "title": "Towards Accurate Vehicle Behaviour Classification With Multi-Relational\\n Graph Convolutional Networks",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2002.00786",
+      "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Akash Kumar Mohankumar",
+        "Preksha Nema",
+        "Sharan Narasimhan",
+        "Mitesh M. Khapra",
+        "B. Srinivasan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.18653/v1/2020.acl-main.387",
+      "id": "10.18653/v1/2020.acl-main.387",
+      "oaUrl": "https://www.aclweb.org/anthology/2020.acl-main.387.pdf",
+      "openAlexId": "W3021385998",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "Towards Transparent and Explainable Attention Models",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2020.acl-main.387",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Anasua Mitra",
+        "Priyesh Vijayan",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1137/1.9781611976236.55",
+      "id": "10.1137/1.9781611976236.55",
+      "oaUrl": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976236.55",
+      "openAlexId": "W3014017986",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "A Unified Non-Negative Matrix Factorization Framework for Semi Supervised Learning on Graphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1137/1.9781611976236.55",
+      "venue": "Society for Industrial and Applied Mathematics eBooks",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Siddharth Nayak",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-030-68238-5_12",
+      "id": "10.1007/978-3-030-68238-5_12",
+      "oaUrl": "https://arxiv.org/pdf/2008.08005",
+      "openAlexId": "W3076143500",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "Reinforcement Learning for Improving Object Detection",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-030-68238-5_12",
+      "venue": "Lecture notes in computer science",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Nikita Moghe",
+        "Priyesh Vijayan",
+        "Balaraman Ravindran",
+        "Mitesh M. Khapra"
+      ],
+      "doi": "10.18653/v1/2020.nlp4convai-1.2",
+      "id": "10.18653/v1/2020.nlp4convai-1.2",
+      "oaUrl": "https://www.aclweb.org/anthology/2020.nlp4convai-1.2.pdf",
+      "openAlexId": "W3031080501",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "On Incorporating Structural Information to improve Dialogue Response Generation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2020.nlp4convai-1.2",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.63282/3050-9246.ijetcsit-v1i1p103",
+      "id": "10.63282/3050-9246.ijetcsit-v1i1p103",
+      "oaUrl": "https://ijetcsit.org/index.php/ijetcsit/article/download/40/23",
+      "openAlexId": "W4411613969",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "Advancements in Deep Reinforcement Learning: A Comparative Analysis of Policy Optimization Techniques",
+      "type": "article",
+      "url": "https://doi.org/10.63282/3050-9246.ijetcsit-v1i1p103",
+      "venue": "International Journal of Emerging Trends in Computer Science and Information Technology",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Tarun Kumar",
+        "Sankaran Vaidyanathan",
+        "Harini Ananthapadmanabhan",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-030-36687-2_24",
+      "id": "10.1007/978-3-030-36687-2_24",
+      "openAlexId": "W2991187137",
+      "publicationDate": "2019-11-26",
+      "source": "openalex",
+      "title": "A New Measure of Modularity in Hypergraphs: Theoretical Insights and Implications for Effective Clustering",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-030-36687-2_24",
+      "venue": "Studies in computational intelligence",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Manju Manohar Manjalavil",
+        "Gitakrishnan Ramadurai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-030-36683-4_75",
+      "id": "10.1007/978-3-030-36683-4_75",
+      "openAlexId": "W2990541307",
+      "publicationDate": "2019-11-25",
+      "source": "openalex",
+      "title": "Temporal Analysis of a Bus Transit Network",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-030-36683-4_75",
+      "venue": "Studies in computational intelligence",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Hardik Meisheri",
+        "Vinita Baniwal",
+        "Nazneen N. Sultana",
+        "Balaraman Ravindran",
+        "Harshad Khadilkar"
+      ],
+      "doi": "10.48550/arxiv.1910.00211",
+      "id": "10.48550/arxiv.1910.00211",
+      "oaUrl": "https://arxiv.org/pdf/1910.00211",
+      "openAlexId": "W2978501786",
+      "publicationDate": "2019-10-01",
+      "source": "openalex",
+      "title": "Reinforcement Learning for Multi-Objective Optimization of Online Decisions in High-Dimensional Systems",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1910.00211",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Arjun Manoharan",
+        "R. Ramesh",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1909.04134",
+      "id": "10.48550/arxiv.1909.04134",
+      "oaUrl": "https://arxiv.org/pdf/1909.04134",
+      "openAlexId": "W4288112290",
+      "publicationDate": "2019-09-09",
+      "source": "openalex",
+      "title": "Option Encoder: A Framework for Discovering a Policy Basis in\\n Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1909.04134",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Sai Kiran Narayanaswami",
+        "Balaraman Ravindran",
+        "Venkatesh Ramaiyan"
+      ],
+      "doi": "10.1145/3341161.3342914",
+      "id": "10.1145/3341161.3342914",
+      "oaUrl": "https://arxiv.org/pdf/1907.01420",
+      "openAlexId": "W2953956054",
+      "publicationDate": "2019-08-27",
+      "source": "openalex",
+      "title": "Generalized random Surfer-Pair models",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3341161.3342914",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Rahul Ramesh",
+        "Manan Tomar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.24963/ijcai.2019/458",
+      "id": "10.24963/ijcai.2019/458",
+      "oaUrl": "https://www.ijcai.org/proceedings/2019/0458.pdf",
+      "openAlexId": "W2946280736",
+      "publicationDate": "2019-07-28",
+      "source": "openalex",
+      "title": "Successor Options: An Option Discovery Framework for Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.24963/ijcai.2019/458",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Manan Tomar",
+        "Akhil Sathuluri",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/aaai.v33i01.330110053",
+      "id": "10.1609/aaai.v33i01.330110053",
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/5163/5036",
+      "openAlexId": "W2964462160",
+      "publicationDate": "2019-07-17",
+      "source": "openalex",
+      "title": "MaMiC: Macro and Micro Curriculum for Robotic Reinforcement Learning",
+      "type": "article",
+      "url": "https://doi.org/10.1609/aaai.v33i01.330110053",
+      "venue": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Harshavardhan Kamarthi",
+        "Priyesh Vijayan",
+        "Bryan Wilder",
+        "Balaraman Ravindran",
+        "Milind Tambe"
+      ],
+      "id": "W2965925624",
+      "oaUrl": "https://arxiv.org/pdf/1907.11625.pdf",
+      "openAlexId": "W2965925624",
+      "publicationDate": "2019-07-08",
+      "source": "openalex",
+      "title": "Learning policies for Social network discovery with Reinforcement learning.",
+      "type": "preprint",
+      "url": "https://arxiv.org/pdf/1907.11625.pdf",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Abhishek Ghose",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1906.06852",
+      "id": "10.48550/arxiv.1906.06852",
+      "oaUrl": "https://arxiv.org/pdf/1906.06852",
+      "openAlexId": "W4288323268",
+      "publicationDate": "2019-06-17",
+      "source": "openalex",
+      "title": "Learning Interpretable Models Using Uncertainty Oracles",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1906.06852",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Abhishek Ghose",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2949377985",
+      "oaUrl": "http://arxiv.org/pdf/1906.06852.pdf",
+      "openAlexId": "W2949377985",
+      "publicationDate": "2019-06-17",
+      "source": "openalex",
+      "title": "Learning Interpretable Models Using an Oracle.",
+      "type": "preprint",
+      "url": "http://arxiv.org/pdf/1906.06852.pdf",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "R. Ramesh",
+        "Manan Tomar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1905.05731",
+      "id": "10.48550/arxiv.1905.05731",
+      "oaUrl": "https://arxiv.org/pdf/1905.05731",
+      "openAlexId": "W4288356660",
+      "publicationDate": "2019-05-14",
+      "source": "openalex",
+      "title": "Successor Options: An Option Discovery Framework for Reinforcement\\n Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1905.05731",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Vaibhav Gupta",
+        "Daksh Anand",
+        "Praveen Paruchuri",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.65109/juxj4460",
+      "id": "10.65109/juxj4460",
+      "openAlexId": "W2945587947",
+      "publicationDate": "2019-05-08",
+      "source": "openalex",
+      "title": "Advice Replay Approach for Richer Knowledge Transfer in Teacher Student Framework",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/juxj4460",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Revanth Reddy",
+        "Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1137/1.9781611975673.40",
+      "id": "10.1137/1.9781611975673.40",
+      "oaUrl": "https://arxiv.org/pdf/1902.07159",
+      "openAlexId": "W2916335115",
+      "publicationDate": "2019-05-06",
+      "source": "openalex",
+      "title": "Edge Replacement Grammars : A Formal Language Approach for Generating Graphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1137/1.9781611975673.40",
+      "venue": "Society for Industrial and Applied Mathematics eBooks",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Abhishek Ghose",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2942610361",
+      "oaUrl": "https://arxiv.org/abs/1905.01520v1",
+      "openAlexId": "W2942610361",
+      "publicationDate": "2019-05-04",
+      "source": "openalex",
+      "title": "Optimal Resampling for Learning Small Models.",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/1905.01520v1",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Saket Gurukar",
+        "Priyesh Vijayan",
+        "Aakash Srinivasan",
+        "Goonmeet Bajaj",
+        "Chen Cai",
+        "Moniba Keymanesh",
+        "Saravana C. S. Kumar",
+        "Pranav Maneriker",
+        "Anasua Mitra",
+        "Vedang Patel",
+        "Balaraman Ravindran",
+        "Srinivasan Parthasarathy"
+      ],
+      "doi": "10.48550/arxiv.1905.00987",
+      "id": "10.48550/arxiv.1905.00987",
+      "oaUrl": "https://arxiv.org/pdf/1905.00987",
+      "openAlexId": "W2943009035",
+      "publicationDate": "2019-05-02",
+      "source": "openalex",
+      "title": "Network Representation Learning: Consolidation and Renewed Bearing",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1905.00987",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Nandan Sudarsanam",
+        "Nishanth Kumar",
+        "Abhishek Sharma",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s10115-019-01352-3",
+      "id": "10.1007/s10115-019-01352-3",
+      "oaUrl": "https://arxiv.org/pdf/1712.05193",
+      "openAlexId": "W2772829934",
+      "publicationDate": "2019-03-19",
+      "source": "openalex",
+      "title": "Rate of change analysis for interestingness measures",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10115-019-01352-3",
+      "venue": "Knowledge and Information Systems",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Beethika Tripathi",
+        "Srinivasan Parthasarathy",
+        "Himanshu Sinha",
+        "Karthik Raman",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3389/fgene.2019.00164",
+      "id": "10.3389/fgene.2019.00164",
+      "oaUrl": "https://www.frontiersin.org/articles/10.3389/fgene.2019.00164/pdf",
+      "openAlexId": "W2922454355",
+      "publicationDate": "2019-03-13",
+      "source": "openalex",
+      "title": "Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fgene.2019.00164",
+      "venue": "Frontiers in Genetics",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Tarun Kumar",
+        "Manikandan Narayanan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s41745-019-0103-y",
+      "id": "10.1007/s41745-019-0103-y",
+      "oaUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7611298",
+      "openAlexId": "W2919965104",
+      "publicationDate": "2019-03-05",
+      "source": "openalex",
+      "title": "Effect of Inter-layer Coupling on Multilayer Network Centrality Measures",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s41745-019-0103-y",
+      "venue": "Journal of the Indian Institute of Science",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Revanth Gangi Reddy",
+        "Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1902.07159",
+      "id": "10.48550/arxiv.1902.07159",
+      "oaUrl": "https://arxiv.org/pdf/1902.07159",
+      "openAlexId": "W4288594620",
+      "publicationDate": "2019-02-10",
+      "source": "openalex",
+      "title": "Edge Replacement Grammars: A Formal Language Approach for Generating\\n Graphs",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1902.07159",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Kumar, Harish",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1902.01973",
+      "id": "10.48550/arxiv.1902.01973",
+      "oaUrl": "https://arxiv.org/pdf/1902.01973",
+      "openAlexId": "W2912200093",
+      "publicationDate": "2019-02-05",
+      "source": "openalex",
+      "title": "Polyphonic Music Composition with LSTM Neural Networks and Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1902.01973",
+      "venue": "arXiv (Cornell University)",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Deepak Mittal",
+        "Shweta Bhardwaj",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s00138-018-01001-9",
+      "id": "10.1007/s00138-018-01001-9",
+      "openAlexId": "W2905975100",
+      "publicationDate": "2019-01-20",
+      "source": "openalex",
+      "title": "Studying the plasticity in deep convolutional neural networks using random pruning",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00138-018-01001-9",
+      "venue": "Machine Vision and Applications",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Athindran Ramesh Kumar",
+        "Balaraman Ravindran",
+        "Anand Raghunathan"
+      ],
+      "doi": "10.1145/3297001.3297020",
+      "id": "10.1145/3297001.3297020",
+      "openAlexId": "W4288641828",
+      "publicationDate": "2019-01-03",
+      "source": "openalex",
+      "title": "Pack and Detect",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3297001.3297020",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Preksha Nema",
+        "Akash Kumar Mohankumar",
+        "Mitesh M. Khapra",
+        "B. Srinivasan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.18653/v1/d19-1326",
+      "id": "10.18653/v1/d19-1326",
+      "oaUrl": "https://www.aclweb.org/anthology/D19-1326.pdf",
+      "openAlexId": "W2970168687",
+      "publicationDate": "2019-01-01",
+      "source": "openalex",
+      "title": "Let’s Ask Again: Refine Network for Automatic Question Generation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/d19-1326",
+      "year": 2019
+    },
+    {
+      "authors": [
+        "Tarun Kumar",
+        "Sankaran Vaidyanathan",
+        "Harini Ananthapadmanabhan",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1812.10869",
+      "id": "10.48550/arxiv.1812.10869",
+      "oaUrl": "https://arxiv.org/pdf/1812.10869",
+      "openAlexId": "W2908145345",
+      "publicationDate": "2018-12-28",
+      "source": "openalex",
+      "title": "Hypergraph Clustering: A Modularity Maximization Approach",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1812.10869",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Vignesh Prasad",
+        "Karmesh Yadav",
+        "Rohitashva Singh Saurabh",
+        "Swapnil Daga",
+        "Nahas Pareekutty",
+        "K. Madhava Krishna",
+        "Balaraman Ravindran",
+        "Brojeshwar Bhowmick"
+      ],
+      "doi": "10.1145/3293353.3293400",
+      "id": "10.1145/3293353.3293400",
+      "oaUrl": "https://arxiv.org/pdf/1607.07558",
+      "openAlexId": "W2906245316",
+      "publicationDate": "2018-12-18",
+      "source": "openalex",
+      "title": "Learning to Prevent Monocular SLAM Failure using Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3293353.3293400",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Karthik Azhagesan",
+        "Balaraman Ravindran",
+        "Karthik Raman"
+      ],
+      "doi": "10.1371/journal.pone.0208722",
+      "id": "10.1371/journal.pone.0208722",
+      "oaUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0208722&type=printable",
+      "openAlexId": "W2904672199",
+      "publicationDate": "2018-12-13",
+      "source": "openalex",
+      "title": "Network-based features enable prediction of essential genes across diverse organisms",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0208722",
+      "venue": "PLoS ONE",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Ameet Deshpande",
+        "Harshavardhan Kamarthi",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1812.00225",
+      "id": "10.48550/arxiv.1812.00225",
+      "oaUrl": "https://arxiv.org/pdf/1812.00225",
+      "openAlexId": "W2902693729",
+      "publicationDate": "2018-12-01",
+      "source": "openalex",
+      "title": "Discovering hierarchies using Imitation Learning from hierarchy aware policies",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1812.00225",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/hipc.2018.00009",
+      "id": "10.1109/hipc.2018.00009",
+      "openAlexId": "W2914336788",
+      "publicationDate": "2018-12-01",
+      "source": "openalex",
+      "title": "Looking under the hood of deep neural networks",
+      "type": "other",
+      "url": "https://doi.org/10.1109/hipc.2018.00009",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Manan Tomar",
+        "Rahul Ramesh",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2907483055",
+      "openAlexId": "W2907483055",
+      "publicationDate": "2018-09-27",
+      "source": "openalex",
+      "title": "Successor Options : An Option Discovery Algorithm for Reinforcement Learning",
+      "type": "article",
+      "url": "https://openreview.net/pdf?id=Byxr73R5FQ",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Athindran Ramesh Kumar",
+        "Balaraman Ravindran",
+        "Anand Raghunathan"
+      ],
+      "doi": "10.48550/arxiv.1809.01701",
+      "id": "10.48550/arxiv.1809.01701",
+      "oaUrl": "https://arxiv.org/pdf/1809.01701",
+      "openAlexId": "W2891816917",
+      "publicationDate": "2018-09-05",
+      "source": "openalex",
+      "title": "Pack and Detect: Fast Object Detection in Videos Using Region-of-Interest Packing",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1809.01701",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Vinay Chander",
+        "Asokan Thondiyath",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-981-10-8597-0_2",
+      "id": "10.1007/978-981-10-8597-0_2",
+      "openAlexId": "W2889056673",
+      "publicationDate": "2018-08-28",
+      "source": "openalex",
+      "title": "Recovering Free Space from a Single Two-Point Perspective Image for Mobile Robot Navigation for Indoor Applications",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-981-10-8597-0_2",
+      "venue": "Lecture notes in mechanical engineering",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Dibu John Philip",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3242734.3242741",
+      "id": "10.1145/3242734.3242741",
+      "openAlexId": "W2884947603",
+      "publicationDate": "2018-07-25",
+      "source": "openalex",
+      "title": "Improved Insights on Financial Health through Partially Constrained Hidden Markov Model Clustering on Loan Repayment Data",
+      "type": "article",
+      "url": "https://doi.org/10.1145/3242734.3242741",
+      "venue": "ACM SIGMIS Database the DATABASE for Advances in Information Systems",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Anirban Santara",
+        "Abhishek Naik",
+        "Balaraman Ravindran",
+        "Dipankar Das",
+        "Dheevatsa Mudigere",
+        "Sasikanth Avancha",
+        "Bharat Kaul"
+      ],
+      "doi": "10.65109/mogs9397",
+      "id": "10.65109/mogs9397",
+      "oaUrl": "https://arxiv.org/pdf/1707.06658",
+      "openAlexId": "W2737118859",
+      "publicationDate": "2018-07-09",
+      "source": "openalex",
+      "title": "RAIL: Risk-Averse Imitation Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.65109/mogs9397",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Meha Kaushik",
+        "Vignesh Prasad",
+        "K. Madhava Krishna",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/ivs.2018.8500718",
+      "id": "10.1109/ivs.2018.8500718",
+      "openAlexId": "W2896066033",
+      "publicationDate": "2018-06-01",
+      "source": "openalex",
+      "title": "Overtaking Maneuvers in Simulated Highway Driving using Deep Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/ivs.2018.8500718",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Priyesh Vijayan",
+        "Yash Chandak",
+        "Mitesh M. Khapra",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1805.12421",
+      "id": "10.48550/arxiv.1805.12421",
+      "oaUrl": "https://arxiv.org/pdf/1805.12421",
+      "openAlexId": "W4293359238",
+      "publicationDate": "2018-05-31",
+      "source": "openalex",
+      "title": "HOPF: Higher Order Propagation Framework for Deep Collective\\n Classification",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1805.12421",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Ghulam Ahmed Ansari",
+        "Sagar J. P",
+        "Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1805.07274",
+      "id": "10.48550/arxiv.1805.07274",
+      "oaUrl": "https://arxiv.org/pdf/1805.07274",
+      "openAlexId": "W2803814120",
+      "publicationDate": "2018-05-17",
+      "source": "openalex",
+      "title": "Language Expansion In Text-Based Games",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1805.07274",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Subhojyoti Mukherjee",
+        "K. P. Naveen",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/aaai.v32i1.12110",
+      "id": "10.1609/aaai.v32i1.12110",
+      "oaUrl": "https://doi.org/10.1609/aaai.v32i1.12110",
+      "openAlexId": "W2767793803",
+      "publicationDate": "2018-04-26",
+      "source": "openalex",
+      "title": "Efficient-UCBV: An Almost Optimal Algorithm Using Variance Estimates",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aaai.v32i1.12110",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Deepak Mittal",
+        "Shweta Bhardwaj",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/wacv.2018.00098",
+      "id": "10.1109/wacv.2018.00098",
+      "oaUrl": "https://arxiv.org/pdf/1801.10447",
+      "openAlexId": "W2786386501",
+      "publicationDate": "2018-03-01",
+      "source": "openalex",
+      "title": "Recovering from Random Pruning: On the Plasticity of Deep Convolutional Neural Networks",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/wacv.2018.00098",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Parijat Dewangan",
+        "S. Phani Teja",
+        "K. Madhava Krishna",
+        "Abhishek Sarkar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1802.10463",
+      "id": "10.48550/arxiv.1802.10463",
+      "oaUrl": "https://arxiv.org/pdf/1802.10463",
+      "openAlexId": "W2789102901",
+      "publicationDate": "2018-02-27",
+      "source": "openalex",
+      "title": "DiGrad: Multi-Task Reinforcement Learning with Shared Actions",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1802.10463",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Deepak Mittal",
+        "Shweta Bhardwaj",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1801.10447",
+      "id": "10.48550/arxiv.1801.10447",
+      "oaUrl": "https://arxiv.org/pdf/1801.10447",
+      "openAlexId": "W4298068491",
+      "publicationDate": "2018-01-31",
+      "source": "openalex",
+      "title": "Recovering from Random Pruning: On the Plasticity of Deep Convolutional\\n Neural Networks",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1801.10447",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "T. Chandramohan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3152494.3152505",
+      "id": "10.1145/3152494.3152505",
+      "openAlexId": "W2790970052",
+      "publicationDate": "2018-01-11",
+      "source": "openalex",
+      "title": "A neural attention based approach for clickstream mining",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3152494.3152505",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Jeshuren Chelladurai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3152494.3152496",
+      "id": "10.1145/3152494.3152496",
+      "openAlexId": "W2788575038",
+      "publicationDate": "2018-01-11",
+      "source": "openalex",
+      "title": "A novel topic modeling based weighting framework for class imbalance learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3152494.3152496",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Deepak Mittal",
+        "A. Sai Simha Reddy",
+        "Gitakrishnan Ramadurai",
+        "Kaushik Mitra",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2018.8328279",
+      "id": "10.1109/comsnets.2018.8328279",
+      "openAlexId": "W2794829877",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "Training a deep learning architecture for vehicle detection using limited heterogeneous traffic data",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2018.8328279",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Pragathi Priyadharsini Balasubramani",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ahmed A. Moustafa"
+      ],
+      "doi": "10.1007/978-981-10-8494-2_12",
+      "id": "10.1007/978-981-10-8494-2_12",
+      "openAlexId": "W2794127999",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "Modeling Serotonin’s Contributions to Basal Ganglia Dynamics",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-981-10-8494-2_12",
+      "venue": "Cognitive science and technology",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Girraj Pahariya",
+        "Balaraman Ravindran",
+        "Sukhendu Das"
+      ],
+      "doi": "10.1007/978-981-13-0020-2_29",
+      "id": "10.1007/978-981-13-0020-2_29",
+      "openAlexId": "W2801347102",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "Dynamic Class Learning Approach for Smart CBIR",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-981-13-0020-2_29",
+      "venue": "Communications in computer and information science",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "S. Bhuvaneswari",
+        "Ramkrishna Pasumarthy",
+        "Balaraman Ravindran",
+        "Arun D. Mahindrakar"
+      ],
+      "doi": "10.1109/indiancc.2018.8307979",
+      "id": "10.1109/indiancc.2018.8307979",
+      "openAlexId": "W2791138385",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "Tracking and stabilization of mechanical systems using reinforcement learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/indiancc.2018.8307979",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "M. Maya",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-981-10-8494-2_14",
+      "id": "10.1007/978-981-10-8494-2_14",
+      "openAlexId": "W2791306780",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "An Oscillatory Neural Network Model for Birdsong Learning and Generation: Implications for the Role of Dopamine in Song Learning",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-981-10-8494-2_14",
+      "venue": "Cognitive science and technology",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Pragathi Priyadharsini Balasubramani",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ahmed A. Moustafa"
+      ],
+      "doi": "10.1007/978-981-10-8494-2_13",
+      "id": "10.1007/978-981-10-8494-2_13",
+      "openAlexId": "W2793157023",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "Modeling Serotonin’s Contributions to Basal Ganglia Dynamics in Parkinson’s Disease with Impulse Control Disorders",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-981-10-8494-2_13",
+      "venue": "Cognitive science and technology",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Dibu John Philip",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.24251/hicss.2018.170",
+      "id": "10.24251/hicss.2018.170",
+      "oaUrl": "http://scholarspace.manoa.hawaii.edu/bitstream/10125/50057/1/paper0170.pdf",
+      "openAlexId": "W2793437421",
+      "publicationDate": "2018-01-01",
+      "source": "openalex",
+      "title": "A Partial Parameter HMM Based Clustering on Loan Repayment Data: Insights into Financial Behavior and Intent to Repay",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.24251/hicss.2018.170",
+      "venue": "Proceedings of the ... Annual Hawaii International Conference on System Sciences/Proceedings of the Annual Hawaii International Conference on System Sciences",
+      "year": 2018
+    },
+    {
+      "authors": [
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1016/j.cie.2017.11.030",
+      "id": "10.1016/j.cie.2017.11.030",
+      "openAlexId": "W2772633089",
+      "publicationDate": "2017-12-02",
+      "source": "openalex",
+      "title": "Using Linear Stochastic Bandits to extend traditional offline Designed Experiments to online settings",
+      "type": "article",
+      "url": "https://doi.org/10.1016/j.cie.2017.11.030",
+      "venue": "Computers & Industrial Engineering",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Akash Jain",
+        "Rupesh Nasre",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/hpcc-smartcity-dss.2017.19",
+      "id": "10.1109/hpcc-smartcity-dss.2017.19",
+      "openAlexId": "W2787067699",
+      "publicationDate": "2017-12-01",
+      "source": "openalex",
+      "title": "DCEIL: Distributed Community Detection with the CEIL Score",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/hpcc-smartcity-dss.2017.19",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Deepak Mittal",
+        "Mudamala Avinash Reddy",
+        "Gitakrishnan Ramadurai",
+        "Kaushik Mitra",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2916761757",
+      "openAlexId": "W2916761757",
+      "publicationDate": "2017-10-31",
+      "source": "openalex",
+      "title": "Vehicle Classification on Low-resolution and Occluded images: A low-cost labeled dataset for augmentation",
+      "type": "article",
+      "url": "https://openreview.net/pdf?id=HkW01LLA-",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Rakesh R. Menon",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1709.04909",
+      "id": "10.48550/arxiv.1709.04909",
+      "oaUrl": "https://arxiv.org/pdf/1709.04909",
+      "openAlexId": "W2755614540",
+      "publicationDate": "2017-09-14",
+      "source": "openalex",
+      "title": "Shared Learning : Enhancing Reinforcement in $Q$-Ensembles",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1709.04909",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Prathamesh Deshpande",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3110025.3116193",
+      "id": "10.1145/3110025.3116193",
+      "openAlexId": "W2770723105",
+      "publicationDate": "2017-07-31",
+      "source": "openalex",
+      "title": "MCEIL",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3110025.3116193",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Subhojyoti Mukherjee",
+        "Naveen Kolar Purushothama",
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.24963/ijcai.2017/350",
+      "id": "10.24963/ijcai.2017/350",
+      "oaUrl": "https://www.ijcai.org/proceedings/2017/0350.pdf",
+      "openAlexId": "W2606318404",
+      "publicationDate": "2017-07-28",
+      "source": "openalex",
+      "title": "Thresholding Bandits with Augmented UCB",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.24963/ijcai.2017/350",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sudarsun Santhiappan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.34048/2017.1.f1",
+      "id": "10.34048/2017.1.f1",
+      "openAlexId": "W3022047685",
+      "publicationDate": "2017-06-10",
+      "source": "openalex",
+      "title": "Class Imbalance Learning",
+      "type": "article",
+      "url": "https://doi.org/10.34048/2017.1.f1",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sahil Sharma",
+        "Girish Raguvir J",
+        "Srivatsan Ramesh",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1705.07445",
+      "id": "10.48550/arxiv.1705.07445",
+      "oaUrl": "https://arxiv.org/pdf/1705.07445",
+      "openAlexId": "W2616935431",
+      "publicationDate": "2017-05-21",
+      "source": "openalex",
+      "title": "Learning to Mix n-Step Returns: Generalizing lambda-Returns for Deep Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1705.07445",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sahil Sharma",
+        "Aravind Suresh",
+        "Rahul Ramesh",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1705.07269",
+      "id": "10.48550/arxiv.1705.07269",
+      "oaUrl": "https://arxiv.org/pdf/1705.07269",
+      "openAlexId": "W2617816519",
+      "publicationDate": "2017-05-20",
+      "source": "openalex",
+      "title": "Learning to Factor Policies and Action-Value Functions: Factored Action Space Representations for Deep Reinforcement learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1705.07269",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Vignesh Prasad",
+        "Rishabh Jangir",
+        "Balaraman Ravindran",
+        "K. Madhava Krishna"
+      ],
+      "doi": "10.5555/3091125.3091408",
+      "id": "10.5555/3091125.3091408",
+      "openAlexId": "W2620923370",
+      "publicationDate": "2017-05-08",
+      "source": "openalex",
+      "title": "Data Driven Strategies for Active Monocular SLAM using Inverse Reinforcement Learning",
+      "type": "article",
+      "url": "https://doi.org/10.5555/3091125.3091408",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Preksha Nema",
+        "Mitesh M. Khapra",
+        "Anirban Laha",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1704.08300",
+      "id": "10.48550/arxiv.1704.08300",
+      "oaUrl": "https://arxiv.org/pdf/1704.08300",
+      "openAlexId": "W4302493259",
+      "publicationDate": "2017-04-26",
+      "source": "openalex",
+      "title": "Diversity driven Attention Model for Query-based Abstractive\\n Summarization",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1704.08300",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sanjay Ganapathy",
+        "Swagath Venkataramani",
+        "Balaraman Ravindran",
+        "Anand Raghunathan"
+      ],
+      "doi": "10.48550/arxiv.1704.01137",
+      "id": "10.48550/arxiv.1704.01137",
+      "oaUrl": "https://arxiv.org/pdf/1704.01137",
+      "openAlexId": "W2605831051",
+      "publicationDate": "2017-04-04",
+      "source": "openalex",
+      "title": "DyVEDeep: Dynamic Variable Effort Deep Neural Networks",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1704.01137",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Pratik Vinay Gupte",
+        "Balaraman Ravindran",
+        "Srinivasan Parthasarathy"
+      ],
+      "doi": "10.1109/icde.2017.128",
+      "id": "10.1109/icde.2017.128",
+      "openAlexId": "W2614250740",
+      "publicationDate": "2017-04-01",
+      "source": "openalex",
+      "title": "Role Discovery in Graphs Using Global Features: Algorithms, Applications and a Novel Evaluation Strategy",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icde.2017.128",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sahil Sharma",
+        "Srinivas, Aravind",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1702.06054",
+      "id": "10.48550/arxiv.1702.06054",
+      "oaUrl": "https://arxiv.org/pdf/1702.06054",
+      "openAlexId": "W2592915494",
+      "publicationDate": "2017-02-20",
+      "source": "openalex",
+      "title": "Learning to Repeat: Fine Grained Action Repetition for Deep Reinforcement Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1702.06054",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sahil Sharma",
+        "Ashutosh Jha",
+        "Parikshit Hegde",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1702.06053",
+      "id": "10.48550/arxiv.1702.06053",
+      "oaUrl": "https://arxiv.org/pdf/1702.06053",
+      "openAlexId": "W2680401079",
+      "publicationDate": "2017-02-20",
+      "source": "openalex",
+      "title": "Learning to Multi-Task by Active Sampling",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1702.06053",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sahil Sharma",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2590567779",
+      "oaUrl": "https://arxiv.org/pdf/1702.06053",
+      "openAlexId": "W2590567779",
+      "publicationDate": "2017-02-20",
+      "source": "openalex",
+      "title": "Online Multi-Task Learning Using Biased Sampling",
+      "type": "preprint",
+      "url": "https://arxiv.org/pdf/1702.06053",
+      "venue": "arXiv (Cornell University)",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sahil Sharma",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2593765977",
+      "openAlexId": "W2593765977",
+      "publicationDate": "2017-02-17",
+      "source": "openalex",
+      "title": "Online Multi-Task Learning Using Active Sampling",
+      "type": "conference-paper",
+      "url": "https://openreview.net/pdf?id=H1XLbXEtg",
+      "venue": "International Conference on Learning Representations",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Aravind S. Lakshminarayanan",
+        "Sahil Sharma",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/aaai.v31i1.10918",
+      "id": "10.1609/aaai.v31i1.10918",
+      "oaUrl": "https://doi.org/10.1609/aaai.v31i1.10918",
+      "openAlexId": "W2605102581",
+      "publicationDate": "2017-02-13",
+      "source": "openalex",
+      "title": "Dynamic Action Repetition for Deep Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aaai.v31i1.10918",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Preksha Nema",
+        "Mitesh M. Khapra",
+        "Anirban Laha",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.18653/v1/p17-1098",
+      "id": "10.18653/v1/p17-1098",
+      "oaUrl": "https://www.aclweb.org/anthology/P17-1098.pdf",
+      "openAlexId": "W2611254175",
+      "publicationDate": "2017-01-01",
+      "source": "openalex",
+      "title": "Diversity driven attention model for query-based abstractive summarization",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/p17-1098",
+      "year": 2017
+    },
+    {
+      "authors": [
+        "Sai Praveen Bangaru",
+        "J. S. Suhas",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1611.09894",
+      "id": "10.48550/arxiv.1611.09894",
+      "oaUrl": "https://arxiv.org/pdf/1611.09894",
+      "openAlexId": "W2557665295",
+      "publicationDate": "2016-11-29",
+      "source": "openalex",
+      "title": "Exploration for Multi-task Reinforcement Learning with Deep Generative Models",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1611.09894",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Bhanu Chander",
+        "Asokan Thondiyath",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/tencon.2016.7848676",
+      "id": "10.1109/tencon.2016.7848676",
+      "openAlexId": "W2586747874",
+      "publicationDate": "2016-11-01",
+      "source": "openalex",
+      "title": "A new Multi-Bug Path Planning algorithm for robot navigation in known environments",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/tencon.2016.7848676",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Aravind Rajeswaran",
+        "Sarvjeet Ghotra",
+        "Balaraman Ravindran",
+        "Sergey Levine"
+      ],
+      "doi": "10.48550/arxiv.1610.01283",
+      "id": "10.48550/arxiv.1610.01283",
+      "oaUrl": "https://arxiv.org/pdf/1610.01283",
+      "openAlexId": "W2529477964",
+      "publicationDate": "2016-10-05",
+      "source": "openalex",
+      "title": "EPOpt: Learning Robust Neural Network Policies Using Model Ensembles",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1610.01283",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "id": "W2606496926",
+      "openAlexId": "W2606496926",
+      "publicationDate": "2016-09-01",
+      "source": "openalex",
+      "title": "NOC: Reinforcement Learning",
+      "type": "article",
+      "url": "http://doer.col.org/handle/123456789/6295",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Nahas Pareekutty",
+        "Francis James",
+        "Balaraman Ravindran",
+        "Suril V. Shah"
+      ],
+      "doi": "10.1115/detc2016-60547",
+      "id": "10.1115/detc2016-60547",
+      "openAlexId": "W2559942109",
+      "publicationDate": "2016-08-21",
+      "source": "openalex",
+      "title": "RRT-HX: RRT With Heuristic Extend Operations for Motion Planning in Robotic Systems",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1115/detc2016-60547",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Vignesh Prasad",
+        "Saurabh Singh",
+        "Nahas Pareekutty",
+        "Balaraman Ravindran",
+        "K. Madhava Krishna"
+      ],
+      "id": "W2517902032",
+      "oaUrl": "https://arxiv.org/pdf/1607.07558.pdf",
+      "openAlexId": "W2517902032",
+      "publicationDate": "2016-07-26",
+      "source": "openalex",
+      "title": "SLAM-Safe Planner: Preventing Monocular SLAM Failure using Reinforcement Learning.",
+      "type": "preprint",
+      "url": "https://arxiv.org/pdf/1607.07558.pdf",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Varun Gangal",
+        "Balaraman Ravindran",
+        "Ramasuri Narayanam"
+      ],
+      "doi": "10.48550/arxiv.1606.05065",
+      "id": "10.48550/arxiv.1606.05065",
+      "oaUrl": "https://arxiv.org/pdf/1606.05065",
+      "openAlexId": "W2438644461",
+      "publicationDate": "2016-06-16",
+      "source": "openalex",
+      "title": "HEMI: Hyperedge Majority Influence Maximization",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1606.05065",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Srinivas, Aravind",
+        "Ramnandan Krishnamurthy",
+        "Peeyush Kumar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1605.05359",
+      "id": "10.48550/arxiv.1605.05359",
+      "oaUrl": "https://arxiv.org/pdf/1605.05359",
+      "openAlexId": "W2523124567",
+      "publicationDate": "2016-05-17",
+      "source": "openalex",
+      "title": "Option Discovery in Hierarchical Reinforcement Learning using Spatio-Temporal Clustering",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1605.05359",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Aravind Srinivas",
+        "Sahil Sharma",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1605.05365",
+      "id": "10.48550/arxiv.1605.05365",
+      "oaUrl": "https://arxiv.org/pdf/1605.05365",
+      "openAlexId": "W4299851364",
+      "publicationDate": "2016-05-17",
+      "source": "openalex",
+      "title": "Dynamic Frame skip Deep Q Network",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1605.05365",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Ramnandan Krishnamurthy",
+        "Aravind S. Lakshminarayanan",
+        "Peeyush Kumar",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2402540331",
+      "oaUrl": "https://arxiv.org/pdf/1605.05359.pdf",
+      "openAlexId": "W2402540331",
+      "publicationDate": "2016-05-17",
+      "source": "openalex",
+      "title": "Hierarchical Reinforcement Learning using Spatio-Temporal Abstractions and Deep Neural Networks.",
+      "type": "preprint",
+      "url": "https://arxiv.org/pdf/1605.05359.pdf",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Pijus Barman",
+        "Ratnadeep Mukherjee",
+        "Bhupesh K. Prusty",
+        "Sujit Suklabaidya",
+        "Shantibhusan Senapati",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1038/cddis.2016.131",
+      "id": "10.1038/cddis.2016.131",
+      "oaUrl": "https://www.nature.com/articles/cddis2016131.pdf",
+      "openAlexId": "W2388416488",
+      "publicationDate": "2016-05-12",
+      "source": "openalex",
+      "title": "Chitohexaose protects against acetaminophen-induced hepatotoxicity in mice",
+      "type": "article",
+      "url": "https://doi.org/10.1038/cddis.2016.131",
+      "venue": "Cell Death and Disease",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Nandan Sudarsanam",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1605.01185",
+      "id": "10.48550/arxiv.1605.01185",
+      "oaUrl": "https://arxiv.org/pdf/1605.01185",
+      "openAlexId": "W2346579155",
+      "publicationDate": "2016-05-04",
+      "source": "openalex",
+      "title": "Linear Bandit algorithms using the Bootstrap",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1605.01185",
+      "venue": "arXiv (Cornell University)",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Varun Gangal",
+        "Abhishek Narwekar",
+        "Balaraman Ravindran",
+        "Ramasuri Narayanam"
+      ],
+      "doi": "10.1609/aaai.v30i1.9943",
+      "id": "10.1609/aaai.v30i1.9943",
+      "oaUrl": "https://doi.org/10.1609/aaai.v30i1.9943",
+      "openAlexId": "W2569428415",
+      "publicationDate": "2016-03-05",
+      "source": "openalex",
+      "title": "Trust and Distrust Across Coalitions: Shapley Value Based Centrality Measures for Signed Networks (Student Abstract Version)",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aaai.v30i1.9943",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Janarthanan Rajendran",
+        "Mitesh M. Khapra",
+        "Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.18653/v1/n16-1021",
+      "id": "10.18653/v1/n16-1021",
+      "oaUrl": "https://www.aclweb.org/anthology/N16-1021.pdf",
+      "openAlexId": "W2196897294",
+      "publicationDate": "2016-01-01",
+      "source": "openalex",
+      "title": "Bridge Correlational Neural Networks for Multilingual Multimodal Representation Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/n16-1021",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "id": "W2531115977",
+      "openAlexId": "W2531115977",
+      "publicationDate": "2016-01-01",
+      "source": "openalex",
+      "title": "NOC: Introduction to Machine Learning",
+      "type": "article",
+      "url": "http://doer.col.org/handle/123456789/6721",
+      "year": 2016
+    },
+    {
+      "authors": [
+        "Sarath Chandar",
+        "Mitesh M. Khapra",
+        "Hugo Larochelle",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1162/neco_a_00801",
+      "id": "10.1162/neco_a_00801",
+      "openAlexId": "W771469340",
+      "publicationDate": "2015-12-14",
+      "source": "openalex",
+      "title": "Correlational Neural Networks",
+      "type": "article",
+      "url": "https://doi.org/10.1162/neco_a_00801",
+      "venue": "Neural Computation",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Avijit Saha",
+        "Ayan Acharya",
+        "Balaraman Ravindran",
+        "Joydeep Ghosh"
+      ],
+      "doi": "10.1109/icdm.2015.142",
+      "id": "10.1109/icdm.2015.142",
+      "openAlexId": "W2248005074",
+      "publicationDate": "2015-11-01",
+      "source": "openalex",
+      "title": "Nonparametric Poisson Factorization Machine",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icdm.2015.142",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Janarthanan Rajendran",
+        "Mitesh M. Khapra",
+        "Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1510.03519",
+      "id": "10.48550/arxiv.1510.03519",
+      "oaUrl": "https://arxiv.org/pdf/1510.03519",
+      "openAlexId": "W4298416160",
+      "publicationDate": "2015-10-12",
+      "source": "openalex",
+      "title": "Bridge Correlational Neural Networks for Multilingual Multimodal\\n Representation Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1510.03519",
+      "venue": "arXiv (Cornell University)",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Janarthanan Rajendran",
+        "Aravind Srinivas",
+        "Mitesh M. Khapra",
+        "Prateek Prasanna",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1510.02879",
+      "id": "10.48550/arxiv.1510.02879",
+      "oaUrl": "https://arxiv.org/pdf/1510.02879",
+      "openAlexId": "W2619137770",
+      "publicationDate": "2015-10-10",
+      "source": "openalex",
+      "title": "Attend, Adapt and Transfer: Attentive Deep Architecture for Adaptive Transfer from multiple sources in the same domain",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1510.02879",
+      "venue": "arXiv (Cornell University)",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Prateek Prasanna",
+        "Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1510.02874",
+      "id": "10.48550/arxiv.1510.02874",
+      "oaUrl": "https://arxiv.org/pdf/1510.02874",
+      "openAlexId": "W2272990957",
+      "publicationDate": "2015-10-10",
+      "source": "openalex",
+      "title": "TSEB: More Efficient Thompson Sampling for Policy Learning",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1510.02874",
+      "venue": "arXiv (Cornell University)",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Janarthanan Rajendran",
+        "Prateek Prasanna",
+        "Balaraman Ravindran",
+        "Mitesh M. Khapra"
+      ],
+      "id": "W2215010794",
+      "oaUrl": "https://arxiv.org/pdf/1510.02879.pdf",
+      "openAlexId": "W2215010794",
+      "publicationDate": "2015-10-10",
+      "source": "openalex",
+      "title": "ADAAPT: A Deep Architecture for Adaptive Policy Transfer from Multiple Sources",
+      "type": "preprint",
+      "url": "https://arxiv.org/pdf/1510.02879.pdf",
+      "venue": "arXiv (Cornell University)",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Janarthanan Rajendran",
+        "Aravind S. Lakshminarayanan",
+        "Mitesh M. Khapra",
+        "Prateek Prasanna",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2548360214",
+      "oaUrl": "https://arxiv.org/abs/1510.02879v3",
+      "openAlexId": "W2548360214",
+      "publicationDate": "2015-10-10",
+      "source": "openalex",
+      "title": "$A^2T$: Attend, Adapt and Transfer: Attentive Deep Architecture for Adaptive Transfer from multiple sources",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/1510.02879v3",
+      "venue": "arXiv (Cornell University)",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Avijit Saha",
+        "Rishabh Misra",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2398250798",
+      "openAlexId": "W2398250798",
+      "publicationDate": "2015-09-07",
+      "source": "openalex",
+      "title": "Scalable Bayesian matrix factorization",
+      "type": "article",
+      "url": "http://ceur-ws.org/Vol-1521/paper6.pdf",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "M. Vishnu Sankar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s12046-015-0425-z",
+      "id": "10.1007/s12046-015-0425-z",
+      "openAlexId": "W2264596019",
+      "publicationDate": "2015-09-01",
+      "source": "openalex",
+      "title": "Parallelization of game theoretic centrality algorithms",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s12046-015-0425-z",
+      "venue": "Sadhana",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Sai Nageswar Satchidanand",
+        "Harini Ananthapadmanaban",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2271702588",
+      "openAlexId": "W2271702588",
+      "publicationDate": "2015-07-25",
+      "source": "openalex",
+      "title": "Extended discriminative random walk: a hypergraph approach to multi-view multi-relational transductive learning",
+      "type": "conference-paper",
+      "url": "https://www.cse.iitm.ac.in/~ravi/papers/SaiNageswar_IJCAI15.pdf",
+      "venue": "International Conference on Artificial Intelligence",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "M. Vishnu Sankar",
+        "Balaraman Ravindran",
+        "S. Shivashankar"
+      ],
+      "id": "W2255719827",
+      "openAlexId": "W2255719827",
+      "publicationDate": "2015-07-25",
+      "source": "openalex",
+      "title": "CEIL: a scalable, resolution limit free approach for detecting communities in large networks",
+      "type": "article",
+      "url": "http://ijcai.org/Proceedings/15/Papers/297.pdf",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Abhinav Garlapati",
+        "Aditi Raghunathan",
+        "Vaishnavh Nagarajan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1507.06923",
+      "id": "10.48550/arxiv.1507.06923",
+      "oaUrl": "https://arxiv.org/pdf/1507.06923",
+      "openAlexId": "W936909164",
+      "publicationDate": "2015-07-24",
+      "source": "openalex",
+      "title": "A Reinforcement Learning Approach to Online Learning of Decision Trees",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1507.06923",
+      "venue": "arXiv (Cornell University)",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Pragathi Priyadharsini Balasubramani",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ahmed A. Moustafa"
+      ],
+      "doi": "10.3389/fncom.2015.00076",
+      "id": "10.3389/fncom.2015.00076",
+      "oaUrl": "https://www.frontiersin.org/articles/10.3389/fncom.2015.00076/pdf",
+      "openAlexId": "W1576007571",
+      "publicationDate": "2015-06-17",
+      "source": "openalex",
+      "title": "A network model of basal ganglia for understanding the roles of dopamine and serotonin in reward-punishment-risk based decision making",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fncom.2015.00076",
+      "venue": "Frontiers in Computational Neuroscience",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Pragathi Priyadharsini Balasubramani",
+        "V. Srinivasa Chakravarthy",
+        "Manal Ashraf Ali",
+        "Balaraman Ravindran",
+        "Ahmed A. Moustafa"
+      ],
+      "doi": "10.1371/journal.pone.0127542",
+      "id": "10.1371/journal.pone.0127542",
+      "oaUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0127542&type=printable",
+      "openAlexId": "W560453847",
+      "publicationDate": "2015-06-04",
+      "source": "openalex",
+      "title": "Identifying the Basal Ganglia Network Model Markers for Medication-Induced Impulsivity in Parkinson's Disease Patients",
+      "type": "article",
+      "url": "https://doi.org/10.1371/journal.pone.0127542",
+      "venue": "PLoS ONE",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Saket Gurukar",
+        "Sayan Ranu",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/2723372.2737791",
+      "id": "10.1145/2723372.2737791",
+      "openAlexId": "W2167598145",
+      "publicationDate": "2015-05-27",
+      "source": "openalex",
+      "title": "COMMIT",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2723372.2737791",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Sanjukta Roy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/2732587.2732595",
+      "id": "10.1145/2732587.2732595",
+      "openAlexId": "W2072556776",
+      "publicationDate": "2015-03-18",
+      "source": "openalex",
+      "title": "Measuring network centrality using hypergraphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2732587.2732595",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Subendhu Rongali",
+        "A. P. Sarath Chandar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/2732587.2732602",
+      "id": "10.1145/2732587.2732602",
+      "openAlexId": "W2071573969",
+      "publicationDate": "2015-03-18",
+      "source": "openalex",
+      "title": "From multiple views to single view",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2732587.2732602",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Sangameshwar Patil",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-319-18117-2_23",
+      "id": "10.1007/978-3-319-18117-2_23",
+      "openAlexId": "W620810783",
+      "publicationDate": "2015-01-01",
+      "source": "openalex",
+      "title": "Active Learning Based Weak Supervision for Textual Survey Response Classification",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-319-18117-2_23",
+      "venue": "Lecture notes in computer science",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Rama Kumar Pasumarthi",
+        "Ramasuri Narayanam",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2181413943",
+      "openAlexId": "W2181413943",
+      "publicationDate": "2015-01-01",
+      "source": "openalex",
+      "title": "Near Optimal Strategies for Targeted Marketing in Social Networks (Extended Abstract)",
+      "type": "article",
+      "url": "https://www.cse.iitm.ac.in/~ravi/papers/Ramakumar_AAMAS15.pdf",
+      "year": 2015
+    },
+    {
+      "authors": [
+        "Avijit Saha",
+        "Janarthanan Rajendran",
+        "Shubhranshu Shekhar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/2668067.2668080",
+      "id": "10.1145/2668067.2668080",
+      "openAlexId": "W1994717048",
+      "publicationDate": "2014-10-10",
+      "source": "openalex",
+      "title": "How popular are your tweets?",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2668067.2668080",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "K. Gayathri",
+        "Susan Elias",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s00779-014-0827-7",
+      "id": "10.1007/s00779-014-0827-7",
+      "openAlexId": "W2044811187",
+      "publicationDate": "2014-09-29",
+      "source": "openalex",
+      "title": "Hierarchical activity recognition for dementia care using Markov Logic Network",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s00779-014-0827-7",
+      "venue": "Personal and Ubiquitous Computing",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Priyesh Vijayan",
+        "Shivashankar Subramanian",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/asonam.2014.6921634",
+      "id": "10.1109/asonam.2014.6921634",
+      "openAlexId": "W4236542040",
+      "publicationDate": "2014-08-01",
+      "source": "openalex",
+      "title": "Multi-label collective classification in multi-attribute multi-relational network data",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/asonam.2014.6921634",
+      "venue": "2014 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2014)",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Balasubramani Pragathi Priyadharsini",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ahmed A. Moustafa"
+      ],
+      "doi": "10.1186/1471-2202-15-s1-p83",
+      "id": "10.1186/1471-2202-15-s1-p83",
+      "oaUrl": "https://bmcneurosci.biomedcentral.com/track/pdf/10.1186/1471-2202-15-S1-P83",
+      "openAlexId": "W2025994093",
+      "publicationDate": "2014-07-01",
+      "source": "openalex",
+      "title": "Modeling task-specific manifestations of serotonin in basal ganglia using risk-based decision making",
+      "type": "article",
+      "url": "https://doi.org/10.1186/1471-2202-15-s1-p83",
+      "venue": "BMC Neuroscience",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Manimaran Sivasamy Sivamurugan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/icra.2014.6907494",
+      "id": "10.1109/icra.2014.6907494",
+      "openAlexId": "W2053023903",
+      "publicationDate": "2014-05-01",
+      "source": "openalex",
+      "title": "RRTPI: Policy iteration on continuous domains using rapidly-exploring random trees",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icra.2014.6907494",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Pragathi Priyadharsini Balasubramani",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ahmed A. Moustafa"
+      ],
+      "doi": "10.3389/fncom.2014.00047",
+      "id": "10.3389/fncom.2014.00047",
+      "oaUrl": "https://www.frontiersin.org/articles/10.3389/fncom.2014.00047/pdf",
+      "openAlexId": "W2041688784",
+      "publicationDate": "2014-04-16",
+      "source": "openalex",
+      "title": "An extended reinforcement learning model of basal ganglia to understand the contributions of serotonin and dopamine in risk-based decision making, reward prediction, and punishment learning",
+      "type": "article",
+      "url": "https://doi.org/10.3389/fncom.2014.00047",
+      "venue": "Frontiers in Computational Neuroscience",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Pratik Vinay Gupte",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1402.3797",
+      "id": "10.48550/arxiv.1402.3797",
+      "oaUrl": "https://arxiv.org/pdf/1402.3797",
+      "openAlexId": "W1504224153",
+      "publicationDate": "2014-02-16",
+      "source": "openalex",
+      "title": "Scalable Positional Analysis for Studying Evolution of Nodes in Networks",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1402.3797",
+      "venue": "arXiv (Cornell University)",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Sarath Chandar A P",
+        "Stanislas Lauly",
+        "Hugo Larochelle",
+        "Mitesh M. Khapra",
+        "Balaraman Ravindran",
+        "Vikas C. Raykar",
+        "Amrita Saha"
+      ],
+      "doi": "10.48550/arxiv.1402.1454",
+      "id": "10.48550/arxiv.1402.1454",
+      "oaUrl": "https://arxiv.org/pdf/1402.1454",
+      "openAlexId": "W2158199200",
+      "publicationDate": "2014-02-06",
+      "source": "openalex",
+      "title": "An Autoencoder Approach to Learning Bilingual Word Representations",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1402.1454",
+      "venue": "arXiv (Cornell University)",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Addwiteey Chrungoo",
+        "S. S. Manimaran",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-319-11973-1_9",
+      "id": "10.1007/978-3-319-11973-1_9",
+      "openAlexId": "W146508469",
+      "publicationDate": "2014-01-01",
+      "source": "openalex",
+      "title": "Activity Recognition for Natural Human Robot Interaction",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-319-11973-1_9",
+      "venue": "Lecture notes in computer science",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Sai Nageswar Satchidanand",
+        "Siddharth Jain",
+        "Amit Kumar Maurya",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2014.6734941",
+      "id": "10.1109/comsnets.2014.6734941",
+      "openAlexId": "W1990149177",
+      "publicationDate": "2014-01-01",
+      "source": "openalex",
+      "title": "Studying Indian Railways Network using hypergraphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2014.6734941",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Nilanjan Banerjee",
+        "Dipanjan Chakraborty",
+        "Anupam Joshi",
+        "Sumit Mittal",
+        "Angshu Rai",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-319-11569-6_10",
+      "id": "10.1007/978-3-319-11569-6_10",
+      "openAlexId": "W2125390010",
+      "publicationDate": "2014-01-01",
+      "source": "openalex",
+      "title": "Detection of Real-Time Intentions from Micro-blogs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-319-11569-6_10",
+      "venue": "Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Saket Gurukar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2014.6734942",
+      "id": "10.1109/comsnets.2014.6734942",
+      "openAlexId": "W2014455408",
+      "publicationDate": "2014-01-01",
+      "source": "openalex",
+      "title": "Temporal analysis of telecom call graphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2014.6734942",
+      "year": 2014
+    },
+    {
+      "authors": [
+        "Peeyush Kumar",
+        "L Niveditha",
+        "Balaraman Ravindran"
+      ],
+      "id": "W3112255984",
+      "openAlexId": "W3112255984",
+      "publicationDate": "2013-12-01",
+      "source": "openalex",
+      "title": "Spectral clustering as mapping to a simplex",
+      "type": "conference-paper",
+      "url": "https://www.microsoft.com/en-us/research/publication/spectral-clustering-as-mapping-to-a-simplex/",
+      "venue": "International Conference on Machine Learning",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-81-322-1680-3_2",
+      "id": "10.1007/978-81-322-1680-3_2",
+      "openAlexId": "W276833355",
+      "publicationDate": "2013-11-26",
+      "source": "openalex",
+      "title": "Some Applications of Collective Learning",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-81-322-1680-3_2",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "B. Srinivasan",
+        "Anandhavelu Natarajan",
+        "Ritwik Sinha",
+        "Vineet Gupta",
+        "Shriram Revankar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/2512875.2512881",
+      "id": "10.1145/2512875.2512881",
+      "openAlexId": "W2003625437",
+      "publicationDate": "2013-10-29",
+      "source": "openalex",
+      "title": "Will your facebook post be engaging?",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2512875.2512881",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Deepak Pai",
+        "Balaraman Ravindran",
+        "Shyam Sundar Rajagopalan",
+        "Ramesh Srinivasaraghavan"
+      ],
+      "doi": "10.1145/2512405.2512406",
+      "id": "10.1145/2512405.2512406",
+      "openAlexId": "W1964666459",
+      "publicationDate": "2013-10-29",
+      "source": "openalex",
+      "title": "Automated faceted reporting for web analytics",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2512405.2512406",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Lakshmi Ramachandran",
+        "Balaraman Ravindran",
+        "Edward F. Gehringer"
+      ],
+      "id": "W2401189239",
+      "openAlexId": "W2401189239",
+      "publicationDate": "2013-07-06",
+      "source": "openalex",
+      "title": "Determining Review Coverage by Extracting Topic Sentences Using A Graph-based Clustering Approach.",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.651.8444",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Swapna Raj Prabakara Raj",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-642-40319-4_41",
+      "id": "10.1007/978-3-642-40319-4_41",
+      "openAlexId": "W65279995",
+      "publicationDate": "2013-01-01",
+      "source": "openalex",
+      "title": "Incremental Constrained Clustering: A Decision Theoretic Approach",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-40319-4_41",
+      "venue": "Lecture notes in computer science",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1016/b978-0-444-62604-2.00023-x",
+      "id": "10.1016/b978-0-444-62604-2.00023-x",
+      "openAlexId": "W175470975",
+      "publicationDate": "2013-01-01",
+      "source": "openalex",
+      "title": "Relativized hierarchical decomposition of Markov decision processes",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1016/b978-0-444-62604-2.00023-x",
+      "venue": "Progress in brain research",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Debarun Kar",
+        "M. Anand Kumar",
+        "Sutanu Chakraborti",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-642-39056-2_15",
+      "id": "10.1007/978-3-642-39056-2_15",
+      "openAlexId": "W327116891",
+      "publicationDate": "2013-01-01",
+      "source": "openalex",
+      "title": "iCaseViz: Learning Case Similarities through Interaction with a Case Base Visualizer",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-39056-2_15",
+      "venue": "Lecture notes in computer science",
+      "year": 2013
+    },
+    {
+      "authors": [
+        "Saradindu Kar",
+        "Deepak Vijayakeerthi",
+        "Ashish V. Tendulkar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/2382936.2382946",
+      "id": "10.1145/2382936.2382946",
+      "openAlexId": "W2163612744",
+      "publicationDate": "2012-10-07",
+      "source": "openalex",
+      "title": "Functional site prediction by exploiting correlations between labels of interacting residues",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/2382936.2382946",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Arun Tejasvi Chaganty",
+        "Prateek Gaur",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.5555/2343576.2343632",
+      "id": "10.5555/2343576.2343632",
+      "openAlexId": "W2112401277",
+      "publicationDate": "2012-06-04",
+      "source": "openalex",
+      "title": "Learning in a small world",
+      "type": "article",
+      "url": "https://doi.org/10.5555/2343576.2343632",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Jose Nunez-Varela",
+        "Balaraman Ravindran",
+        "Jeremy Wyatt"
+      ],
+      "doi": "10.1109/icra.2012.6225226",
+      "id": "10.1109/icra.2012.6225226",
+      "openAlexId": "W2144367202",
+      "publicationDate": "2012-05-01",
+      "source": "openalex",
+      "title": "Where do i look now? Gaze allocation during visually guided manipulation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icra.2012.6225226",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Ananda Narayanan B",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.1202.3750",
+      "id": "10.48550/arxiv.1202.3750",
+      "oaUrl": "https://arxiv.org/pdf/1202.3750",
+      "openAlexId": "W1691480409",
+      "publicationDate": "2012-02-14",
+      "source": "openalex",
+      "title": "Fractional Moments on Bandit Problems",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.1202.3750",
+      "venue": "arXiv (Cornell University)",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "R Rangadurai Karthick",
+        "Vipul P. Hattiwale",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2012.6151345",
+      "id": "10.1109/comsnets.2012.6151345",
+      "openAlexId": "W1996087849",
+      "publicationDate": "2012-01-01",
+      "source": "openalex",
+      "title": "Adaptive network intrusion detection system using a hybrid approach",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2012.6151345",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Debarun Kar",
+        "Sutanu Chakraborti",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-642-32986-9_17",
+      "id": "10.1007/978-3-642-32986-9_17",
+      "openAlexId": "W89364934",
+      "publicationDate": "2012-01-01",
+      "source": "openalex",
+      "title": "Feature Weighting and Confidence Based Prediction for Case Based Reasoning Systems",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-32986-9_17",
+      "venue": "Lecture notes in computer science",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Balasubramani Pragathi Priyadharsini",
+        "Balaraman Ravindran",
+        "V. Srinivasa Chakravarthy"
+      ],
+      "doi": "10.1007/978-3-642-33269-2_59",
+      "id": "10.1007/978-3-642-33269-2_59",
+      "openAlexId": "W57585965",
+      "publicationDate": "2012-01-01",
+      "source": "openalex",
+      "title": "Understanding the Role of Serotonin in Basal Ganglia through a Unified Model",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-33269-2_59",
+      "venue": "Lecture notes in computer science",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Jose Nunez-Varela",
+        "Balaraman Ravindran",
+        "Jeremy Wyatt"
+      ],
+      "doi": "10.1007/978-3-642-33093-3_5",
+      "id": "10.1007/978-3-642-33093-3_5",
+      "openAlexId": "W31763775",
+      "publicationDate": "2012-01-01",
+      "source": "openalex",
+      "title": "Gaze Allocation Analysis for a Visually Guided Manipulation Task",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-33093-3_5",
+      "venue": "Lecture notes in computer science",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "Munu Sairamesh",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-642-29946-9_18",
+      "id": "10.1007/978-3-642-29946-9_18",
+      "openAlexId": "W2221916206",
+      "publicationDate": "2012-01-01",
+      "source": "openalex",
+      "title": "Options with Exceptions",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-29946-9_18",
+      "venue": "Lecture notes in computer science",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "V N Pradyot Korupolu",
+        "Manimaran Sivasamy Sivamurugan",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2402989524",
+      "openAlexId": "W2402989524",
+      "publicationDate": "2012-01-01",
+      "source": "openalex",
+      "title": "Instructing a Reinforcement Learner.",
+      "type": "article",
+      "url": "https://www.researchgate.net/profile/Balaraman_Ravindran/publication/268350705_Instructing_a_Reinforcement_Learner/links/5495096e0cf29b944821048d.pdf",
+      "venue": "The Florida AI Research Society",
+      "year": 2012
+    },
+    {
+      "authors": [
+        "S. Shivashankar",
+        "Sandeep Srivathsan",
+        "Balaraman Ravindran",
+        "Ashish V. Tendulkar"
+      ],
+      "doi": "10.1093/bioinformatics/btr249",
+      "id": "10.1093/bioinformatics/btr249",
+      "oaUrl": "https://academic.oup.com/bioinformatics/article-pdf/27/13/i61/447067/btr249.pdf",
+      "openAlexId": "W2159849240",
+      "publicationDate": "2011-06-14",
+      "source": "openalex",
+      "title": "Multi-view methods for protein structure comparison using latent dirichlet allocation",
+      "type": "article",
+      "url": "https://doi.org/10.1093/bioinformatics/btr249",
+      "venue": "Bioinformatics",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/icrtit.2011.5972502",
+      "id": "10.1109/icrtit.2011.5972502",
+      "openAlexId": "W2022780761",
+      "publicationDate": "2011-06-01",
+      "source": "openalex",
+      "title": "Plenary talk: Making sense of a connected world: An introduction to social network analysis",
+      "type": "other",
+      "url": "https://doi.org/10.1109/icrtit.2011.5972502",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "Ankit Malpani",
+        "Balaraman Ravindran",
+        "Hema A. Murthy"
+      ],
+      "id": "W2403708444",
+      "openAlexId": "W2403708444",
+      "publicationDate": "2011-03-21",
+      "source": "openalex",
+      "title": "Personalized Intelligent Tutoring System Using Reinforcement Learning",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.308.1755",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "Prabakararaj Swapna Raj",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2206627309",
+      "openAlexId": "W2206627309",
+      "publicationDate": "2011-03-21",
+      "source": "openalex",
+      "title": "Utility Driven Clustering",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.308.3394",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "R Vijayasarathy",
+        "S. V. Raghavan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2011.5716474",
+      "id": "10.1109/comsnets.2011.5716474",
+      "openAlexId": "W2112067670",
+      "publicationDate": "2011-01-01",
+      "source": "openalex",
+      "title": "A system approach to network modeling for DDoS detection using a Na",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2011.5716474",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "George Mohay",
+        "Ejaz Ahmed",
+        "Sajal Bhatia",
+        "A. Nadarajan",
+        "Balaraman Ravindran",
+        "Alan Tickle",
+        "R Vijayasarathy"
+      ],
+      "doi": "10.1007/978-81-322-0277-6_5",
+      "id": "10.1007/978-81-322-0277-6_5",
+      "openAlexId": "W2140204065",
+      "publicationDate": "2011-01-01",
+      "source": "openalex",
+      "title": "Detection and Mitigation of High-Rate Flooding Attacks",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-81-322-0277-6_5",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "Ananda Narayanan B",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2187410796",
+      "openAlexId": "W2187410796",
+      "publicationDate": "2011-01-01",
+      "source": "openalex",
+      "title": "Control of Sample Complexity and Regret in Bandits using Fractional Moments",
+      "type": "other",
+      "url": "https://www.cse.iitm.ac.in/~ravi/papers/Ananda_Thesis.pdf",
+      "year": 2011
+    },
+    {
+      "authors": [
+        "Kulam Najmudeen Magdoom",
+        "Deepak Subramanian",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Шун-ичи Амари",
+        "N. Meenakshisundaram"
+      ],
+      "doi": "10.1162/neco_a_00073",
+      "id": "10.1162/neco_a_00073",
+      "oaUrl": "https://arxiv.org/pdf/1009.4516",
+      "openAlexId": "W2054639316",
+      "publicationDate": "2010-11-24",
+      "source": "openalex",
+      "title": "Modeling Basal Ganglia for Understanding Parkinsonian Reaching Movements",
+      "type": "article",
+      "url": "https://doi.org/10.1162/neco_a_00073",
+      "venue": "Neural Computation",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Balaji M. Lakshmanan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/iros.2010.5649422",
+      "id": "10.1109/iros.2010.5649422",
+      "openAlexId": "W2085757577",
+      "publicationDate": "2010-10-01",
+      "source": "openalex",
+      "title": "Transfer learning across heterogeneous robots with action sequence mapping",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/iros.2010.5649422",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Mohammed J. Zaki",
+        "Jeffrey Xu Yu",
+        "Balaraman Ravindran",
+        "Vikram Pudi"
+      ],
+      "id": "W2913846351",
+      "openAlexId": "W2913846351",
+      "publicationDate": "2010-06-21",
+      "source": "openalex",
+      "title": "Proceedings of the 14th Pacific-Asia conference on Advances in Knowledge Discovery and Data Mining - Volume Part II",
+      "type": "article",
+      "url": "http://dl.acm.org/citation.cfm?id=2144032&picked=prox",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Prabakararaj Swapna Raj",
+        "Balaraman Ravindran"
+      ],
+      "id": "W1525933966",
+      "openAlexId": "W1525933966",
+      "publicationDate": "2010-06-05",
+      "source": "openalex",
+      "title": "Mining Actionable Patterns",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.3443",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Karthik Aadithya",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.5555/1838206.1838431",
+      "id": "10.5555/1838206.1838431",
+      "openAlexId": "W1509562101",
+      "publicationDate": "2010-05-10",
+      "source": "openalex",
+      "title": "Game theoretic network centrality: exact formulas and efficient algorithms",
+      "type": "article",
+      "url": "https://doi.org/10.5555/1838206.1838431",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Yousuf Aboobaker Sait",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2145039064",
+      "openAlexId": "W2145039064",
+      "publicationDate": "2010-05-06",
+      "source": "openalex",
+      "title": "Visual Object Detection using Frequent Pattern Mining",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.853.3261",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Aswin N Raghavan",
+        "Harini Ananthapadmanaban",
+        "Manimaran S Sivamurugan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/robot.2010.5509232",
+      "id": "10.1109/robot.2010.5509232",
+      "openAlexId": "W2084750447",
+      "publicationDate": "2010-05-01",
+      "source": "openalex",
+      "title": "Accurate mobile robot localization in indoor environments using bluetooth",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/robot.2010.5509232",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "M. Saravanan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/s10506-010-9087-7",
+      "id": "10.1007/s10506-010-9087-7",
+      "openAlexId": "W2085266938",
+      "publicationDate": "2010-03-01",
+      "source": "openalex",
+      "title": "Identification of Rhetorical Roles for Segmentation and Summarization of a Legal Judgment",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10506-010-9087-7",
+      "venue": "Artificial Intelligence and Law",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Karthik Aadithya",
+        "Balaraman Ravindran",
+        "Tomasz Michalak",
+        "Nicholas R. Jennings"
+      ],
+      "doi": "10.1007/978-3-642-17572-5_1",
+      "id": "10.1007/978-3-642-17572-5_1",
+      "openAlexId": "W2161289211",
+      "publicationDate": "2010-01-01",
+      "source": "openalex",
+      "title": "Efficient Computation of the Shapley Value for Centrality in Networks",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-17572-5_1",
+      "venue": "Lecture notes in computer science",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "S. Shivashankar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.3233/978-1-60750-606-5-823",
+      "id": "10.3233/978-1-60750-606-5-823",
+      "oaUrl": "https://doi.org/10.3233/978-1-60750-606-5-823",
+      "openAlexId": "W1598912563",
+      "publicationDate": "2010-01-01",
+      "source": "openalex",
+      "title": "Multi Grain Sentiment Analysis using Collective Classification",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.3233/978-1-60750-606-5-823",
+      "venue": "Frontiers in artificial intelligence and applications",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Maya Manaithunai",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-642-15822-3_27",
+      "id": "10.1007/978-3-642-15822-3_27",
+      "openAlexId": "W1751218740",
+      "publicationDate": "2010-01-01",
+      "source": "openalex",
+      "title": "An Oscillatory Neural Network Model for Birdsong Learning and Generation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-642-15822-3_27",
+      "venue": "Lecture notes in computer science",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Mohammed J. Zaki",
+        "Jeffrey Xu Yu",
+        "Balaraman Ravindran",
+        "Vikram Pudi"
+      ],
+      "id": "W1524151629",
+      "openAlexId": "W1524151629",
+      "publicationDate": "2010-01-01",
+      "source": "openalex",
+      "title": "Advances in knowledge discovery and data mining : 14th Pacific-Asia conference, PAKDD 2010, Hyderabad, India, June 21-24, 2010 : proceedings",
+      "type": "article",
+      "url": "https://openalex.org/W1524151629",
+      "year": 2010
+    },
+    {
+      "authors": [
+        "Kiran Kate",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2295878569",
+      "openAlexId": "W2295878569",
+      "publicationDate": "2009-12-01",
+      "source": "openalex",
+      "title": "Epsilon Equitable Partition: A positional analysis method for large social networks",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.161.8575",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "Jyotika Bahuguna",
+        "Balaraman Ravindran",
+        "K. Madhava Krishna"
+      ],
+      "doi": "10.1109/coase.2009.5234142",
+      "id": "10.1109/coase.2009.5234142",
+      "openAlexId": "W2134539863",
+      "publicationDate": "2009-08-01",
+      "source": "openalex",
+      "title": "MDP based active localization for multiple robots",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/coase.2009.5234142",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "M. Saravanan",
+        "Balaraman Ravindran",
+        "Shanmuganathan Raman"
+      ],
+      "doi": "10.1007/s10506-009-9075-y",
+      "id": "10.1007/s10506-009-9075-y",
+      "openAlexId": "W2116920598",
+      "publicationDate": "2009-05-13",
+      "source": "openalex",
+      "title": "Improving legal information retrieval using an ontological framework",
+      "type": "article",
+      "url": "https://doi.org/10.1007/s10506-009-9075-y",
+      "venue": "Artificial Intelligence and Law",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "S. Shivashankar",
+        "Balaraman Ravindran",
+        "N. R. Srinivasa Raghavan"
+      ],
+      "doi": "10.1007/978-90-481-2860-0_12",
+      "id": "10.1007/978-90-481-2860-0_12",
+      "openAlexId": "W182902021",
+      "publicationDate": "2009-01-01",
+      "source": "openalex",
+      "title": "Text Mining of Internet Content: The Bridge Connecting Product Research with Customers in the Digital Era",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-90-481-2860-0_12",
+      "year": 2009
+    },
+    {
+      "authors": [
+        "Rachit Arora",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/icdm.2008.55",
+      "id": "10.1109/icdm.2008.55",
+      "openAlexId": "W2141032952",
+      "publicationDate": "2008-12-01",
+      "source": "openalex",
+      "title": "Latent Dirichlet Allocation and Singular Value Decomposition Based Multi-document Summarization",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icdm.2008.55",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Swapna Raj Prabakara Raj",
+        "Balaraman Ravindran"
+      ],
+      "id": "W1007239453",
+      "openAlexId": "W1007239453",
+      "publicationDate": "2008-12-01",
+      "source": "openalex",
+      "title": "Personalized Web-page Rendering System",
+      "type": "conference-paper",
+      "url": "https://www.cse.iitb.ac.in/~comad/2008/PDFs/65-personalized.pdf",
+      "venue": "Conference on Management of Data",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Rachit Arora",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/1390749.1390764",
+      "id": "10.1145/1390749.1390764",
+      "openAlexId": "W2151343603",
+      "publicationDate": "2008-07-24",
+      "source": "openalex",
+      "title": "Latent dirichlet allocation based multi-document summarization",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/1390749.1390764",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Deepthi Cheboli",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2200643936",
+      "openAlexId": "W2200643936",
+      "publicationDate": "2008-07-01",
+      "source": "openalex",
+      "title": "Detection of keratoconus by semi-supervised learning",
+      "type": "article",
+      "url": "http://webdocs.cs.ualberta.ca/~szepesva/ICML2008Health/Cheboli.pdf",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Aniket Ray",
+        "Vikas Kumar",
+        "Balaraman Ravindran",
+        "Lingam Gopal",
+        "Aditya Verma"
+      ],
+      "id": "W30540525",
+      "openAlexId": "W30540525",
+      "publicationDate": "2008-07-01",
+      "source": "openalex",
+      "title": "Machine Learning to Predict the Incidence of Retinopathy of Prematurity.",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.161.8564",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Sriram Raghavan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/1341771.1341792",
+      "id": "10.1145/1341771.1341792",
+      "openAlexId": "W2096213948",
+      "publicationDate": "2008-01-18",
+      "source": "openalex",
+      "title": "Successive refinement algorithms for distributed area coverage using mobile robots",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/1341771.1341792",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Shravan Narayanamurthy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/1390156.1390243",
+      "id": "10.1145/1390156.1390243",
+      "openAlexId": "W1997303620",
+      "publicationDate": "2008-01-01",
+      "source": "openalex",
+      "title": "On the hardness of finding symmetries in Markov decision processes",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/1390156.1390243",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "M. Saravanan",
+        "Balaraman Ravindran",
+        "Shanmuganathan Raman"
+      ],
+      "id": "W2229933820",
+      "openAlexId": "W2229933820",
+      "publicationDate": "2008-01-01",
+      "source": "openalex",
+      "title": "Automatic Identification of Rhetorical Roles using Conditional Random Fields for Legal Document Summarization",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.100.5293",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Dinakar Jayarajan",
+        "Dipti Deodhare",
+        "Balaraman Ravindran"
+      ],
+      "id": "W196619805",
+      "openAlexId": "W196619805",
+      "publicationDate": "2008-01-01",
+      "source": "openalex",
+      "title": "Lexical Chains as Document Features",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.161.6915",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "P. Swaminathan",
+        "Balaraman Ravindran"
+      ],
+      "id": "W228788783",
+      "openAlexId": "W228788783",
+      "publicationDate": "2008-01-01",
+      "source": "openalex",
+      "title": "Co-SOFT-Clustering: An Information Theoretic approach to obtain overlapping clusters from co-occurrence data",
+      "type": "article",
+      "url": "https://www.aaai.org/Papers/FLAIRS/2008/FLAIRS08-077.pdf",
+      "venue": "The Florida AI Research Society",
+      "year": 2008
+    },
+    {
+      "authors": [
+        "Bhargab Sarma",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-0-387-73697-6_5",
+      "id": "10.1007/978-0-387-73697-6_5",
+      "openAlexId": "W8137082",
+      "publicationDate": "2007-11-14",
+      "source": "openalex",
+      "title": "Intelligent Tutoring Systems using Reinforcement Learning to teach Autistic Students",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-0-387-73697-6_5",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Sriram Raghavan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-540-73580-9_24",
+      "id": "10.1007/978-3-540-73580-9_24",
+      "openAlexId": "W1873739923",
+      "publicationDate": "2007-08-23",
+      "source": "openalex",
+      "title": "Homogeneous Hierarchical Composition of Areas in Multi-robot Area Coverage",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-540-73580-9_24",
+      "venue": "Lecture notes in computer science",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "M. Saravanan",
+        "Balaraman Ravindran",
+        "Shanmuganathan Raman"
+      ],
+      "id": "W90228578",
+      "openAlexId": "W90228578",
+      "publicationDate": "2007-06-15",
+      "source": "openalex",
+      "title": "Using Legal Ontology for Query Enhancement in Generating a Document Summary",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.161.8398",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Pranjal Awasthi",
+        "Aakanksha Gagrani",
+        "Balaraman Ravindran"
+      ],
+      "id": "W32267187",
+      "openAlexId": "W32267187",
+      "publicationDate": "2007-01-06",
+      "source": "openalex",
+      "title": "Image modeling using tree structured conditional random fields",
+      "type": "conference-paper",
+      "url": "https://ijcai.org/papers07/Papers/IJCAI07-332.pdf",
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Andrew G. Barto",
+        "Vimal Mathew"
+      ],
+      "id": "W120339496",
+      "openAlexId": "W120339496",
+      "publicationDate": "2007-01-06",
+      "source": "openalex",
+      "title": "Deictic option schemas",
+      "type": "conference-paper",
+      "url": "http://ijcai.org/papers07/Papers/IJCAI07-165.pdf",
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Shravan Narayanamurthy",
+        "Balaraman Ravindran"
+      ],
+      "id": "W1582748492",
+      "openAlexId": "W1582748492",
+      "publicationDate": "2007-01-06",
+      "source": "openalex",
+      "title": "Efficiently exploiting symmetries in real time dynamic programming",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.107.7695",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "Sriram Raghavan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comswa.2007.382570",
+      "id": "10.1109/comswa.2007.382570",
+      "openAlexId": "W2143638194",
+      "publicationDate": "2007-01-01",
+      "source": "openalex",
+      "title": "Profiling Pseudonet Architecture for Coordinating Mobile Robots",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comswa.2007.382570",
+      "year": 2007
+    },
+    {
+      "authors": [
+        "M. Saravanan",
+        "Balaraman Ravindran",
+        "Shanmuganathan Raman"
+      ],
+      "id": "W1491976427",
+      "openAlexId": "W1491976427",
+      "publicationDate": "2006-06-02",
+      "source": "openalex",
+      "title": "Improving Legal Document Summarization Using Graphical Models",
+      "type": "conference-paper",
+      "url": "https://www.cse.iitm.ac.in/~ravi/papers/Saravanan_jurix_06.pdf",
+      "venue": "International Conference on Legal Knowledge and Information Systems",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "M. Saravanan",
+        "Shanmuganathan Raman",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1142/s1469026806001976",
+      "id": "10.1142/s1469026806001976",
+      "openAlexId": "W2006987282",
+      "publicationDate": "2006-06-01",
+      "source": "openalex",
+      "title": "A PROBABILISTIC APPROACH TO MULTI-DOCUMENT SUMMARIZATION FOR GENERATING A TILED SUMMARY",
+      "type": "article",
+      "url": "https://doi.org/10.1142/s1469026806001976",
+      "venue": "International Journal of Computational Intelligence and Applications",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "Pranjal Awasthi",
+        "Delip Rao",
+        "Balaraman Ravindran"
+      ],
+      "id": "W89200743",
+      "openAlexId": "W89200743",
+      "publicationDate": "2006-06-01",
+      "source": "openalex",
+      "title": "Part Of Speech Tagging and Chunking with HMM and CRF",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.529.6842",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "Aakanksha Gagrani",
+        "Lalit Gupta",
+        "Balaraman Ravindran",
+        "Sukhendu Das",
+        "Pinaki RoyChowdhury",
+        "V. K. Panchal"
+      ],
+      "doi": "10.1007/11949619_13",
+      "id": "10.1007/11949619_13",
+      "openAlexId": "W1496733888",
+      "publicationDate": "2006-01-01",
+      "source": "openalex",
+      "title": "A Hierarchical Approach to Landform Classification of Satellite Images Using a Fusion Strategy",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/11949619_13",
+      "venue": "Lecture notes in computer science",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "R. Manimegalai",
+        "E. Siva Soumya",
+        "Vignesh Muralidharan",
+        "Balaraman Ravindran",
+        "V. Kamakoti",
+        "Dinesh Bhatia"
+      ],
+      "doi": "10.1109/icvd.2005.137",
+      "id": "10.1109/icvd.2005.137",
+      "openAlexId": "W2143169838",
+      "publicationDate": "2005-03-21",
+      "source": "openalex",
+      "title": "Placement and routing for 3D-FPGAs using reinforcement learning and support vector machines",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/icvd.2005.137",
+      "year": 2005
+    },
+    {
+      "authors": [
+        "S. Sathiya Keerthi",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1887/0750303123/b365c64",
+      "id": "10.1887/0750303123/b365c64",
+      "openAlexId": "W2496512422",
+      "publicationDate": "2004-11-26",
+      "source": "openalex",
+      "title": "Use of neural and other function approximators in reinforcement learning",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1887/0750303123/b365c64",
+      "year": 2004
+    },
+    {
+      "authors": [
+        "S. Sathiya Keerthi",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1887/0750303123/b365c63",
+      "id": "10.1887/0750303123/b365c63",
+      "openAlexId": "W2481377177",
+      "publicationDate": "2004-11-26",
+      "source": "openalex",
+      "title": "Delayed reinforcement learning methods",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1887/0750303123/b365c63",
+      "year": 2004
+    },
+    {
+      "authors": [
+        "S. Sathiya Keerthi",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1887/0750303123/b365c61",
+      "id": "10.1887/0750303123/b365c61",
+      "openAlexId": "W2497125625",
+      "publicationDate": "2004-11-26",
+      "source": "openalex",
+      "title": "Delayed reinforcement learning",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1887/0750303123/b365c61",
+      "year": 2004
+    },
+    {
+      "authors": [
+        "S. Sathiya Keerthi",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1887/0750303123/b365c60",
+      "id": "10.1887/0750303123/b365c60",
+      "openAlexId": "W2503721775",
+      "publicationDate": "2004-11-26",
+      "source": "openalex",
+      "title": "Immediate reinforcement learning",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1887/0750303123/b365c60",
+      "year": 2004
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Andrew G. Barto"
+      ],
+      "id": "W1564393562",
+      "openAlexId": "W1564393562",
+      "publicationDate": "2004-01-01",
+      "source": "openalex",
+      "title": "An algebraic approach to abstraction in reinforcement learning",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.138.3214",
+      "year": 2004
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Andrew G. Barto"
+      ],
+      "id": "W1612195517",
+      "oaUrl": "https://works.bepress.com/andrew_barto/6",
+      "openAlexId": "W1612195517",
+      "publicationDate": "2003-08-21",
+      "source": "openalex",
+      "title": "Relativized options: choosing the right transformation",
+      "type": "article",
+      "url": "https://works.bepress.com/andrew_barto/6",
+      "venue": "ScholarWorks@UMassAmherst (University of Massachusetts Amherst)",
+      "year": 2003
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Andrew G. Barto"
+      ],
+      "id": "W79394677",
+      "openAlexId": "W79394677",
+      "publicationDate": "2003-08-09",
+      "source": "openalex",
+      "title": "SMDP homomorphisms: an algebraic approach to abstraction in semi-Markov decision processes",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.12.5851",
+      "year": 2003
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Andrew G. Barto"
+      ],
+      "doi": "10.1007/3-540-45622-8_15",
+      "id": "10.1007/3-540-45622-8_15",
+      "openAlexId": "W1534331386",
+      "publicationDate": "2002-01-01",
+      "source": "openalex",
+      "title": "Model Minimization in Hierarchical Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/3-540-45622-8_15",
+      "venue": "Lecture notes in computer science",
+      "year": 2002
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "Andrew G. Barto"
+      ],
+      "id": "W1533853869",
+      "openAlexId": "W1533853869",
+      "publicationDate": "2001-09-01",
+      "source": "openalex",
+      "title": "Symmetries and Model Minimization in Markov Decision Processes",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.19.7388",
+      "year": 2001
+    },
+    {
+      "authors": [
+        "Richard S. Sutton",
+        "Satinder Singh",
+        "Doina Precup",
+        "Balaraman Ravindran"
+      ],
+      "id": "W2123956999",
+      "openAlexId": "W2123956999",
+      "publicationDate": "1998-12-01",
+      "source": "openalex",
+      "title": "Improved Switching among Temporally Abstract Actions",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.562",
+      "year": 1998
+    },
+    {
+      "authors": [
+        "Amy McGovern",
+        "Doina Precup",
+        "Balaraman Ravindran",
+        "Satinder Singh",
+        "Stanley M. Sutton",
+        "Scott F. Richard"
+      ],
+      "id": "W3942861",
+      "openAlexId": "W3942861",
+      "publicationDate": "1998-01-01",
+      "source": "openalex",
+      "title": "Hierarchical Optimal Control of MDPs",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.110.5904",
+      "year": 1998
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran",
+        "S. Sathiya Keerthi"
+      ],
+      "doi": "10.1201/9781420050646.ptc3",
+      "id": "10.1201/9781420050646.ptc3",
+      "openAlexId": "W4211098518",
+      "publicationDate": "1996-01-01",
+      "source": "openalex",
+      "title": "Reinforcement Learning",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1201/9781420050646.ptc3",
+      "year": 1996
+    },
+    {
+      "authors": [
+        "Balaraman Ravindran"
+      ],
+      "id": "W1903709022",
+      "openAlexId": "W1903709022",
+      "publicationDate": "1996-01-01",
+      "source": "openalex",
+      "title": "Solution of Delayed Reinforcement Learning Problems Having Continuous Action Spaces",
+      "type": "article",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.19.4914",
+      "year": 1996
+    },
+    {
+      "authors": [
+        "S. Sathiya Keerthi",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/bf02743935",
+      "id": "10.1007/bf02743935",
+      "openAlexId": "W2090089645",
+      "publicationDate": "1994-12-01",
+      "source": "openalex",
+      "title": "A tutorial survey of reinforcement learning",
+      "type": "article",
+      "url": "https://doi.org/10.1007/bf02743935",
+      "venue": "Sadhana",
+      "year": 1994
+    }
+  ],
+  "sourceStatus": {
+    "dblp": "error",
+    "openalex": "ok"
+  }
+}

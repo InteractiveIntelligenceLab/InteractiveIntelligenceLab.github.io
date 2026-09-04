@@ -1,0 +1,81 @@
+---
+import type { Person } from "../lib/schemas";
+import { externalAttrs, isExternalUrl } from "../lib/links";
+
+interface Props {
+  person: Person;
+}
+const { person } = Astro.props;
+
+function initials(name: string): string {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((p) => p[0]?.toUpperCase())
+    .join("");
+}
+
+const hasLink = Boolean(person.professionalUrl && isExternalUrl(person.professionalUrl));
+---
+
+<article class="card card-interactive flex flex-col gap-4 p-6">
+  <div class="flex items-center gap-4">
+    {
+      person.image ? (
+        <img
+          src={person.image}
+          alt={`Photograph of ${person.name}`}
+          width="64"
+          height="64"
+          loading="lazy"
+          class="h-16 w-16 shrink-0 rounded-full border border-[var(--color-border)] object-cover"
+        />
+      ) : (
+        <span
+          class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-[var(--color-border)] bg-[var(--color-accent-light)] font-[var(--font-display)] text-lg font-semibold text-[var(--color-accent-dark)]"
+          aria-hidden="true"
+        >
+          {initials(person.name)}
+        </span>
+      )
+    }
+    <div class="min-w-0">
+      {
+        hasLink ? (
+          <a href={person.professionalUrl} {...externalAttrs(person.professionalUrl!)} class="link-accent font-[var(--font-display)] text-base font-semibold no-underline">
+            {person.name}
+          </a>
+        ) : (
+          <p class="font-[var(--font-display)] text-base font-semibold text-[var(--color-ink)]">{person.name}</p>
+        )
+      }
+      <p class="text-sm text-[var(--color-ink-muted)]">{person.role}</p>
+    </div>
+  </div>
+
+  {
+    person.status === "alumni" && (person.currentPosition || person.currentInstitution || person.alumniYear) && (
+      <p class="border-l-2 border-[var(--color-accent)] pl-3 text-xs text-[var(--color-ink-muted)]">
+        {person.currentPosition && <span>{person.currentPosition}</span>}
+        {person.currentPosition && person.currentInstitution && <span>, </span>}
+        {person.currentInstitution && <span>{person.currentInstitution}</span>}
+        {person.alumniYear && <span> · Graduated {person.alumniYear}</span>}
+      </p>
+    )
+  }
+
+  {person.bio && <p class="text-sm leading-relaxed text-[var(--color-ink-muted)]">{person.bio}</p>}
+
+  {
+    person.researchInterests.length > 0 && (
+      <ul class="flex flex-wrap gap-1.5" aria-label="Research interests">
+        {person.researchInterests.map((interest) => (
+          <li class="rounded-full border border-[var(--color-border)] px-2.5 py-0.5 text-xs text-[var(--color-ink-muted)]">
+            {interest}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</article>

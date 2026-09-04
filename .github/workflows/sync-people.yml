@@ -1,0 +1,79 @@
+name: Sync People
+
+# Regenerates src/data/generated/people.json (and public/images/people/*.webp)
+# from the People Google Sheet. See README.md "People management".
+#
+# Runs every 20 minutes (within the spec's suggested 15-30 minute range) plus
+# on-demand. GitHub's schedule trigger can lag under platform load — if the
+# lab needs near-instant updates, see README.md "Optional: instant sync via
+# Google Apps Script" for an optional webhook-based alternative.
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-people
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync people from Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+        run: npm run sync:people
+
+      - name: Validate content
+        run: npm run validate:content
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Production build (sanity check)
+        run: npm run build:no-check
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git add src/data/generated/people.json public/images/people
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(people): sync from Google Sheets [skip ci]"
+          git push
+
+      # GITHUB_TOKEN-authored pushes don't trigger `on: push` workflows, so we
+      # explicitly kick off a deploy when there's new data to publish.
+      - name: Trigger deployment
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref ${{ github.ref_name }}

@@ -1,0 +1,37 @@
+# Build output
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+*.local
+
+# Google credentials (never commit)
+*service-account*.json
+google-credentials.json
+
+# Preview protection artifacts
+.staticrypt-salt
+
+# Logs
+npm-debug.log*
+*.log
+
+# Build artifact regenerated on every build (see scripts/generate-build-version.ts) —
+# never meaningful to diff/commit.
+/public/build-version.json
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# Test / coverage
+coverage/
+
+# Link checker report
+link-check-report.json

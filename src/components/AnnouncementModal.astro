@@ -1,0 +1,104 @@
+---
+// Reusable, content-free announcement popup. All copy comes from
+// src/data/site-config.json ("announcement"); when announcement.enabled is
+// false this component renders nothing. See README.md "Popup".
+import siteConfig from "../data/site-config.json";
+
+const { announcement } = siteConfig;
+const ctaIsHttps = announcement.ctaUrl ? /^https:\/\//i.test(announcement.ctaUrl) : false;
+---
+
+{
+  announcement.enabled && (
+    <dialog
+      id="announcement-dialog"
+      aria-labelledby="announcement-title"
+      class="m-auto w-[min(92vw,32rem)] border border-[var(--color-border)] bg-[var(--color-surface)] p-0 shadow-lg backdrop:bg-black/40"
+      data-announcement-id={announcement.id}
+      data-dismissible={String(announcement.dismissible)}
+      data-start-at={announcement.startAt ?? ""}
+      data-end-at={announcement.endAt ?? ""}
+    >
+      <div class="p-6">
+        <div class="flex items-start justify-between gap-4">
+          <h2 id="announcement-title" class="text-lg font-semibold text-[var(--color-ink)]">
+            {announcement.title}
+          </h2>
+          {announcement.dismissible && (
+            <button
+              type="button"
+              id="announcement-close"
+              class="shrink-0 border border-[var(--color-border-strong)] p-1 text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]"
+              aria-label="Close announcement"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          )}
+        </div>
+        <p class="mt-3 text-sm leading-relaxed text-[var(--color-ink-muted)]">{announcement.message}</p>
+        {announcement.ctaUrl && announcement.ctaLabel && ctaIsHttps && (
+          <a href={announcement.ctaUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-5">
+            {announcement.ctaLabel}
+          </a>
+        )}
+      </div>
+    </dialog>
+  )
+}
+
+{
+  announcement.enabled && (
+    <script>
+      (function () {
+        const dialog = document.getElementById("announcement-dialog") as HTMLDialogElement | null;
+        if (!dialog) return;
+
+        const id = dialog.dataset.announcementId ?? "";
+        const dismissible = dialog.dataset.dismissible === "true";
+        const startAt = dialog.dataset.startAt || null;
+        const endAt = dialog.dataset.endAt || null;
+        const storageKey = `iil-announcement-dismissed:${id}`;
+
+        const now = Date.now();
+        if (startAt && now < Date.parse(startAt)) return;
+        if (endAt && now > Date.parse(endAt)) return;
+
+        let alreadyDismissed = false;
+        try {
+          alreadyDismissed = localStorage.getItem(storageKey) === "1";
+        } catch {
+          // localStorage unavailable (private mode etc.) — treat as not dismissed.
+        }
+        if (alreadyDismissed) return;
+
+        function close() {
+          try {
+            if (dismissible) localStorage.setItem(storageKey, "1");
+          } catch {
+            /* ignore */
+          }
+          dialog?.close();
+        }
+
+        window.setTimeout(() => {
+          if (typeof dialog.showModal === "function") dialog.showModal();
+        }, 400);
+
+        document.getElementById("announcement-close")?.addEventListener("click", close);
+
+        dialog.addEventListener("cancel", (e) => {
+          // Native <dialog> fires "cancel" on Escape and already closes itself;
+          // only block it when the announcement is explicitly non-dismissible.
+          if (!dismissible) e.preventDefault();
+          else close();
+        });
+
+        dialog.addEventListener("click", (e) => {
+          if (e.target === dialog && dismissible) close();
+        });
+      })();
+    </script>
+  )
+}

@@ -1,0 +1,66 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import AnnouncementModal from "../components/AnnouncementModal.astro";
+import VersionCheck from "../components/VersionCheck.astro";
+import siteConfig from "../data/site-config.json";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const pageTitle = title === siteConfig.siteName ? title : `${title} | ${siteConfig.shortName}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+
+    <!-- Blocking, pre-paint theme init — avoids a flash of the wrong theme.
+         Reads the stored preference; if none, leaves it to the
+         prefers-color-scheme media query in global.css. -->
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem("iil-theme");
+          if (stored === "light" || stored === "dark") {
+            document.documentElement.setAttribute("data-theme", stored);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content={siteConfig.siteName} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body class="flex min-h-screen flex-col bg-[var(--color-paper)] text-[var(--color-ink)]">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <Header />
+    <main id="main-content" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <AnnouncementModal />
+    <VersionCheck />
+  </body>
+</html>

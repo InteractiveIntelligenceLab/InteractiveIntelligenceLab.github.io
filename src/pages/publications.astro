@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PublicationList from "../components/PublicationList.astro";
+import publicationsData from "../data/generated/publications.json";
+import type { Publication } from "../lib/schemas";
+
+const publications = publicationsData.items as Publication[];
+---
+
+<BaseLayout
+  title="Publications"
+  description="Publications by Prof. Balaraman Ravindran and the Interactive Intelligence Lab, IIT Madras, synchronized automatically from OpenAlex and DBLP."
+>
+  <div class="mx-auto max-w-4xl px-4 py-20 sm:px-6">
+    <p class="kicker">Bibliography</p>
+    <h1 class="mt-2 text-4xl font-semibold sm:text-5xl">Publications</h1>
+
+    <div class="mt-10">
+      <PublicationList publications={publications} />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,154 @@
+---
+import ThemeToggle from "./ThemeToggle.astro";
+
+const navItems = [
+  { label: "About", href: "/about" },
+  { label: "Research", href: "/research" },
+  { label: "People", href: "/people" },
+  { label: "Publications", href: "/publications" },
+  { label: "News", href: "/news" },
+  { label: "Join Us", href: "/join-us" },
+];
+const currentPath = Astro.url.pathname;
+function isActive(href: string) {
+  if (href === "/") return currentPath === "/";
+  return currentPath === href || currentPath.startsWith(href + "/");
+}
+---
+
+<header
+  id="site-header"
+  class="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[var(--color-paper)]/90 backdrop-blur-md transition-shadow"
+>
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6">
+    <a href="/" class="group flex items-baseline gap-2.5 no-underline">
+      <span
+        class="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--color-accent)] font-[var(--font-display)] text-sm font-bold text-[var(--color-accent-ink)] shadow-sm transition-transform group-hover:scale-105"
+        aria-hidden="true">IIL</span
+      >
+      <span class="hidden font-[var(--font-display)] text-[1.1rem] font-semibold tracking-tight text-[var(--color-ink)] sm:inline">
+        Interactive Intelligence Lab
+      </span>
+    </a>
+
+    <div class="flex items-center gap-1">
+      <nav aria-label="Primary" class="hidden md:block">
+        <ul class="flex items-center gap-0.5 text-[0.8rem] font-medium tracking-wide">
+          {
+            navItems.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  aria-current={isActive(item.href) ? "page" : undefined}
+                  class:list={[
+                    "relative px-3 py-2 no-underline uppercase transition-colors",
+                    isActive(item.href)
+                      ? "text-[var(--color-accent)]"
+                      : "text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]",
+                  ]}
+                  style="letter-spacing: 0.04em;"
+                >
+                  {item.label}
+                  {isActive(item.href) && (
+                    <span class="absolute inset-x-3 -bottom-[1px] h-[2px] bg-[var(--color-accent)]" aria-hidden="true" />
+                  )}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <div class="ml-1 hidden md:block">
+        <ThemeToggle />
+      </div>
+
+      <button
+        id="mobile-menu-toggle"
+        type="button"
+        class="ml-1 inline-flex items-center justify-center border border-[var(--color-border-strong)] p-2 md:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="sr-only">Toggle navigation menu</span>
+        <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav
+    id="mobile-menu"
+    aria-label="Primary mobile"
+    class="hidden border-t border-[var(--color-border)] md:hidden"
+  >
+    <ul class="mx-auto max-w-6xl px-4 py-2 text-sm">
+      {
+        navItems.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              aria-current={isActive(item.href) ? "page" : undefined}
+              class:list={[
+                "block border-b border-[var(--color-border)] py-3 no-underline last:border-none",
+                isActive(item.href) ? "font-medium text-[var(--color-accent)]" : "text-[var(--color-ink)]",
+              ]}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+      <li class="flex items-center justify-between border-b border-[var(--color-border)] py-3 last:border-none">
+        <span class="text-[var(--color-ink-muted)]">Theme</span>
+        <ThemeToggle />
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.getElementById("mobile-menu-toggle");
+  const menu = document.getElementById("mobile-menu");
+  const iconOpen = document.getElementById("icon-open");
+  const iconClose = document.getElementById("icon-close");
+  const header = document.getElementById("site-header");
+
+  function setOpen(open: boolean) {
+    if (!toggle || !menu || !iconOpen || !iconClose) return;
+    toggle.setAttribute("aria-expanded", String(open));
+    menu.classList.toggle("hidden", !open);
+    iconOpen.classList.toggle("hidden", open);
+    iconClose.classList.toggle("hidden", !open);
+  }
+
+  toggle?.addEventListener("click", () => {
+    const isOpen = toggle.getAttribute("aria-expanded") === "true";
+    setOpen(!isOpen);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && toggle?.getAttribute("aria-expanded") === "true") {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
+
+  // Collapse the mobile menu automatically if the viewport grows past the breakpoint.
+  const mql = window.matchMedia("(min-width: 768px)");
+  mql.addEventListener("change", (e) => {
+    if (e.matches) setOpen(false);
+  });
+
+  // Subtle shadow once the page has scrolled — a hairline border alone reads
+  // flat once content is moving underneath it.
+  function syncScrollShadow() {
+    header?.classList.toggle("shadow-sm", window.scrollY > 4);
+  }
+  document.addEventListener("scroll", syncScrollShadow, { passive: true });
+  syncScrollShadow();
+</script>

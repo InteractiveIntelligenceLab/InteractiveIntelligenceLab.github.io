@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import siteConfig from "../data/site-config.json";
+import { externalAttrs } from "../lib/links";
+
+const email = siteConfig.email;
+const postdocUrl = siteConfig.links.postdoc;
+---
+
+<BaseLayout
+  title="Join Us"
+  description="Open positions at the Interactive Intelligence Lab, IIT Madras: post-doctoral fellowships, project assistant/associate roles, PhD/MS positions, and internships."
+>
+  <div class="mx-auto max-w-3xl px-4 py-20 sm:px-6">
+    <p class="kicker">Careers</p>
+    <h1 class="mt-2 text-4xl font-semibold sm:text-5xl">Open Positions</h1>
+
+    <section class="prose-academic mt-10">
+      <h2 class="text-xl font-semibold">Post-doctoral fellows</h2>
+      <p class="mt-3 text-[var(--color-ink-muted)]">
+        Please see <a class="link-accent" href={postdocUrl} {...externalAttrs(postdocUrl)}>here</a> for details. Women
+        candidates have <a class="link-accent" href={postdocUrl} {...externalAttrs(postdocUrl)}>special fellowships</a>{" "}
+        from IIT Madras. Send us your CV and a short write-up of your proposed area of research at{" "}
+        <a class="link-accent" href={`mailto:${email}`}>{email}</a>.
+      </p>
+    </section>
+
+    <section class="prose-academic mt-10 border-t border-[var(--color-border)] pt-8">
+      <h2 class="text-xl font-semibold">Project Assistants/Associates</h2>
+      <p class="mt-3 text-[var(--color-ink-muted)]">
+        Strong programming background in either C++/Java programming languages with work experience or familiarity
+        with the 'R' platform. Programming experience in relational platforms like SQL and non-relational
+        technologies like Hadoop, Map Reduce, Hive, Mahout and Pig. Experience in information retrieval libraries
+        like Lucene/Solr. Interested candidates can send their CV to{" "}
+        <a class="link-accent" href={`mailto:${email}`}>{email}</a>.
+      </p>
+    </section>
+
+    <section class="prose-academic mt-10 border-t border-[var(--color-border)] pt-8">
+      <h2 class="text-xl font-semibold">PhD/MS</h2>
+      <p class="mt-3 text-[var(--color-ink-muted)]">
+        Applications must be made on-line, through IIT Madras website.<br />
+        Applications are also welcome under the Interdisciplinary Research Programme (IDRP) at IIT Madras.<br />
+        Applicants must be fluent in at least one high-level programming language (C/C++/MATLAB/Python).<br />
+        A background in mathematics is highly preferred.
+      </p>
+    </section>
+
+    <section class="prose-academic mt-10 border-t border-[var(--color-border)] pt-8">
+      <h2 class="text-xl font-semibold">Internships</h2>
+      <p class="mt-3 text-[var(--color-ink-muted)]">
+        There are multiple positions available at present. Please write to us at{" "}
+        <a class="link-accent" href={`mailto:${email}`}>{email}</a> with your detailed CV and your Statement of
+        Purpose.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

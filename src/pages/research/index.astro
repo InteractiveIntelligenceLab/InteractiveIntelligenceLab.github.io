@@ -1,0 +1,77 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const areas = [
+  {
+    id: "reinforcement-learning",
+    title: "Reinforcement Learning",
+    paragraphs: [
+      "Inspired from behavioural psychology, reinforcement learning agents determine the ideal behaviour in a given context with the help of feedback. Our group focuses on both the theoretical and practical aspects of RL, more recently in the context of deep learning, with ongoing projects ranging from establishing theoretical bounds on augmented multi-armed bandit algorithms to achieving safe and stable learning algorithm for deployment in safety-critical applications like Autonomous Driving.",
+    ],
+  },
+  {
+    id: "networks",
+    title: "Networks",
+    paragraphs: [
+      "Learning deep representations from raw input data has revolutionised the field of Machine Learning in the past few years. While deep representation learning has been extremely successful in computer vision and natural language processing, there have been very few studies involving representation learning on network data (for example, social network data). We propose to develop a theory of network representation learning, along the lines of the very popular and successful methods for text representation.",
+    ],
+  },
+  {
+    id: "nlp",
+    title: "Natural Language Processing",
+    paragraphs: [
+      "Neural models have led to significant improvements in a variety of Natural Language Processing (NLP) tasks. The primary focus of our group has been on Natural Language Generation (NLG) problems such as Query based Abstractive Summarization, NLG from structured data and Dialog systems and closely related tasks such as Question Answering. We also explore problems at the intersection of vision and language. We aim to develop algorithms and systems based on domain knowledge building on top of recent advances in deep learning.",
+    ],
+  },
+  {
+    id: "computer-vision",
+    title: "Computer Vision",
+    paragraphs: [
+      "Convolutional Neural Networks have become the architecture of choice for modern computer vision applications. However, these networks are fairly large and deploying them on small devices is infeasible. We explore compute and energy efficient architectures for vision applications, specifically in the context of multi object tracking in videos. To this end we are currently working on model compression and model pruning techniques.",
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Research"
+  description="Research at the Interactive Intelligence Lab spans reinforcement learning, network representation learning, natural language processing, and computer vision."
+>
+  <div class="mx-auto max-w-4xl px-4 py-20 sm:px-6">
+    <p class="kicker">What we work on</p>
+    <h1 class="mt-2 text-4xl font-semibold sm:text-5xl">Research</h1>
+    <p class="prose-academic mt-5 text-lg text-[var(--color-ink-muted)]">
+      The research conducted at IIL spans a plethora of fields and has a wide impact.
+    </p>
+
+    <nav aria-label="Research areas" class="mt-10 flex flex-wrap gap-x-8 gap-y-2 border-y border-[var(--color-border)] py-5">
+      {
+        areas.map((area) => (
+          <a href={`#${area.id}`} class="link-accent text-sm font-medium no-underline">
+            {area.title}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="mt-4 divide-y divide-[var(--color-border)]">
+      {
+        areas.map((area, i) => (
+          <section id={area.id} class="scroll-mt-24 grid gap-4 py-14 sm:grid-cols-[auto_1fr] sm:gap-10">
+            <span class="font-[var(--font-display)] text-4xl font-medium text-[var(--color-accent)] sm:text-5xl">
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <div>
+              <h2 class="text-2xl font-semibold sm:text-3xl">{area.title}</h2>
+              <div class="prose-academic mt-4 text-[var(--color-ink-muted)]">
+                {area.paragraphs.map((p) => (
+                  <p>{p}</p>
+                ))}
+              </div>
+            </div>
+          </section>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>

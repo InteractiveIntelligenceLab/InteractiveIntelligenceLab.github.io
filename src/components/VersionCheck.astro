@@ -1,0 +1,69 @@
+---
+// Detects a newer deployment (see scripts/generate-build-version.ts +
+// public/build-version.json) and shows a small, dismiss-free "reload"
+// notice rather than force-reloading — GitHub Pages gives us no CDN purge
+// control, so this is how we avoid visitors being stuck on stale assets.
+// See spec section 35.
+---
+
+<div
+  id="version-toast"
+  role="status"
+  aria-live="polite"
+  class="fixed inset-x-0 bottom-4 z-50 mx-auto hidden w-[min(92vw,22rem)] items-center justify-between gap-3 border border-neutral-700 bg-neutral-900 px-4 py-3 text-sm text-white shadow-lg"
+>
+  <span>New version available.</span>
+  <button type="button" id="version-reload" class="border border-white/40 px-2 py-1 text-xs text-white hover:bg-white/10">
+    Reload
+  </button>
+</div>
+
+<script>
+  (function () {
+    let currentCommit: string | null = null;
+    let checking = false;
+    const POLL_INTERVAL_MS = 10 * 60 * 1000; // low-frequency background check
+
+    async function fetchVersion(): Promise<{ commit: string } | undefined> {
+      try {
+        const res = await fetch("/build-version.json", { cache: "no-store" });
+        if (!res.ok) return undefined;
+        return await res.json();
+      } catch {
+        return undefined;
+      }
+    }
+
+    function showToast() {
+      const toast = document.getElementById("version-toast");
+      toast?.classList.remove("hidden");
+      toast?.classList.add("flex");
+    }
+
+    async function check() {
+      if (checking) return;
+      checking = true;
+      const data = await fetchVersion();
+      checking = false;
+      if (!data?.commit) return;
+      if (currentCommit === null) {
+        currentCommit = data.commit;
+        return;
+      }
+      if (data.commit !== currentCommit) {
+        showToast();
+      }
+    }
+
+    document.getElementById("version-reload")?.addEventListener("click", () => {
+      window.location.reload();
+    });
+
+    check();
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") check();
+    });
+    window.addEventListener("focus", check);
+    window.setInterval(check, POLL_INTERVAL_MS);
+  })();
+</script>

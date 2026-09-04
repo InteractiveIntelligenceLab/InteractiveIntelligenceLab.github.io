@@ -1,0 +1,218 @@
+---
+// Client-side search/filter/sort over a fully server-rendered list (works
+// with JavaScript disabled — just without the interactive controls).
+// Vanilla TypeScript only, no state-management framework (spec section 23).
+import type { Publication } from "../lib/schemas";
+
+interface Props {
+  publications: Publication[];
+}
+const { publications } = Astro.props;
+
+const TYPE_LABELS: Record<string, string> = {
+  article: "Article",
+  "conference-paper": "Conference paper",
+  preprint: "Preprint",
+  "book-chapter": "Book chapter",
+  book: "Book",
+  dataset: "Dataset",
+  other: "Other",
+};
+
+function dateKey(p: Publication): string {
+  return p.publicationDate ?? `${p.year}-01-01`;
+}
+
+// Publications already arrive sorted newest-first from publications.json.
+let lastYear: number | null = null;
+---
+
+<div>
+  <div class="mb-6 grid gap-3 border border-[var(--color-border)] bg-[var(--color-surface)] p-4 sm:grid-cols-[1fr_auto_auto_auto]">
+    <div>
+      <label for="pub-search" class="mb-1 block text-xs font-medium text-[var(--color-ink-muted)]">
+        Search by title or author
+      </label>
+      <input
+        id="pub-search"
+        type="search"
+        placeholder="e.g. reinforcement learning, Ravindran…"
+        class="w-full border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[var(--color-ink)] px-3 py-2 text-sm"
+      />
+    </div>
+    <div>
+      <label for="pub-year" class="mb-1 block text-xs font-medium text-[var(--color-ink-muted)]">Year</label>
+      <select id="pub-year" class="border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[var(--color-ink)] px-3 py-2 text-sm">
+        <option value="all">All years</option>
+      </select>
+    </div>
+    <div>
+      <label for="pub-type" class="mb-1 block text-xs font-medium text-[var(--color-ink-muted)]">Type</label>
+      <select id="pub-type" class="border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[var(--color-ink)] px-3 py-2 text-sm">
+        <option value="all">All types</option>
+      </select>
+    </div>
+    <div>
+      <label for="pub-sort" class="mb-1 block text-xs font-medium text-[var(--color-ink-muted)]">Sort</label>
+      <select id="pub-sort" class="border border-[var(--color-border-strong)] bg-[var(--color-surface)] text-[var(--color-ink)] px-3 py-2 text-sm">
+        <option value="newest" selected>Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="title-asc">Title A–Z</option>
+        <option value="title-desc">Title Z–A</option>
+      </select>
+    </div>
+  </div>
+
+  <p id="pub-count" class="mb-3 text-sm text-[var(--color-ink-muted)]" aria-live="polite">
+    {publications.length} publications
+  </p>
+
+  <ul id="pub-list" class="space-y-3">
+    {
+      publications.map((p) => {
+        const year = p.year;
+        const showDivider = year !== lastYear;
+        lastYear = year;
+        const authorsDisplay = p.authors.length > 6 ? `${p.authors.slice(0, 6).join(", ")}, et al.` : p.authors.join(", ");
+        return (
+          <>
+            {showDivider && (
+              <li class="pub-year-divider pt-4 first:pt-0" data-year-divider={year}>
+                <h2 class="font-[var(--font-display)] text-sm font-semibold uppercase tracking-wide text-[var(--color-ink-faint)]">
+                  {year}
+                </h2>
+              </li>
+            )}
+            <li
+              class="pub-item card p-4"
+              data-title={p.title}
+              data-authors={p.authors.join(", ").toLowerCase()}
+              data-year={p.year}
+              data-type={p.type}
+              data-date={dateKey(p)}
+            >
+              <a href={p.url} target="_blank" rel="noopener noreferrer" class="link-accent font-[var(--font-display)] text-[0.95rem] font-medium leading-snug no-underline">
+                {p.title}
+              </a>
+              <p class="mt-1 text-sm text-[var(--color-ink-muted)]">{authorsDisplay}</p>
+              <p class="mt-1 text-xs text-[var(--color-ink-faint)]">
+                {p.venue ? `${p.venue} · ` : ""}
+                {TYPE_LABELS[p.type] ?? p.type} · {p.year}
+              </p>
+            </li>
+          </>
+        );
+      })
+    }
+  </ul>
+  <p id="pub-empty" class="hidden py-8 text-center text-sm text-[var(--color-ink-muted)]">
+    No publications match your filters.
+  </p>
+</div>
+
+<script>
+  const TYPE_LABELS: Record<string, string> = {
+    article: "Article",
+    "conference-paper": "Conference paper",
+    preprint: "Preprint",
+    "book-chapter": "Book chapter",
+    book: "Book",
+    dataset: "Dataset",
+    other: "Other",
+  };
+
+  const list = document.getElementById("pub-list") as HTMLUListElement | null;
+  const searchInput = document.getElementById("pub-search") as HTMLInputElement | null;
+  const yearSelect = document.getElementById("pub-year") as HTMLSelectElement | null;
+  const typeSelect = document.getElementById("pub-type") as HTMLSelectElement | null;
+  const sortSelect = document.getElementById("pub-sort") as HTMLSelectElement | null;
+  const countEl = document.getElementById("pub-count");
+  const emptyEl = document.getElementById("pub-empty");
+
+  if (list && searchInput && yearSelect && typeSelect && sortSelect && countEl && emptyEl) {
+    // Detach dividers; JS regenerates them based on current sort/filter state.
+    list.querySelectorAll(".pub-year-divider").forEach((el) => el.remove());
+
+    const items = Array.from(list.querySelectorAll<HTMLLIElement>(".pub-item"));
+
+    const years = Array.from(new Set(items.map((el) => el.dataset.year!))).sort((a, b) => Number(b) - Number(a));
+    for (const y of years) {
+      const opt = document.createElement("option");
+      opt.value = y;
+      opt.textContent = y;
+      yearSelect.appendChild(opt);
+    }
+
+    const types = Array.from(new Set(items.map((el) => el.dataset.type!)));
+    for (const t of types) {
+      const opt = document.createElement("option");
+      opt.value = t;
+      opt.textContent = TYPE_LABELS[t] ?? t;
+      typeSelect.appendChild(opt);
+    }
+
+    let debounceHandle: number | undefined;
+    function scheduleRender() {
+      window.clearTimeout(debounceHandle);
+      debounceHandle = window.setTimeout(render, 120);
+    }
+
+    function render() {
+      const query = searchInput!.value.trim().toLowerCase();
+      const year = yearSelect!.value;
+      const type = typeSelect!.value;
+      const sort = sortSelect!.value;
+
+      const filtered = items.filter((el) => {
+        const matchesQuery =
+          !query ||
+          el.dataset.title!.toLowerCase().includes(query) ||
+          el.dataset.authors!.includes(query);
+        const matchesYear = year === "all" || el.dataset.year === year;
+        const matchesType = type === "all" || el.dataset.type === type;
+        return matchesQuery && matchesYear && matchesType;
+      });
+
+      filtered.sort((a, b) => {
+        if (sort === "title-asc") return a.dataset.title!.localeCompare(b.dataset.title!);
+        if (sort === "title-desc") return b.dataset.title!.localeCompare(a.dataset.title!);
+        const cmp = a.dataset.date!.localeCompare(b.dataset.date!);
+        return sort === "oldest" ? cmp : -cmp;
+      });
+
+      list!.querySelectorAll(".pub-year-divider").forEach((el) => el.remove());
+      items.forEach((el) => el.remove());
+
+      const groupByYear = sort === "newest" || sort === "oldest";
+      let lastYear: string | null = null;
+      const frag = document.createDocumentFragment();
+      for (const el of filtered) {
+        if (groupByYear && el.dataset.year !== lastYear) {
+          lastYear = el.dataset.year!;
+          const divider = document.createElement("li");
+          divider.className = "pub-year-divider pt-4 first:pt-0";
+          const heading = document.createElement("h2");
+          heading.className = "font-[var(--font-display)] text-sm font-semibold uppercase tracking-wide text-[var(--color-ink-faint)]";
+          heading.textContent = lastYear;
+          divider.appendChild(heading);
+          frag.appendChild(divider);
+        }
+        frag.appendChild(el);
+      }
+      list!.appendChild(frag);
+
+      countEl!.textContent =
+        filtered.length === items.length
+          ? `${items.length} publications`
+          : `${filtered.length} of ${items.length} publications`;
+      emptyEl!.classList.toggle("hidden", filtered.length > 0);
+    }
+
+    searchInput.addEventListener("input", scheduleRender);
+    yearSelect.addEventListener("change", render);
+    typeSelect.addEventListener("change", render);
+    sortSelect.addEventListener("change", render);
+
+    render();
+  }
+</script>

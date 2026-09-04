@@ -1,0 +1,582 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NewsCard from "../components/NewsCard.astro";
+import siteConfig from "../data/site-config.json";
+import newsData from "../data/generated/news.json";
+import publicationsData from "../data/generated/publications.json";
+import peopleData from "../data/generated/people.json";
+import { externalAttrs } from "../lib/links";
+
+const researchAreas = [
+  {
+    title: "Network Representation Learning",
+    slug: "networks",
+    description:
+      "We learn distributed vector representations of the vertices in large-scale networks that preserve structural and semantic similarity of the vertices in the embedding space",
+  },
+  {
+    title: "Reinforcement Learning",
+    slug: "reinforcement-learning",
+    description:
+      "Learning algorithms that enable software agents to take actions that maximizes some notion of cumulative reward.",
+  },
+  {
+    title: "Natural Language Processing",
+    slug: "nlp",
+    description:
+      "We develop algorithms to process and understand natural language to aid interaction between computers and humans",
+  },
+  {
+    title: "Computer Vision",
+    slug: "computer-vision",
+    description: "We develop algorithms to process visual data for vision based applications",
+  },
+];
+
+const latestNews = newsData.items.slice(0, 3);
+const recentPublications = publicationsData.items.slice(0, 5);
+
+const currentPeopleCount = peopleData.people.filter((p) => p.status === "current").length;
+const stats = [
+  { value: String(publicationsData.count), label: "Publications tracked" },
+  { value: String(currentPeopleCount), label: "Current lab members" },
+  { value: String(researchAreas.length), label: "Research areas" },
+];
+
+const researchMapItems = [
+  {
+    id: "vision",
+    number: "01",
+    label: "See",
+    title: "Computer Vision",
+    description: "Making visual systems efficient enough to understand the world in motion.",
+  },
+  {
+    id: "language",
+    number: "02",
+    label: "Understand",
+    title: "Language",
+    description: "Building models that can read, reason, converse, and generate useful language.",
+  },
+  {
+    id: "networks",
+    number: "03",
+    label: "Connect",
+    title: "Networks",
+    description: "Finding structure, similarity, and signals in complex connected data.",
+  },
+  {
+    id: "rl",
+    number: "04",
+    label: "Decide",
+    title: "Reinforcement Learning",
+    description: "Helping agents learn reliable actions from feedback in the real world.",
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  name: siteConfig.siteName,
+  alternateName: siteConfig.shortName,
+  url: "https://iil.github.io",
+  email: `mailto:${siteConfig.email}`,
+  parentOrganization: {
+    "@type": "CollegeOrUniversity",
+    name: "Indian Institute of Technology Madras",
+    url: siteConfig.links.iitm,
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Chennai",
+    addressRegion: "Tamil Nadu",
+    postalCode: "600036",
+    addressCountry: "IN",
+  },
+};
+---
+
+<BaseLayout
+  title={siteConfig.siteName}
+  description="The Interactive Intelligence Lab (IIL) at IIT Madras conducts research in reinforcement learning, network representation learning, natural language processing, and computer vision."
+>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+
+  <section class="relative overflow-hidden border-b border-[var(--color-border)]">
+    <div class="mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 sm:px-6 sm:py-28 lg:grid-cols-[1.1fr_0.9fr] lg:gap-8">
+      <div>
+        <div class="flex items-center gap-3">
+          <span class="h-px w-8 bg-[var(--color-accent)]" aria-hidden="true"></span>
+          <p class="kicker">Wadhwani School of Data Science and AI · IIT Madras</p>
+        </div>
+        <h1 class="mt-5 max-w-3xl text-[2.75rem] leading-[1.03] font-bold tracking-tight text-[var(--color-ink)] sm:text-6xl">
+          Interactive<br />Intelligence Lab
+        </h1>
+        <p class="prose-academic mt-6 text-base text-[var(--color-ink-muted)] sm:text-lg">
+          IIL is an interdisciplinary research group working on machine learning, reinforcement learning, and deep
+          learning, with research spanning network representation learning, natural language processing, and
+          computer vision.
+        </p>
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a href="/research" class="btn btn-primary">Explore our research</a>
+          <a href="/people" class="btn">Meet the team</a>
+        </div>
+
+        <dl class="mt-16 grid max-w-xl grid-cols-3 gap-6 border-t border-[var(--color-border)] pt-8">
+          {
+            stats.map((stat) => (
+              <div>
+                <dt class="sr-only">{stat.label}</dt>
+                <dd class="font-[var(--font-display)] text-3xl font-semibold text-[var(--color-ink)] sm:text-4xl">
+                  {stat.value}
+                </dd>
+                <dd class="mt-1 text-xs text-[var(--color-ink-muted)]">{stat.label}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+
+      <aside id="research-map" class="w-full max-w-lg justify-self-end" aria-label="Interactive research map">
+        <div class="research-map-shell">
+          <div class="flex items-center justify-between border-b border-[var(--color-border)] px-5 py-4">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--color-accent)]">Research in motion</p>
+              <p class="mt-1 font-[var(--font-display)] text-lg font-semibold">A map of intelligent systems</p>
+            </div>
+            <span class="research-map-live" aria-hidden="true"><span></span> Live</span>
+          </div>
+
+          <div class="relative px-5 pt-4">
+            <svg
+              id="research-map-visual"
+              viewBox="0 0 560 325"
+              class="research-map-visual is-vision"
+              fill="none"
+              role="img"
+              aria-label="A connected map of IIL research areas: computer vision, language, networks, and reinforcement learning"
+            >
+              <defs>
+                <linearGradient id="map-flow" x1="28" y1="275" x2="528" y2="52" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="var(--color-accent)" stop-opacity=".25" />
+                  <stop offset=".5" stop-color="var(--color-accent)" />
+                  <stop offset="1" stop-color="var(--color-accent)" stop-opacity=".25" />
+                </linearGradient>
+              </defs>
+              <path class="map-link map-link--vision" d="M106 89C184 89 190 137 254 156" />
+              <path class="map-link map-link--language" d="M454 89C384 89 374 137 306 156" />
+              <path class="map-link map-link--networks" d="M105 250C184 250 194 200 254 177" />
+              <path class="map-link map-link--rl" d="M455 250C378 250 367 200 306 177" />
+              <path class="map-orbit" d="M194 166C211 109 282 80 343 109C404 138 402 217 343 239C282 262 213 222 194 166Z" />
+
+              <g class="map-core" aria-hidden="true">
+                <circle cx="280" cy="166" r="47" />
+                <circle cx="280" cy="166" r="35" />
+                <path d="M260 168h40M280 146v40" />
+                <circle cx="280" cy="166" r="5" />
+              </g>
+
+              <g class="map-node map-node--vision is-active" data-map-node="vision" tabindex="0" role="button" aria-label="Explore Computer Vision">
+                <circle cx="82" cy="82" r="29" />
+                <path d="M67 82c7-11 23-11 30 0-7 11-23 11-30 0Z" />
+                <circle cx="82" cy="82" r="5" />
+                <text x="82" y="129" text-anchor="middle">VISION</text>
+              </g>
+              <g class="map-node map-node--language" data-map-node="language" tabindex="0" role="button" aria-label="Explore Language">
+                <circle cx="478" cy="82" r="29" />
+                <path d="M463 73h30M463 82h22M463 91h26" />
+                <text x="478" y="129" text-anchor="middle">LANGUAGE</text>
+              </g>
+              <g class="map-node map-node--networks" data-map-node="networks" tabindex="0" role="button" aria-label="Explore Networks">
+                <circle cx="82" cy="250" r="29" />
+                <path d="m70 257 11-16 14 9m-25 7 25-7m-14-9 14-8" />
+                <circle cx="70" cy="257" r="3" /><circle cx="81" cy="241" r="3" /><circle cx="95" cy="250" r="3" /><circle cx="95" cy="233" r="3" />
+                <text x="82" y="298" text-anchor="middle">NETWORKS</text>
+              </g>
+              <g class="map-node map-node--rl" data-map-node="rl" tabindex="0" role="button" aria-label="Explore Reinforcement Learning">
+                <circle cx="478" cy="250" r="29" />
+                <path d="M463 254c0-11 9-19 20-19 7 0 12 3 16 8m0-8v9h-9M493 246c0 11-9 19-20 19-7 0-12-3-16-8m0 8v-9h9" />
+                <text x="478" y="298" text-anchor="middle">DECISION</text>
+              </g>
+            </svg>
+          </div>
+
+          <div class="border-t border-[var(--color-border)] px-5 py-4">
+            <div class="flex gap-2" role="tablist" aria-label="Research areas">
+              {
+                researchMapItems.map((item, i) => (
+                  <button
+                    type="button"
+                    class="research-map-tab"
+                    data-map-tab={item.id}
+                    role="tab"
+                    aria-selected={i === 0 ? "true" : "false"}
+                    aria-controls="research-map-description"
+                  >
+                    <span>{item.number}</span>{item.label}
+                  </button>
+                ))
+              }
+            </div>
+            <div id="research-map-description" class="mt-4 flex items-end justify-between gap-5" role="tabpanel" aria-live="polite">
+              <div>
+                <p id="research-map-title" class="font-[var(--font-display)] text-lg font-semibold">Computer Vision</p>
+                <p id="research-map-copy" class="mt-1 max-w-sm text-sm leading-relaxed text-[var(--color-ink-muted)]">Making visual systems efficient enough to understand the world in motion.</p>
+              </div>
+              <a id="research-map-link" href="/research#computer-vision" class="mb-0.5 shrink-0 text-sm font-medium text-[var(--color-accent)] no-underline hover:underline">Explore <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <style>
+    .research-map-shell {
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      border-radius: 1.25rem;
+      background: color-mix(in srgb, var(--color-surface) 92%, var(--color-accent-light));
+      box-shadow: var(--shadow-lg);
+    }
+    .research-map-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--color-ink-faint);
+      font-size: 0.69rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+    .research-map-live span {
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background: #ad0202;
+      box-shadow: 0 0 0 4px rgb(239 68 68 / 0.16);
+      animation: research-pulse 2.4s ease-in-out infinite;
+    }
+    .research-map-visual { display: block; width: 100%; overflow: visible; }
+    .map-link, .map-orbit {
+      stroke: var(--color-border-strong);
+      stroke-width: 1.5;
+      transition: stroke 250ms ease, stroke-width 250ms ease, opacity 250ms ease;
+    }
+    .map-orbit { stroke-dasharray: 3 6; opacity: 0.65; }
+    .map-core circle:first-child { fill: var(--color-accent-light); stroke: var(--color-border); }
+    .map-core circle:nth-child(2) { fill: var(--color-surface); stroke: var(--color-accent); stroke-width: 1.25; }
+    .map-core path { stroke: var(--color-accent); stroke-width: 1.25; }
+    .map-core circle:last-child { fill: var(--color-accent); }
+    .map-node { cursor: pointer; outline: none; }
+    .map-node > circle:first-child { fill: var(--color-surface); stroke: var(--color-border-strong); stroke-width: 1.5; transition: fill 250ms ease, stroke 250ms ease, transform 250ms ease; transform-box: fill-box; transform-origin: center; }
+    .map-node path, .map-node circle:not(:first-child) { stroke: var(--color-ink-muted); fill: none; stroke-width: 1.5; transition: stroke 250ms ease, fill 250ms ease; }
+    .map-node--networks circle:not(:first-child) { fill: var(--color-ink-muted); stroke: none; }
+    .map-node text { fill: var(--color-ink-faint); font-family: var(--font-sans); font-size: 10px; font-weight: 700; letter-spacing: 0.13em; transition: fill 250ms ease; }
+    .map-node:hover > circle:first-child, .map-node:focus > circle:first-child, .map-node.is-active > circle:first-child { fill: var(--color-accent); stroke: var(--color-accent); transform: scale(1.1); }
+    .map-node:hover path, .map-node:hover circle:not(:first-child), .map-node:focus path, .map-node:focus circle:not(:first-child), .map-node.is-active path, .map-node.is-active circle:not(:first-child) { stroke: var(--color-accent-ink); }
+    .map-node--networks:hover circle:not(:first-child), .map-node--networks:focus circle:not(:first-child), .map-node--networks.is-active circle:not(:first-child) { fill: var(--color-accent-ink); }
+    .map-node:hover text, .map-node:focus text, .map-node.is-active text { fill: var(--color-accent); }
+    .research-map-visual.is-vision .map-link--vision, .research-map-visual.is-language .map-link--language, .research-map-visual.is-networks .map-link--networks, .research-map-visual.is-rl .map-link--rl { stroke: url(#map-flow); stroke-width: 2.5; opacity: 1; }
+    .research-map-tab { flex: 1; border: 0; border-bottom: 2px solid var(--color-border); padding: 0 0 0.45rem; background: transparent; color: var(--color-ink-faint); font-size: 0.69rem; font-weight: 650; letter-spacing: 0.05em; text-align: left; text-transform: uppercase; cursor: pointer; transition: border-color 180ms ease, color 180ms ease; }
+    .research-map-tab span { display: block; margin-bottom: 0.18rem; font-size: 0.6rem; color: var(--color-accent); opacity: 0.75; }
+    .research-map-tab:hover, .research-map-tab[aria-selected="true"] { color: var(--color-ink); border-color: var(--color-accent); }
+    @keyframes research-pulse { 50% { box-shadow: 0 0 0 7px rgb(239 68 68 / 0); } }
+  </style>
+
+  <script>
+    (function () {
+      const svg = document.getElementById("hero-graph") as SVGSVGElement | null;
+      if (!svg) return;
+
+      const states = Array.from(svg.querySelectorAll<SVGCircleElement>("#grid-states circle"));
+      const goalId = svg.dataset.goalId;
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      let activeId: string | null = null;
+
+      function resetAll() {
+        for (const s of states) {
+          s.style.transform = "";
+          s.setAttribute("fill", "var(--color-ink-faint)");
+        }
+        activeId = null;
+      }
+
+      function activate(id: string) {
+        if (id === activeId) return;
+        activeId = id;
+        for (const s of states) {
+          if (s.id === id) {
+            s.style.transformOrigin = `${s.cx.baseVal.value}px ${s.cy.baseVal.value}px`;
+            s.style.transform = "scale(3)";
+            s.setAttribute("fill", "var(--color-accent)");
+          } else {
+            s.style.transform = "";
+            s.setAttribute("fill", "var(--color-ink-faint)");
+          }
+        }
+        if (id === goalId) {
+          const ring = document.getElementById("reward-ring");
+          if (ring) {
+            ring.classList.remove("pulse");
+            void (ring as unknown as HTMLElement).offsetWidth; // restart the animation
+            ring.classList.add("pulse");
+          }
+        }
+      }
+
+      function toSvgPoint(evt: PointerEvent): DOMPoint {
+        const pt = svg!.createSVGPoint();
+        pt.x = evt.clientX;
+        pt.y = evt.clientY;
+        const ctm = svg!.getScreenCTM();
+        return ctm ? pt.matrixTransform(ctm.inverse()) : pt;
+      }
+
+      function nearestState(p: DOMPoint): SVGCircleElement | undefined {
+        let best: SVGCircleElement | undefined;
+        let bestDist = Infinity;
+        for (const s of states) {
+          const dx = s.cx.baseVal.value - p.x;
+          const dy = s.cy.baseVal.value - p.y;
+          const d = dx * dx + dy * dy;
+          if (d < bestDist) {
+            bestDist = d;
+            best = s;
+          }
+        }
+        return best;
+      }
+
+      svg.addEventListener("pointermove", (evt) => {
+        const nearest = nearestState(toSvgPoint(evt));
+        if (nearest) activate(nearest.id);
+      });
+      svg.addEventListener("pointerleave", resetAll);
+
+      // Trajectory draws itself in once, then the agent walks it on a loop.
+      const path = document.getElementById("trajectory-path") as unknown as SVGPathElement | null;
+      const agent = document.getElementById("agent-dot") as SVGCircleElement | null;
+
+      if (path) {
+        const length = path.getTotalLength();
+        path.style.strokeDasharray = `${length}`;
+        path.style.strokeDashoffset = `${length}`;
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            path.style.strokeDashoffset = "0";
+          });
+        });
+      }
+
+      if (path && agent && !reduceMotion) {
+        const NS = "http://www.w3.org/2000/svg";
+        const mpath = document.createElementNS(NS, "animateMotion");
+        mpath.setAttribute("dur", "7s");
+        mpath.setAttribute("repeatCount", "indefinite");
+        mpath.setAttribute("begin", "1.4s"); // wait for the path draw-in to finish
+        mpath.setAttribute("rotate", "0");
+        mpath.setAttribute("keyPoints", "0;1");
+        mpath.setAttribute("keyTimes", "0;1");
+        mpath.setAttribute("calcMode", "linear");
+        const mpathRef = document.createElementNS(NS, "mpath");
+        mpathRef.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#trajectory-path");
+        mpath.appendChild(mpathRef);
+        agent.appendChild(mpath);
+      }
+
+      // Cursor-driven parallax "zoom toward you" on the whole illustration,
+      // eased with a simple lerp each frame for a smooth, elegant follow
+      // rather than a snap-to-cursor jump.
+      const wrap = document.getElementById("hero-graph-wrap");
+      if (wrap && !reduceMotion) {
+        let targetX = 0;
+        let targetY = 0;
+        let targetScale = 1;
+        let curX = 0;
+        let curY = 0;
+        let curScale = 1;
+        let raf = 0;
+
+        function tick() {
+          curX += (targetX - curX) * 0.12;
+          curY += (targetY - curY) * 0.12;
+          curScale += (targetScale - curScale) * 0.12;
+          svg!.style.transform = `scale(${curScale}) translate(${curX}px, ${curY}px)`;
+          const settled =
+            Math.abs(targetX - curX) < 0.02 &&
+            Math.abs(targetY - curY) < 0.02 &&
+            Math.abs(targetScale - curScale) < 0.001;
+          if (!settled) {
+            raf = requestAnimationFrame(tick);
+          } else {
+            raf = 0;
+          }
+        }
+
+        function ensureLoop() {
+          if (!raf) raf = requestAnimationFrame(tick);
+        }
+
+        wrap.addEventListener("pointermove", (evt) => {
+          const rect = wrap.getBoundingClientRect();
+          const px = (evt.clientX - rect.left) / rect.width - 0.5; // -0.5..0.5
+          const py = (evt.clientY - rect.top) / rect.height - 0.5;
+          targetX = -px * 16;
+          targetY = -py * 16;
+          targetScale = 1.08;
+          ensureLoop();
+        });
+        wrap.addEventListener("pointerleave", () => {
+          targetX = 0;
+          targetY = 0;
+          targetScale = 1;
+          ensureLoop();
+        });
+      }
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const map = document.getElementById("research-map");
+      const visual = document.getElementById("research-map-visual");
+      const title = document.getElementById("research-map-title");
+      const copy = document.getElementById("research-map-copy");
+      const link = document.getElementById("research-map-link") as HTMLAnchorElement | null;
+      if (!map || !visual || !title || !copy || !link) return;
+
+      const items = {
+        vision: { title: "Computer Vision", copy: "Making visual systems efficient enough to understand the world in motion.", href: "/research#computer-vision" },
+        language: { title: "Natural Language Processing", copy: "Building models that can read, reason, converse, and generate useful language.", href: "/research#nlp" },
+        networks: { title: "Network Representation Learning", copy: "Finding structure, similarity, and signals in complex connected data.", href: "/research#networks" },
+        rl: { title: "Reinforcement Learning", copy: "Helping agents learn reliable actions from feedback in the real world.", href: "/research#reinforcement-learning" },
+      } as const;
+      type ResearchArea = keyof typeof items;
+      const nodes = Array.from(map.querySelectorAll<SVGGElement>("[data-map-node]"));
+      const tabs = Array.from(map.querySelectorAll<HTMLButtonElement>("[data-map-tab]"));
+
+      function selectArea(id: ResearchArea) {
+        const item = items[id];
+        visual!.classList.remove(...Object.keys(items).map((key) => `is-${key}`));
+        visual!.classList.add(`is-${id}`);
+        nodes.forEach((node) => node.classList.toggle("is-active", node.dataset.mapNode === id));
+        tabs.forEach((tab) => tab.setAttribute("aria-selected", String(tab.dataset.mapTab === id)));
+        title!.textContent = item.title;
+        copy!.textContent = item.copy;
+        link!.href = item.href;
+      }
+
+      tabs.forEach((tab) => tab.addEventListener("click", () => selectArea(tab.dataset.mapTab as ResearchArea)));
+      nodes.forEach((node) => {
+        const id = node.dataset.mapNode as ResearchArea;
+        node.addEventListener("pointerenter", () => selectArea(id));
+        node.addEventListener("focus", () => selectArea(id));
+        node.addEventListener("click", () => selectArea(id));
+        node.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            selectArea(id);
+          }
+        });
+      });
+    })();
+  </script>
+
+  <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="kicker">What we work on</p>
+        <h2 class="mt-2 text-2xl font-semibold sm:text-3xl">Research Areas</h2>
+      </div>
+      <a href="/research" class="link-accent hidden text-sm no-underline sm:inline">View all research →</a>
+    </div>
+    <div class="mt-10 grid gap-px overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2">
+      {
+        researchAreas.map((area, i) => (
+          <article class="card-interactive group flex flex-col gap-4 bg-[var(--color-surface)] p-8">
+            <span class="font-[var(--font-display)] text-sm font-medium text-[var(--color-accent)]">
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <h3 class="text-lg font-semibold">{area.title}</h3>
+            <p class="text-sm leading-relaxed text-[var(--color-ink-muted)]">{area.description}</p>
+            <a
+              href={`/research#${area.slug}`}
+              class="mt-auto inline-flex items-center gap-1 text-sm font-medium text-[var(--color-ink)] no-underline transition-transform group-hover:translate-x-0.5"
+            >
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </article>
+        ))
+      }
+    </div>
+    <a href="/research" class="link-accent mt-6 inline-block text-sm no-underline sm:hidden">View all research →</a>
+  </section>
+
+  <section class="border-t border-[var(--color-border)] bg-[var(--color-surface)]">
+    <div class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <div class="grid gap-14 lg:grid-cols-2">
+        <div>
+          <div class="flex items-baseline justify-between">
+            <div>
+              <p class="kicker">Latest</p>
+              <h2 class="mt-2 text-2xl font-semibold">News</h2>
+            </div>
+            <a href="/news" class="link-accent text-sm no-underline">View all →</a>
+          </div>
+          <div class="mt-8 space-y-4">
+            {
+              latestNews.length > 0 ? (
+                latestNews.map((item) => <NewsCard item={item} />)
+              ) : (
+                <p class="text-sm text-[var(--color-ink-muted)]">No recent news items yet.</p>
+              )
+            }
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-baseline justify-between">
+            <div>
+              <p class="kicker">Recent</p>
+              <h2 class="mt-2 text-2xl font-semibold">Publications</h2>
+            </div>
+            <a href="/publications" class="link-accent text-sm no-underline">View all →</a>
+          </div>
+          <ul class="mt-8 space-y-4">
+            {
+              recentPublications.map((pub) => (
+                <li class="card card-interactive p-4">
+                  <a href={pub.url} {...externalAttrs(pub.url)} class="link-accent font-[var(--font-display)] text-[0.95rem] font-medium leading-snug no-underline">
+                    {pub.title}
+                  </a>
+                  <p class="mt-1.5 text-xs text-[var(--color-ink-faint)]">
+                    {pub.venue ? `${pub.venue} · ` : ""}
+                    {pub.year}
+                  </p>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <div class="flex flex-col items-start gap-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-accent-light)] p-10 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <p class="kicker">Opportunities</p>
+        <h2 class="mt-2 text-xl font-semibold sm:text-2xl">Join the lab</h2>
+        <p class="mt-2 max-w-xl text-sm text-[var(--color-ink-muted)]">
+          We welcome enquiries from prospective PhD/MS students, project staff, postdoctoral fellows, and interns.
+        </p>
+      </div>
+      <a href="/join-us" class="btn btn-primary shrink-0">View open positions</a>
+    </div>
+  </section>
+</BaseLayout>

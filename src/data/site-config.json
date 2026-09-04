@@ -1,0 +1,29 @@
+{
+  "siteName": "Interactive Intelligence Lab",
+  "shortName": "IIL",
+  "tagline": "Machine learning, reinforcement learning, and deep learning research at IIT Madras",
+  "email": "iil@dsai.iitm.ac.in",
+  "address": {
+    "lines": [
+      "Interactive Intelligence Lab (IIL)",
+      "Indian Institute of Technology Madras",
+      "Chennai, India 600036"
+    ]
+  },
+  "links": {
+    "iitm": "https://www.iitm.ac.in/",
+    "dsai": "https://wsai.iitm.ac.in/",
+    "postdoc": "https://www.iitm.ac.in/careers/post-doctoral-opportunities"
+  },
+  "announcement": {
+    "enabled": false,
+    "id": "example-announcement-v1",
+    "title": "",
+    "message": "",
+    "ctaLabel": "",
+    "ctaUrl": "",
+    "dismissible": true,
+    "startAt": null,
+    "endAt": null
+  }
+}

@@ -1,0 +1,100 @@
+name: Deploy
+
+# Builds and deploys the site to GitHub Pages. Triggered by:
+#  - a normal push to main (code changes, PR merges)
+#  - workflow_dispatch (manual)
+#  - an explicit dispatch from a sync-*.yml workflow after it commits new
+#    generated data (GITHUB_TOKEN-authored pushes do not trigger `on: push`
+#    workflows by design, so the sync workflows call this one directly —
+#    see the last step of sync-people.yml / sync-publications.yml / sync-news.yml)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Dependency audit (informational)
+        run: npm audit --audit-level=high || true
+
+      - name: Validate content
+        run: npm run validate:content
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Type-check
+        run: npm run typecheck
+
+      - name: Build
+        env:
+          GIT_COMMIT_SHA: ${{ github.sha }}
+        run: npm run build:no-check
+
+      # --- Temporary pre-approval preview protection (spec section 34) ---
+      # Threat model: this is a lightweight deterrent against casual/opportunistic
+      # visitors and search engines seeing the redesign before professor sign-off —
+      # it is NOT server-side identity-based access control. The dist/ HTML is
+      # encrypted client-side with staticrypt; anyone with the URL can still
+      # download the encrypted payload. Do not rely on this for anything
+      # sensitive. Disable by setting the PREVIEW_PROTECTED repo variable to
+      # "false" (or removing it) — see README.md "Preview protection".
+      - name: Apply preview protection (staticrypt)
+        if: vars.PREVIEW_PROTECTED == 'true'
+        env:
+          PREVIEW_PASSWORD: ${{ secrets.PREVIEW_PASSWORD }}
+        run: |
+          if [ -z "$PREVIEW_PASSWORD" ]; then
+            echo "::error::PREVIEW_PROTECTED is true but the PREVIEW_PASSWORD secret is not set."
+            exit 1
+          fi
+          # staticrypt only replaces .html files with a password-prompt shell;
+          # JS/CSS/image assets pass through untouched. Its output nests under
+          # the source directory's own name, so we swap it back into place.
+          npx --yes staticrypt@3 dist -r \
+            -p "$PREVIEW_PASSWORD" \
+            -d dist-protected \
+            --short \
+            --template-title "Interactive Intelligence Lab — Preview"
+          rm -rf dist
+          mv dist-protected/dist dist
+          rm -rf dist-protected
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

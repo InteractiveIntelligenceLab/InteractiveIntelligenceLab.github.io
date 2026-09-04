@@ -1,0 +1,71 @@
+name: Sync Publications
+
+# Regenerates src/data/generated/publications.json from OpenAlex (primary)
+# and DBLP (secondary cross-check). See README.md "Publications".
+on:
+  schedule:
+    - cron: "17 3 * * *" # once daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-publications
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync publications from OpenAlex + DBLP
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+        run: npm run sync:publications
+
+      - name: Validate content
+        run: npm run validate:content
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Production build (sanity check)
+        run: npm run build:no-check
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git add src/data/generated/publications.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(publications): sync from OpenAlex/DBLP [skip ci]"
+          git push
+
+      - name: Trigger deployment
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref ${{ github.ref_name }}

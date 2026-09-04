@@ -1,0 +1,40 @@
+name: Link Check
+
+# Checks every external link the site renders (institutional links, people's
+# professional URLs, publication URLs, news URLs). Critical institutional
+# links fail the run; bulk third-party data links only produce warnings in
+# the uploaded report. See scripts/check-links.ts and README.md.
+on:
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check links
+        run: npm run check-links
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: link-check-report.json
+          retention-days: 30

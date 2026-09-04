@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PersonCard from "../components/PersonCard.astro";
+import peopleData from "../data/generated/people.json";
+import categories from "../data/categories.json";
+import { groupCurrentByCategory, getAlumni } from "../lib/people";
+import type { Person, PersonCategoryDef } from "../lib/schemas";
+
+const people = peopleData.people as Person[];
+const groups = groupCurrentByCategory(people, categories as PersonCategoryDef[]);
+const alumni = getAlumni(people);
+---
+
+<BaseLayout
+  title="People"
+  description="Faculty, students, and researchers of the Interactive Intelligence Lab at IIT Madras."
+>
+  <div class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <p class="kicker">Who we are</p>
+    <h1 class="mt-2 text-4xl font-semibold sm:text-5xl">People</h1>
+    <p class="prose-academic mt-5 text-lg text-[var(--color-ink-muted)]">
+      Current members of the Interactive Intelligence Lab, grouped by role. This list is kept up to date through our
+      lab administration workflow — see the README for details.
+    </p>
+
+    {
+      groups.map((group) => (
+        <section class="mt-16">
+          <div class="flex items-baseline gap-3 border-b border-[var(--color-border)] pb-3">
+            <h2 class="text-xl font-semibold">{group.category.label}</h2>
+            <span class="text-sm text-[var(--color-ink-faint)]">{group.people.length}</span>
+          </div>
+          <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {group.people.map((person) => (
+              <PersonCard person={person} />
+            ))}
+          </div>
+        </section>
+      ))
+    }
+
+    {
+      alumni.length > 0 && (
+        <section class="mt-20 border-t border-[var(--color-border)] pt-12">
+          <p class="kicker">Where they are now</p>
+          <h2 class="mt-2 text-2xl font-semibold">Alumni</h2>
+          <p class="mt-2 text-sm text-[var(--color-ink-muted)]">Former members of the lab and where they are now.</p>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {alumni.map((person) => (
+              <PersonCard person={person} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </div>
+</BaseLayout>

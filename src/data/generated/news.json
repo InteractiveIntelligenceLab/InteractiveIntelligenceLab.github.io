@@ -1,0 +1,43 @@
+{
+  "count": 4,
+  "generatedAt": "2026-09-04T12:14:03.077Z",
+  "items": [
+    {
+      "id": "1a2f1041692b292b",
+      "matchedBy": "short-name+institution",
+      "publishedAt": "2026-02-24T08:00:00.000Z",
+      "source": "PIB",
+      "title": "IIT Madras Prof. B. Ravindran Appointed to UN’s Independent International Scientific Panel on AI",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKOEtRdmQwR1pldTB5eWQwenJJSjkzUmhYMXZBSkxTOWxlWEFSbjM5UWZCcHYzcE5HUkFFYzlVN0padUhGTDVNOW1GV3dkaE5JYmdtdFg4Sm05YXRGNjRaQ0NLbXQ0WmNEVkRkTV9oMnlhR3ZEV2VLZ0hnYw?oc=5",
+      "verified": true
+    },
+    {
+      "id": "ffefd0c60eb01109",
+      "matchedBy": "short-name+institution",
+      "publishedAt": "2026-02-24T08:00:00.000Z",
+      "source": "analyticsindiamag.com",
+      "title": "IIT Madras Prof B Ravindran Appointed to UN Scientific Panel on AI",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM3VtdnVIc3pMeUtvR0VlVXcwVVZBeElHYUdLLXBpcmRncFJYbjFVeUVDWVN2dDhsNWp5WUJaTVgwY1hDci0ybUNjdVFFY2pBWXl2YUlCY3otbDlqWkg5V1h4Yl9HdkVLTU1wMWJ3cU03LUJqQ0w1QmdRY0JwV0lzR2RHU3BuVE5YMTVFYURuei1FZVhSYW5tZ080cEk3WkxUSjFxUDBjYw?oc=5",
+      "verified": true
+    },
+    {
+      "id": "6de8bbea48dfcf9c",
+      "matchedBy": "short-name+institution",
+      "publishedAt": "2026-02-24T08:00:00.000Z",
+      "source": "awazthevoice.in",
+      "title": "IIT Madras Prof B. Ravindran appointed to UN’s Independent International Scientific Panel",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVnMxcElGdWwxYktLTGRXZFNnN2VjakwtUkx4MmRZTHEyZUtsdTRBRGppXzdRcjhOejdLb2JPd0Y1eFhrRGt1SWJfVmVIRjZDYmFTYWtfUEo0T2F3cDB5OG1GejRwRWo5bVpVNXFFQk1Kb3hHN1U3Z1hVT1gyS0cybjNTcDhUWHAyMWROWXItcFhJT1BYc2k3TTJjbW00N0ZGRVpkeVFSbUJjOVp0TThYUjJqeDVQdnZZeUlDZnRzRm5vREdMT2xJVnZMS1Y3S1QzQi1UWQ?oc=5",
+      "verified": true
+    },
+    {
+      "id": "520813e8e8bfaada",
+      "matchedBy": "exact-full-name",
+      "publishedAt": "2025-08-12T07:00:00.000Z",
+      "source": "outlookbusiness.com",
+      "title": "WATCH | Prof. Balaraman Ravindran Unpacks the AI Revolution",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZFIwN3hJbnBKM1Q2YUVuWjlXazh0MEVfS0pVYk14eGFnNzJ1dy0yRUNOOUwxblhtS3NiQWpYeXFDbDRLVjluOHZ5VDdGbHpIMk9TdE5YUkxxdnRCQU5SeW5fX0U2OERRQU40bmVsQzBTZUdJd0VTZEE4dUg0UUxMak90Qy1tdTA4YzZ4X0kwM1JHTk83eFFSVjdsONIBqAFBVV95cUxQRGJkVldha0E4QmpJMjdVTV9NMzAtODFlMm5KRWxQYThKVEl2MWxWdWNUZVNWYUxCZThJNTk4bS1jSTdfNl9NM20wQXZXQXZRbk5rN2I4XzBPS0ZDN3k4bXV4U1dibnlrdmxUMGYxNExVTENRS1Y1Q3U4Y1BFNFNsXy1TLWV5SWpHNjRtV3l2ZnFnV0Z0T0ZHZjhEQk1IOEphNFZNZFlMMkI?oc=5",
+      "verified": true
+    }
+  ],
+  "sourceStatus": "ok"
+}

@@ -1,0 +1,7 @@
+[
+  { "id": "faculty", "label": "Faculty", "order": 1 },
+  { "id": "phd", "label": "PhD Scholars", "order": 2 },
+  { "id": "ms", "label": "MS Scholars", "order": 3 },
+  { "id": "project-staff", "label": "Project Staff / Researchers", "order": 4 },
+  { "id": "interns", "label": "Interns", "order": 5 }
+]

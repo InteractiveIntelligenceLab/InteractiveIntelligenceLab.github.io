@@ -37,7 +37,7 @@ interface LinkCheckResult {
 // sending a normal browser UA cuts down on that specific false positive.
 const CHECK_HEADERS = {
   "user-agent":
-    "Mozilla/5.0 (compatible; IIL-LinkChecker/1.0; +https://iil.github.io)",
+    "Mozilla/5.0 (compatible; IIL-LinkChecker/1.0; +https://interactiveintelligencelab.github.io)",
 };
 
 async function checkUrl(url: string): Promise<{ ok: boolean; status?: number; error?: string }> {

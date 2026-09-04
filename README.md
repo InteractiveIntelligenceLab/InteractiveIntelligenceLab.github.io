@@ -381,8 +381,8 @@ Pages Actions (`upload-pages-artifact` + `deploy-pages`), triggered by:
 
 1. Repo **Settings → Pages → Source** → select **"GitHub Actions"** (not
    "Deploy from a branch").
-2. Because this repo is `InteractiveIntelligenceLab/iil.github.io` (an
-   org-level Pages repo), it deploys to `https://iil.github.io/` at the
+2. Because this repo is `InteractiveIntelligenceLab/InteractiveIntelligenceLab.github.io` (an
+   org-level Pages repo), it deploys to `https://interactiveintelligencelab.github.io/` at the
    domain root — no `base` path configuration needed (already reflected in
    `astro.config.mjs`).
 3. Configure the Google/OpenAlex secrets described above if you want the

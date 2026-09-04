@@ -78,7 +78,14 @@ jobs:
             -p "$PREVIEW_PASSWORD" \
             -d dist-protected \
             --short \
-            --template-title "Interactive Intelligence Lab — Preview"
+            --template-title "Interactive Intelligence Lab — Under Maintenance" \
+            --template-instructions "This preview is under maintenance. Enter the access password to continue." \
+            --template-button "Enter site" \
+            --template-placeholder "Access password" \
+            --template-error "That password is not correct. Please try again." \
+            --template-remember "Remember this device" \
+            --template-color-primary "#000000" \
+            --template-color-secondary "#ffffff"
           rm -rf dist
           mv dist-protected/dist dist
           rm -rf dist-protected

@@ -1,6 +1,6 @@
 {
-  "count": 308,
-  "generatedAt": "2026-09-04T12:13:53.192Z",
+  "count": 298,
+  "generatedAt": "2026-09-05T03:23:21.208Z",
   "items": [
     {
       "authors": [
@@ -310,26 +310,6 @@
       "type": "article",
       "url": "https://doi.org/10.1186/s13321-025-01090-5",
       "venue": "Journal of Cheminformatics",
-      "year": 2025
-    },
-    {
-      "authors": [
-        "G Santhosh",
-        "Akshay Govind S",
-        "Krishnan, Gokul S",
-        "Balaraman Ravindran",
-        "Sriraam Natarajan"
-      ],
-      "doi": "10.48550/arxiv.2510.02742",
-      "id": "10.48550/arxiv.2510.02742",
-      "oaUrl": "https://arxiv.org/pdf/2510.02742",
-      "openAlexId": "W4416369345",
-      "publicationDate": "2025-10-03",
-      "source": "openalex",
-      "title": "IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Using Contrastive Embedding Similarity in the Indian Context",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2510.02742",
-      "venue": "arXiv (Cornell University)",
       "year": 2025
     },
     {
@@ -1039,24 +1019,6 @@
       "title": "GAN-MPC: Training Model Predictive Controllers with Parameterized Cost Functions using Demonstrations from Non-identical Experts",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.2305.19111",
-      "venue": "arXiv (Cornell University)",
-      "year": 2023
-    },
-    {
-      "authors": [
-        "Sudarsun Santhiappan",
-        "Nitin Shravan",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.2305.13926",
-      "id": "10.48550/arxiv.2305.13926",
-      "oaUrl": "https://arxiv.org/pdf/2305.13926",
-      "openAlexId": "W4378506947",
-      "publicationDate": "2023-05-23",
-      "source": "openalex",
-      "title": "Clustering Indices based Automatic Classification Model Selection",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2305.13926",
       "venue": "arXiv (Cornell University)",
       "year": 2023
     },
@@ -1907,7 +1869,7 @@
       "openAlexId": "W4287280937",
       "publicationDate": "2021-03-07",
       "source": "openalex",
-      "title": "Selective Intervention Planning using Restless Multi-Armed Bandits to\\n Improve Maternal and Child Health Outcomes",
+      "title": "Selective Intervention Planning using Restless Multi-Armed Bandits to Improve Maternal and Child Health Outcomes",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.2103.09052",
       "venue": "arXiv (Cornell University)",
@@ -2242,25 +2204,6 @@
     },
     {
       "authors": [
-        "Nikita Moghe",
-        "Priyesh Vijayan",
-        "Balaraman Ravindran",
-        "Mitesh M. Khapra"
-      ],
-      "doi": "10.48550/arxiv.2005.14315",
-      "id": "10.48550/arxiv.2005.14315",
-      "oaUrl": "https://arxiv.org/pdf/2005.14315",
-      "openAlexId": "W4287774598",
-      "publicationDate": "2020-05-28",
-      "source": "openalex",
-      "title": "On Incorporating Structural Information to improve Dialogue Response\\n Generation",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2005.14315",
-      "venue": "arXiv (Cornell University)",
-      "year": 2020
-    },
-    {
-      "authors": [
         "Harshavardhan Kamarthi",
         "Priyesh Vijayan",
         "Bryan Wilder",
@@ -2306,7 +2249,7 @@
       "openAlexId": "W3018979822",
       "publicationDate": "2020-04-21",
       "source": "openalex",
-      "title": "EMPIR: Ensembles of Mixed Precision Deep Networks for Increased\\n Robustness against Adversarial Attacks",
+      "title": "EMPIR: Ensembles of Mixed Precision Deep Networks for Increased Robustness against Adversarial Attacks",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.2004.10162",
       "venue": "arXiv (Cornell University)",
@@ -2350,23 +2293,20 @@
     },
     {
       "authors": [
-        "Sravan Mylavarapu",
-        "Mahtab Sandhu",
+        "Nikita Moghe",
         "Priyesh Vijayan",
-        "K. Madhava Krishna",
         "Balaraman Ravindran",
-        "Anoop Namboodiri"
+        "Mitesh M. Khapra"
       ],
-      "doi": "10.48550/arxiv.2002.00786",
-      "id": "10.48550/arxiv.2002.00786",
-      "oaUrl": "https://arxiv.org/pdf/2002.00786",
-      "openAlexId": "W4287871826",
-      "publicationDate": "2020-02-03",
+      "doi": "10.18653/v1/2020.nlp4convai-1.2",
+      "id": "10.18653/v1/2020.nlp4convai-1.2",
+      "oaUrl": "https://www.aclweb.org/anthology/2020.nlp4convai-1.2.pdf",
+      "openAlexId": "W3031080501",
+      "publicationDate": "2020-01-01",
       "source": "openalex",
-      "title": "Towards Accurate Vehicle Behaviour Classification With Multi-Relational\\n Graph Convolutional Networks",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2002.00786",
-      "venue": "arXiv (Cornell University)",
+      "title": "On Incorporating Structural Information to improve Dialogue Response Generation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2020.nlp4convai-1.2",
       "year": 2020
     },
     {
@@ -2423,24 +2363,6 @@
       "type": "conference-paper",
       "url": "https://doi.org/10.1007/978-3-030-68238-5_12",
       "venue": "Lecture notes in computer science",
-      "year": 2020
-    },
-    {
-      "authors": [
-        "Nikita Moghe",
-        "Priyesh Vijayan",
-        "Balaraman Ravindran",
-        "Mitesh M. Khapra"
-      ],
-      "doi": "10.18653/v1/2020.nlp4convai-1.2",
-      "id": "10.18653/v1/2020.nlp4convai-1.2",
-      "oaUrl": "https://www.aclweb.org/anthology/2020.nlp4convai-1.2.pdf",
-      "openAlexId": "W3031080501",
-      "publicationDate": "2020-01-01",
-      "source": "openalex",
-      "title": "On Incorporating Structural Information to improve Dialogue Response Generation",
-      "type": "conference-paper",
-      "url": "https://doi.org/10.18653/v1/2020.nlp4convai-1.2",
       "year": 2020
     },
     {
@@ -2512,24 +2434,6 @@
       "title": "Reinforcement Learning for Multi-Objective Optimization of Online Decisions in High-Dimensional Systems",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.1910.00211",
-      "venue": "arXiv (Cornell University)",
-      "year": 2019
-    },
-    {
-      "authors": [
-        "Arjun Manoharan",
-        "R. Ramesh",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1909.04134",
-      "id": "10.48550/arxiv.1909.04134",
-      "oaUrl": "https://arxiv.org/pdf/1909.04134",
-      "openAlexId": "W4288112290",
-      "publicationDate": "2019-09-09",
-      "source": "openalex",
-      "title": "Option Encoder: A Framework for Discovering a Policy Basis in\\n Reinforcement Learning",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1909.04134",
       "venue": "arXiv (Cornell University)",
       "year": 2019
     },
@@ -2634,24 +2538,6 @@
       "title": "Learning Interpretable Models Using an Oracle.",
       "type": "preprint",
       "url": "http://arxiv.org/pdf/1906.06852.pdf",
-      "venue": "arXiv (Cornell University)",
-      "year": 2019
-    },
-    {
-      "authors": [
-        "R. Ramesh",
-        "Manan Tomar",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1905.05731",
-      "id": "10.48550/arxiv.1905.05731",
-      "oaUrl": "https://arxiv.org/pdf/1905.05731",
-      "openAlexId": "W4288356660",
-      "publicationDate": "2019-05-14",
-      "source": "openalex",
-      "title": "Successor Options: An Option Discovery Framework for Reinforcement\\n Learning",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1905.05731",
       "venue": "arXiv (Cornell University)",
       "year": 2019
     },
@@ -2788,24 +2674,6 @@
       "type": "article",
       "url": "https://doi.org/10.1007/s41745-019-0103-y",
       "venue": "Journal of the Indian Institute of Science",
-      "year": 2019
-    },
-    {
-      "authors": [
-        "Revanth Gangi Reddy",
-        "Sarath Chandar",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1902.07159",
-      "id": "10.48550/arxiv.1902.07159",
-      "oaUrl": "https://arxiv.org/pdf/1902.07159",
-      "openAlexId": "W4288594620",
-      "publicationDate": "2019-02-10",
-      "source": "openalex",
-      "title": "Edge Replacement Grammars: A Formal Language Approach for Generating\\n Graphs",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1902.07159",
-      "venue": "arXiv (Cornell University)",
       "year": 2019
     },
     {
@@ -3089,7 +2957,7 @@
       "openAlexId": "W4293359238",
       "publicationDate": "2018-05-31",
       "source": "openalex",
-      "title": "HOPF: Higher Order Propagation Framework for Deep Collective\\n Classification",
+      "title": "HOPF: Higher Order Propagation Framework for Deep Collective Classification",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.1805.12421",
       "venue": "arXiv (Cornell University)",
@@ -3168,25 +3036,6 @@
       "title": "DiGrad: Multi-Task Reinforcement Learning with Shared Actions",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.1802.10463",
-      "venue": "arXiv (Cornell University)",
-      "year": 2018
-    },
-    {
-      "authors": [
-        "Deepak Mittal",
-        "Shweta Bhardwaj",
-        "Mitesh M. Khapra",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1801.10447",
-      "id": "10.48550/arxiv.1801.10447",
-      "oaUrl": "https://arxiv.org/pdf/1801.10447",
-      "openAlexId": "W4298068491",
-      "publicationDate": "2018-01-31",
-      "source": "openalex",
-      "title": "Recovering from Random Pruning: On the Plasticity of Deep Convolutional\\n Neural Networks",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1801.10447",
       "venue": "arXiv (Cornell University)",
       "year": 2018
     },
@@ -3512,25 +3361,6 @@
       "type": "article",
       "url": "https://doi.org/10.5555/3091125.3091408",
       "venue": "Adaptive Agents and Multi-Agents Systems",
-      "year": 2017
-    },
-    {
-      "authors": [
-        "Preksha Nema",
-        "Mitesh M. Khapra",
-        "Anirban Laha",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1704.08300",
-      "id": "10.48550/arxiv.1704.08300",
-      "oaUrl": "https://arxiv.org/pdf/1704.08300",
-      "openAlexId": "W4302493259",
-      "publicationDate": "2017-04-26",
-      "source": "openalex",
-      "title": "Diversity driven Attention Model for Query-based Abstractive\\n Summarization",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1704.08300",
-      "venue": "arXiv (Cornell University)",
       "year": 2017
     },
     {
@@ -3973,25 +3803,6 @@
     {
       "authors": [
         "Janarthanan Rajendran",
-        "Mitesh M. Khapra",
-        "Sarath Chandar",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1510.03519",
-      "id": "10.48550/arxiv.1510.03519",
-      "oaUrl": "https://arxiv.org/pdf/1510.03519",
-      "openAlexId": "W4298416160",
-      "publicationDate": "2015-10-12",
-      "source": "openalex",
-      "title": "Bridge Correlational Neural Networks for Multilingual Multimodal\\n Representation Learning",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1510.03519",
-      "venue": "arXiv (Cornell University)",
-      "year": 2015
-    },
-    {
-      "authors": [
-        "Janarthanan Rajendran",
         "Aravind Srinivas",
         "Mitesh M. Khapra",
         "Prateek Prasanna",
@@ -4090,7 +3901,7 @@
       "publicationDate": "2015-09-01",
       "source": "openalex",
       "title": "Parallelization of game theoretic centrality algorithms",
-      "type": "article",
+      "type": "book-chapter",
       "url": "https://doi.org/10.1007/s12046-015-0425-z",
       "venue": "Sadhana",
       "year": 2015

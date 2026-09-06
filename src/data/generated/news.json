@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "generatedAt": "2026-09-05T12:36:07.282Z",
+  "count": 10,
+  "generatedAt": "2026-09-06T00:43:40.116Z",
   "items": [
     {
       "id": "29ee05459416678f",
@@ -33,7 +33,7 @@
       "id": "6de8bbea48dfcf9c",
       "matchedBy": "short-name+institution",
       "publishedAt": "2026-02-24T08:00:00.000Z",
-      "source": "Awaz The Voice",
+      "source": "awazthevoice.in",
       "title": "IIT Madras Prof B. Ravindran appointed to UN’s Independent International Scientific Panel",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVnMxcElGdWwxYktLTGRXZFNnN2VjakwtUkx4MmRZTHEyZUtsdTRBRGppXzdRcjhOejdLb2JPd0Y1eFhrRGt1SWJfVmVIRjZDYmFTYWtfUEo0T2F3cDB5OG1GejRwRWo5bVpVNXFFQk1Kb3hHN1U3Z1hVT1gyS0cybjNTcDhUWHAyMWROWXItcFhJT1BYc2k3TTJjbW00N0ZGRVpkeVFSbUJjOVp0TThYUjJqeDVQdnZZeUlDZnRzRm5vREdMT2xJVnZMS1Y3S1QzQi1UWQ?oc=5",
       "verified": true
@@ -48,12 +48,30 @@
       "verified": true
     },
     {
+      "id": "7f17b01c191c391d",
+      "matchedBy": "short-name+institution",
+      "publishedAt": "2026-02-24T08:00:00.000Z",
+      "source": "The Economic Times",
+      "title": "IIT Madras’ professor B Ravindran joins United Nations AI Scientific Panel",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcjItTmV4dFkxd0xBZ3JzRWRkUGRCbUNNYlpPU1B1ZjNxTHExNzJfQ0hOLThjYTNWTnoyYmdCSDZxZG1paG1qSWJ4YmthTXl3elBqQlJmUzRDNkRYYmhuSjFDcGM3VTA0a05aeGw3VzlqWF9JQkpEUkktU2hXNmdWVVhPREtzS0ViaHFJQ2prSFl2M0ZCMVpGTW00ZkloR3dHZ3prV29QSzBDeVVyQXQ4Z1B3STQxTHlUTlJMSEt2S3pZTXN0SjZwVVpQb2VCSWJiakJtTdIB2gFBVV95cUxQQWQ4SjRMS3VZNENhYUVDZFUzc0ZyVUpMa0NBLWs0ZG5CV1Y4Q3FuWUJmel93Smx1Tms4MHdETXJ1bnlwZWxNOEdYZEtMeFM4WWJaajN4dl9UOUFHaWh0MkZ3cjNvNS1TQ3Zpa1J2QXNKMmxNREJucmRVRmYzRzhYV0FCNzlQMkw3cXBCeHFISG55bGhMaEUxbWt3SjJ5TzhMQXNQT01XVEN0MkwzLVpXSTJaaTR5SS1pZjFXTXkwZzBIZmh5S2l6SmVqWjF0ZnBLQ1dBNG9IdUFlUQ?oc=5",
+      "verified": true
+    },
+    {
       "id": "520813e8e8bfaada",
       "matchedBy": "exact-full-name",
       "publishedAt": "2025-08-12T07:00:00.000Z",
       "source": "outlookbusiness.com",
       "title": "WATCH | Prof. Balaraman Ravindran Unpacks the AI Revolution",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZFIwN3hJbnBKM1Q2YUVuWjlXazh0MEVfS0pVYk14eGFnNzJ1dy0yRUNOOUwxblhtS3NiQWpYeXFDbDRLVjluOHZ5VDdGbHpIMk9TdE5YUkxxdnRCQU5SeW5fX0U2OERRQU40bmVsQzBTZUdJd0VTZEE4dUg0UUxMak90Qy1tdTA4YzZ4X0kwM1JHTk83eFFSVjdsONIBqAFBVV95cUxQRGJkVldha0E4QmpJMjdVTV9NMzAtODFlMm5KRWxQYThKVEl2MWxWdWNUZVNWYUxCZThJNTk4bS1jSTdfNl9NM20wQXZXQXZRbk5rN2I4XzBPS0ZDN3k4bXV4U1dibnlrdmxUMGYxNExVTENRS1Y1Q3U4Y1BFNFNsXy1TLWV5SWpHNjRtV3l2ZnFnV0Z0T0ZHZjhEQk1IOEphNFZNZFlMMkI?oc=5",
+      "verified": true
+    },
+    {
+      "id": "c2eede9cc13bba08",
+      "matchedBy": "exact-full-name",
+      "publishedAt": "2025-07-03T07:00:00.000Z",
+      "source": "analyticsindiamag.com",
+      "title": "IIT Madras Prof Balaraman Ravindran Questions IndiaAI Mission’s Timeline to Build an Indigenous LLM",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVWNUVVRLUGFvR2ZPRWQxUENxbU5OVzI4RkU4d05kOU8yZG5lazlXaXh3ZTMybXVjZXBMS0NpeDF5YzI0R3ZmNlZmMGQ0eF9Pem9OZkl5WDRGa3RTaWtMMmJNMkNkNERJMHhSUC1BUlpvSXdWcC1tckxkZmZ0WU9IMi04NzFPNHlKVEc4Z2Q4aTBEZ1ZVcFRVTjdUdWgzT3R5MC1jaVh4UHJJZXV6RUpVanRVUld5QUpDN2pUWC1hTnJwaUdHT3hjcGlYTXBJMkFCdjFxSkJHQQ?oc=5",
       "verified": true
     },
     {
@@ -64,7 +82,16 @@
       "title": "IIT Madras' B Ravindran: Championing AI that is not only powerful, but also responsible",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTGljVk1ZanRTU2szQUppa0w4UEZwcDN2OHlUR21FeUJRb0VFc2RNdENMR0R2QjR1a2ZmM3ZjTG9RbzJJT1lteUxjdWlZaGpnLVRmY2FiU3otREpyZFNDd1VvNUw1MFFMVGkyRWlWekpGNWgyWERBUGJRbk1EVzNlbzJaZkFZWjNib0o5a2hTcDhDeTFWUWNKS2tGXzNJTDRfdnNMcWRfckdqc2NyOEV4MEdIczhsNUVuQzZ4MUptbW15Y1Y1SXBNS3lnNHl3ck9YUmlCWXlEQTRVajRM0gHiAUFVX3lxTE4wdFBfWDlVbjhZQ1JBQ1NLVWpLd1lKbFJKMW5EeXZRS2tRaUVvdjhDckhCeWNDQ3otUUlOWDF2WnV5VEVwVUpIVi1zams5eE5aeTlXRURaOE9pSElVVGxiNFdUOFlqc0tzZHNJd2pHblRWX1BQUXA0MXJaZU1oUVhBMXVQSmFLcTl2eVNjVVhTNmNXanFGMzkxWGJwckV1a3h2OVNWd1JLbVRLMW83Z3l0alpZZUJmVnR5b0d2b3lBTloxeGI1X21pYVI4MUg0N1phR3VvZ0doT1I1SWloSkZ5Ymc?oc=5",
       "verified": true
+    },
+    {
+      "id": "790351f89ae1c167",
+      "matchedBy": "short-name+institution",
+      "publishedAt": "2021-07-19T07:00:00.000Z",
+      "source": "analyticsindiamag.com",
+      "title": "Interview With Prof B Ravindran, Head, Robert Bosch Centre For Data Science & AI, IIT Madras",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOVktVFlkRjVrUGlnTG1NN3dDWExtWU5LcFJwaWgzOEU5SjZ4emozTGtSWkE3a2x6QTlwMDNVbGR3bEtMSU95aEFmenhTc0otaHFSTDBsaEZUcTQySDJ3ZGNPZ0pGdnloMEVreFRkU0NtaEFVRkRWNTk3UWtLQkdTNnRxTHRKYnlDUS15Sm9renFMRzlpRFV1MklmVk5SbUtaLS1NTWZTVUVoNV9rWlRNdEU1MlNSQndKVW5UYnZQNW1lSVh6aHNiXw?oc=5",
+      "verified": true
     }
   ],
-  "sourceStatus": "stale"
+  "sourceStatus": "ok"
 }

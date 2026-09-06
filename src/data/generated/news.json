@@ -1,7 +1,16 @@
 {
-  "count": 10,
-  "generatedAt": "2026-09-06T06:37:22.826Z",
+  "count": 11,
+  "generatedAt": "2026-09-06T12:37:12.777Z",
   "items": [
+    {
+      "id": "b2dee4ab3e82f159",
+      "matchedBy": "exact-full-name",
+      "publishedAt": "2026-07-07T11:01:02.000Z",
+      "source": "analyticsindiamag.com",
+      "title": "Prof Balaraman Ravindran | AIM 100: India's Most Influential People Shaping AI in 2026 | AIM",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPakV2MzNaVlc2eFdFLTc3aWRoT2RHWEVkMXRWUm02X0RfOS1TMXU4RHNMeHdWQ2d6d1RDOHRiX1ZnQmNqUVJXN3VDSUxRSEJlczRzNEF5OHh5T1JPVUR0R0JqdDJIZjRDTzhnOF9Kb0tuSkFOZS1fMm5uUVl5VXVtSU9Wd2RyZw?oc=5",
+      "verified": true
+    },
     {
       "id": "29ee05459416678f",
       "matchedBy": "exact-full-name",
@@ -42,7 +51,7 @@
       "id": "b970de79c89370c0",
       "matchedBy": "short-name+institution",
       "publishedAt": "2026-02-24T08:00:00.000Z",
-      "source": "bestcolleges.indiatoday.in",
+      "source": "India Today",
       "title": "IIT Madras's B Ravindran joins UN panel to explore AI's global impact",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTFFKTVNPTHpHa24tU01UemV2U2Jydzc1bW1WTDlZV1RYb0p5MjRKekt5eUlicG1lOGpDcjFMMzBLanNJV2lzYnAwcGJpVTdyM2dTQXV1SHEtMC1aUlBPUWN1bUl1dm1oZGNzMFpKZEk2bGgwNG1IeHlLZ0FvSU44YmRHcGFtQUt4NnFkbkcwMFRrbUE0cWZHR2pxaGlCWTYtVGIyeEdfN3ZhNlpleVZYUmpxNDcwM1phWjZn?oc=5",
       "verified": true

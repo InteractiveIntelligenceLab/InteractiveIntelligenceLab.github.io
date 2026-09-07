@@ -1,6 +1,6 @@
 {
-  "count": 11,
-  "generatedAt": "2026-09-07T12:40:50.765Z",
+  "count": 12,
+  "generatedAt": "2026-09-07T18:37:33.470Z",
   "items": [
     {
       "id": "b2dee4ab3e82f159",
@@ -24,7 +24,7 @@
       "id": "1a2f1041692b292b",
       "matchedBy": "short-name+institution",
       "publishedAt": "2026-02-24T08:00:00.000Z",
-      "source": "PIB",
+      "source": "pib.gov.in",
       "title": "IIT Madras Prof. B. Ravindran Appointed to UN’s Independent International Scientific Panel on AI",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKOEtRdmQwR1pldTB5eWQwenJJSjkzUmhYMXZBSkxTOWxlWEFSbjM5UWZCcHYzcE5HUkFFYzlVN0padUhGTDVNOW1GV3dkaE5JYmdtdFg4Sm05YXRGNjRaQ0NLbXQ0WmNEVkRkTV9oMnlhR3ZEV2VLZ0hnYw?oc=5",
       "verified": true
@@ -51,7 +51,7 @@
       "id": "b970de79c89370c0",
       "matchedBy": "short-name+institution",
       "publishedAt": "2026-02-24T08:00:00.000Z",
-      "source": "bestcolleges.indiatoday.in",
+      "source": "India Today",
       "title": "IIT Madras's B Ravindran joins UN panel to explore AI's global impact",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTFFKTVNPTHpHa24tU01UemV2U2Jydzc1bW1WTDlZV1RYb0p5MjRKekt5eUlicG1lOGpDcjFMMzBLanNJV2lzYnAwcGJpVTdyM2dTQXV1SHEtMC1aUlBPUWN1bUl1dm1oZGNzMFpKZEk2bGgwNG1IeHlLZ0FvSU44YmRHcGFtQUt4NnFkbkcwMFRrbUE0cWZHR2pxaGlCWTYtVGIyeEdfN3ZhNlpleVZYUmpxNDcwM1phWjZn?oc=5",
       "verified": true
@@ -90,6 +90,15 @@
       "source": "Forbes India",
       "title": "IIT Madras' B Ravindran: Championing AI that is not only powerful, but also responsible",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTGljVk1ZanRTU2szQUppa0w4UEZwcDN2OHlUR21FeUJRb0VFc2RNdENMR0R2QjR1a2ZmM3ZjTG9RbzJJT1lteUxjdWlZaGpnLVRmY2FiU3otREpyZFNDd1VvNUw1MFFMVGkyRWlWekpGNWgyWERBUGJRbk1EVzNlbzJaZkFZWjNib0o5a2hTcDhDeTFWUWNKS2tGXzNJTDRfdnNMcWRfckdqc2NyOEV4MEdIczhsNUVuQzZ4MUptbW15Y1Y1SXBNS3lnNHl3ck9YUmlCWXlEQTRVajRM0gHiAUFVX3lxTE4wdFBfWDlVbjhZQ1JBQ1NLVWpLd1lKbFJKMW5EeXZRS2tRaUVvdjhDckhCeWNDQ3otUUlOWDF2WnV5VEVwVUpIVi1zams5eE5aeTlXRURaOE9pSElVVGxiNFdUOFlqc0tzZHNJd2pHblRWX1BQUXA0MXJaZU1oUVhBMXVQSmFLcTl2eVNjVVhTNmNXanFGMzkxWGJwckV1a3h2OVNWd1JLbVRLMW83Z3l0alpZZUJmVnR5b0d2b3lBTloxeGI1X21pYVI4MUg0N1phR3VvZ0doT1I1SWloSkZ5Ymc?oc=5",
+      "verified": true
+    },
+    {
+      "id": "ba95b8cddc9f7af3",
+      "matchedBy": "exact-full-name",
+      "publishedAt": "2021-12-09T08:00:00.000Z",
+      "source": "indiaai.gov.in",
+      "title": "“In the next five years, we want to focus on deployable AI,” says Professor Balaraman Ravindran",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdVpod1F1WG0xeDBjbkRnOUUxVHpkYnBvSDNQeFZka1lHaGMtSU9FRzNrX29ZbExhdGYtczNYWjhfLUg4ZXU3R3MtU0dYUzVGQTJQcTlGM1RHTVNkMlFTbzJ1YWEzQ1hQcWVhbVNKS29SMkVzLUowWVI0djVTd3JSaEpHelJwMmVxRXBXMnRBMGx3SW01R2VJX0JvMlRsdnhaQW1NcmpPZWJDakE2UFpPTzdpNXNIVmoxRjBkSjJFVQ?oc=5",
       "verified": true
     },
     {

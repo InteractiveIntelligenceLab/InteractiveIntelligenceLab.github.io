@@ -1,6 +1,6 @@
 {
   "count": 12,
-  "generatedAt": "2026-09-08T06:39:46.268Z",
+  "generatedAt": "2026-09-08T12:41:13.381Z",
   "items": [
     {
       "id": "b2dee4ab3e82f159",
@@ -24,7 +24,7 @@
       "id": "1a2f1041692b292b",
       "matchedBy": "short-name+institution",
       "publishedAt": "2026-02-24T08:00:00.000Z",
-      "source": "PIB",
+      "source": "pib.gov.in",
       "title": "IIT Madras Prof. B. Ravindran Appointed to UN’s Independent International Scientific Panel on AI",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKOEtRdmQwR1pldTB5eWQwenJJSjkzUmhYMXZBSkxTOWxlWEFSbjM5UWZCcHYzcE5HUkFFYzlVN0padUhGTDVNOW1GV3dkaE5JYmdtdFg4Sm05YXRGNjRaQ0NLbXQ0WmNEVkRkTV9oMnlhR3ZEV2VLZ0hnYw?oc=5",
       "verified": true
@@ -96,7 +96,7 @@
       "id": "ba95b8cddc9f7af3",
       "matchedBy": "exact-full-name",
       "publishedAt": "2021-12-09T08:00:00.000Z",
-      "source": "indiaai.gov.in",
+      "source": "IndiaAI",
       "title": "“In the next five years, we want to focus on deployable AI,” says Professor Balaraman Ravindran",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdVpod1F1WG0xeDBjbkRnOUUxVHpkYnBvSDNQeFZka1lHaGMtSU9FRzNrX29ZbExhdGYtczNYWjhfLUg4ZXU3R3MtU0dYUzVGQTJQcTlGM1RHTVNkMlFTbzJ1YWEzQ1hQcWVhbVNKS29SMkVzLUowWVI0djVTd3JSaEpHelJwMmVxRXBXMnRBMGx3SW01R2VJX0JvMlRsdnhaQW1NcmpPZWJDakE2UFpPTzdpNXNIVmoxRjBkSjJFVQ?oc=5",
       "verified": true

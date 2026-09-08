@@ -1,6 +1,6 @@
 {
   "count": 12,
-  "generatedAt": "2026-09-08T12:41:13.381Z",
+  "generatedAt": "2026-09-08T18:38:23.203Z",
   "items": [
     {
       "id": "b2dee4ab3e82f159",
@@ -16,7 +16,7 @@
       "matchedBy": "exact-full-name",
       "publishedAt": "2026-04-21T12:34:11.000Z",
       "source": "analyticsindiamag.com",
-      "title": "Balaraman Ravindran | The 100 Most Influential People in AI - 2025 Edition India | AIM",
+      "title": "Balaraman Ravindran | The 100 Most Influential People in AI - 2025 Edition India",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQjJ0bk9aczNhTlNhSzNMLUp3Y3duNFVCWXZwTXlwM1UwN2NncmJJMmdVQ1FROHNmYVcxWGhmZGlfOUtKMWtsNmVLZHJCNVV0R2dDWmkya1dIU0JpdU9JQkhtV3VGbEtIMGlqOGRkbVdkUk5obWxfV05NVmdHLUExRFpmRnpFcHRrYmtYODZFenR3ZzhIakRYZnowanI?oc=5",
       "verified": true
     },
@@ -24,7 +24,7 @@
       "id": "1a2f1041692b292b",
       "matchedBy": "short-name+institution",
       "publishedAt": "2026-02-24T08:00:00.000Z",
-      "source": "pib.gov.in",
+      "source": "PIB",
       "title": "IIT Madras Prof. B. Ravindran Appointed to UN’s Independent International Scientific Panel on AI",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKOEtRdmQwR1pldTB5eWQwenJJSjkzUmhYMXZBSkxTOWxlWEFSbjM5UWZCcHYzcE5HUkFFYzlVN0padUhGTDVNOW1GV3dkaE5JYmdtdFg4Sm05YXRGNjRaQ0NLbXQ0WmNEVkRkTV9oMnlhR3ZEV2VLZ0hnYw?oc=5",
       "verified": true
@@ -103,7 +103,7 @@
     },
     {
       "id": "790351f89ae1c167",
-      "matchedBy": "short-name+institution",
+      "matchedBy": "exact-name+institution",
       "publishedAt": "2021-07-19T07:00:00.000Z",
       "source": "analyticsindiamag.com",
       "title": "Interview With Prof B Ravindran, Head, Robert Bosch Centre For Data Science & AI, IIT Madras",

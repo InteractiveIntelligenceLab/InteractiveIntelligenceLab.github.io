@@ -1,6 +1,6 @@
 {
   "count": 298,
-  "generatedAt": "2026-09-08T03:25:22.665Z",
+  "generatedAt": "2026-09-09T03:25:16.856Z",
   "items": [
     {
       "authors": [
@@ -3901,7 +3901,7 @@
       "publicationDate": "2015-09-01",
       "source": "openalex",
       "title": "Parallelization of game theoretic centrality algorithms",
-      "type": "book-chapter",
+      "type": "article",
       "url": "https://doi.org/10.1007/s12046-015-0425-z",
       "venue": "Sadhana",
       "year": 2015

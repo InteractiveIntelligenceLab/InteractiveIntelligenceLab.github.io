@@ -1,6 +1,6 @@
 {
   "count": 12,
-  "generatedAt": "2026-09-08T18:38:23.203Z",
+  "generatedAt": "2026-09-09T00:43:09.735Z",
   "items": [
     {
       "id": "b2dee4ab3e82f159",
@@ -103,7 +103,7 @@
     },
     {
       "id": "790351f89ae1c167",
-      "matchedBy": "exact-name+institution",
+      "matchedBy": "short-name+institution",
       "publishedAt": "2021-07-19T07:00:00.000Z",
       "source": "analyticsindiamag.com",
       "title": "Interview With Prof B Ravindran, Head, Robert Bosch Centre For Data Science & AI, IIT Madras",

@@ -1,6 +1,6 @@
 {
   "count": 13,
-  "generatedAt": "2026-09-11T12:39:36.526Z",
+  "generatedAt": "2026-09-11T18:36:34.746Z",
   "items": [
     {
       "id": "b2dee4ab3e82f159",
@@ -105,14 +105,14 @@
       "id": "ba95b8cddc9f7af3",
       "matchedBy": "exact-full-name",
       "publishedAt": "2021-12-09T08:00:00.000Z",
-      "source": "indiaai.gov.in",
+      "source": "IndiaAI",
       "title": "“In the next five years, we want to focus on deployable AI,” says Professor Balaraman Ravindran",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdVpod1F1WG0xeDBjbkRnOUUxVHpkYnBvSDNQeFZka1lHaGMtSU9FRzNrX29ZbExhdGYtczNYWjhfLUg4ZXU3R3MtU0dYUzVGQTJQcTlGM1RHTVNkMlFTbzJ1YWEzQ1hQcWVhbVNKS29SMkVzLUowWVI0djVTd3JSaEpHelJwMmVxRXBXMnRBMGx3SW01R2VJX0JvMlRsdnhaQW1NcmpPZWJDakE2UFpPTzdpNXNIVmoxRjBkSjJFVQ?oc=5",
       "verified": true
     },
     {
       "id": "790351f89ae1c167",
-      "matchedBy": "short-name+institution",
+      "matchedBy": "exact-name+institution",
       "publishedAt": "2021-07-19T07:00:00.000Z",
       "source": "analyticsindiamag.com",
       "title": "Interview With Prof B Ravindran, Head, Robert Bosch Centre For Data Science & AI, IIT Madras",

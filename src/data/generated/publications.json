@@ -1,6 +1,6 @@
 {
   "count": 298,
-  "generatedAt": "2026-09-11T03:24:39.811Z",
+  "generatedAt": "2026-09-12T03:23:40.739Z",
   "items": [
     {
       "authors": [
@@ -2286,7 +2286,7 @@
       "publicationDate": "2020-02-12",
       "source": "openalex",
       "title": "Predicting software defect type using concept-based classification",
-      "type": "book-chapter",
+      "type": "article",
       "url": "https://doi.org/10.1007/s10664-019-09779-6",
       "venue": "Empirical Software Engineering",
       "year": 2020

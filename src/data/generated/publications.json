@@ -1,6 +1,6 @@
 {
   "count": 298,
-  "generatedAt": "2026-09-22T03:24:34.494Z",
+  "generatedAt": "2026-09-23T03:25:08.116Z",
   "items": [
     {
       "authors": [
@@ -21,7 +21,7 @@
         "Xue Zheng",
         "Zidong Liu",
         "Bicheng Ying",
-        "Kaushik Chowdhury",
+        "Kaushik Roy Chowdhury",
         "Gauri Joshi",
         "Yingbin Liang",
         "Robert D. Nowak",
@@ -92,8 +92,8 @@
         "Conor McGlynn",
         "Melanie Murray",
         "Shalaleh Rismani",
-        "Stephen Casper",
-        "Jessica Newman",
+        "Stephen T. Casper",
+        "Jessica Cussins Newman",
         "Daniel Privitera",
         "Sören Mindermann",
         "Daron Acemoğlu",
@@ -104,8 +104,8 @@
         "Susan Leavy",
         "Teresa Ludermir",
         "Vidushi Marda",
-        "Helen Margetts",
-        "John McDermid",
+        "Helen Zerlina Margetts",
+        "John A. McDermid",
         "Jane Munga",
         "Arvind Narayanan",
         "Alondra Nelson",
@@ -126,11 +126,11 @@
         "Busch, Christian",
         "André Carvalho",
         "Jonathan Collas",
-        "Amandeep S. Gill",
+        "Amandeep Singh Gill",
         "Ahmet Hatip",
         "Heikkilä, Juha",
         "Chris J. Johnson",
-        "Gill Jolly",
+        "Gill E. Jolly",
         "Ziv Katzir",
         "Mary Kerema",
         "Hiroaki Kitano",
@@ -192,7 +192,7 @@
         "Ben Bucknall",
         "Peter Fox",
         "Tiancheng Hu",
-        "Cameron Jones",
+        "Cameron J. Jones",
         "Sam Manning",
         "Nestor Maslej",
         "Vasilios Mavroudis",
@@ -211,8 +211,8 @@
         "Susan Leavy",
         "Teresa Ludermir",
         "Vidushi Marda",
-        "Helen Margetts",
-        "John McDermid",
+        "Helen Zerlina Margetts",
+        "John A. McDermid",
         "Jane Munga",
         "Arvind Narayanan",
         "Alondra Nelson",
@@ -232,11 +232,11 @@
         "Busch, Christian",
         "André Carvalho",
         "Jonathan Collas",
-        "Amandeep S. Gill",
+        "Amandeep Singh Gill",
         "Ahmet Hatip",
         "Heikkilä, Juha",
         "Chris J. Johnson",
-        "Gill Jolly",
+        "Gill E. Jolly",
         "Ziv Katzir",
         "Mary Kerema",
         "Hiroaki Kitano",
@@ -294,7 +294,7 @@
       "authors": [
         "Anju Gupta",
         "Barathi Lenin",
-        "Sean Current",
+        "Sean F. Current",
         "Rohit Batra",
         "Balaraman Ravindran",
         "Karthik Raman",
@@ -353,7 +353,7 @@
       "authors": [
         "Shreyash Adappanavar",
         "Krithi Shailya",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Sriraam Natarajan",
         "Balaraman Ravindran"
       ],
@@ -406,7 +406,7 @@
       "authors": [
         "Krithi Shailya",
         "Shreya Rajpal",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Balaraman Ravindran"
       ],
       "doi": "10.1145/3715275.3732104",
@@ -497,7 +497,7 @@
         "Daniel Privitera",
         "Tamay Besiroglu",
         "Rishi Bommasani",
-        "Stephen Casper",
+        "Stephen T. Casper",
         "Yejin Choi",
         "Phillips Fox",
         "Ben Garfinkel",
@@ -511,7 +511,7 @@
         "Vasilios Mavroudis",
         "Mantas Mazeika",
         "Julian Michael",
-        "Jessica Newman",
+        "Jessica Cussins Newman",
         "TP Ng",
         "Chinasa T. Okolo",
         "Deborah Raji",
@@ -538,13 +538,13 @@
         "Percy Liang",
         "Teresa Ludermir",
         "Vidushi Marda",
-        "Helen Margetts",
-        "John McDermid",
+        "Helen Zerlina Margetts",
+        "John A. McDermid",
         "Jane Munga",
         "Arvind Narayanan",
         "Alondra Nelson",
         "Clara Neppel",
-        "Alice Oh",
+        "Alice H. Oh",
         "Ramchurn, Gopal",
         "Stuart Russell",
         "Marietje Schaake",
@@ -565,12 +565,12 @@
         "A. S. Gill",
         "Ahmet Hatip",
         "Heikkilä, Juha",
-        "Gill Jolly",
+        "Gill E. Jolly",
         "Ziv Katzir",
         "Hiroaki Kitano",
         "Krüger, Antonio",
         "Chris A. Johnson",
-        "Saif Khan",
+        "Saif Ahmad Khan",
         "Kyoung Mu Lee",
         "Dominic Vincent Ligot",
         "Oleksii Molchanovskyi",
@@ -687,7 +687,7 @@
         "Sahil Girhepuje",
         "Ishan Kavathekar",
         "Bhaskara Hanuma Vedula",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Anmol Goel",
         "Shreya Goyal",
         "Balaraman Ravindran",
@@ -730,7 +730,7 @@
         "Aditya Phalnikar",
         "Ameen Jauhar",
         "Dhruv Somayajula",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Balaraman Ravindran"
       ],
       "doi": "10.48550/arxiv.2407.13100",
@@ -749,7 +749,7 @@
       "authors": [
         "Ambreesh Parthasarathy",
         "Aditya Phalnikar",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Ameen Jauhar",
         "Balaraman Ravindran"
       ],
@@ -840,7 +840,7 @@
         "Shreya Goyal",
         "Koshy Varghese",
         "Balaraman Ravindran",
-        "Q. P. Ha"
+        "Quang Phuc Ha"
       ],
       "doi": "10.1016/j.autcon.2023.105225",
       "id": "10.1016/j.autcon.2023.105225",
@@ -951,7 +951,7 @@
     {
       "authors": [
         "Sameer Mehta",
-        "Rahul R. Marathe",
+        "Rahul Ratnakar Marathe",
         "Balaraman Ravindran",
         "Rofia Ramesh"
       ],
@@ -1101,7 +1101,7 @@
       "authors": [
         "Sahil Girhepuje",
         "Anmol Goel",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Shreya Goyal",
         "Satyendra Pandey",
         "Ponnurangam Kumaraguru",
@@ -1143,7 +1143,7 @@
         "Harsha Kokel",
         "Sriraam Natarajan",
         "Balaraman Ravindran",
-        "Prasad Tadepalli"
+        "Prasad V. Tadepalli"
       ],
       "doi": "10.1007/s00521-022-08119-y",
       "id": "10.1007/s00521-022-08119-y",
@@ -1294,7 +1294,7 @@
         "Nikhilesh Prabhakar",
         "Balaraman Ravindran",
         "Erik Blasch",
-        "Prasad Tadepalli",
+        "Prasad V. Tadepalli",
         "Sriraam Natarajan"
       ],
       "doi": "10.23919/fusion49751.2022.9841246",
@@ -1332,7 +1332,7 @@
       "authors": [
         "Kushal Chauhan",
         "Soumya Chatterjee",
-        "Akash Reddy",
+        "Akash R Reddy",
         "Balaraman Ravindran",
         "Pradeep Shenoy"
       ],
@@ -1424,7 +1424,7 @@
     },
     {
       "authors": [
-        "Sapana Chaudhary",
+        "Sapana Sameer Chaudhary",
         "Balaraman Ravindran"
       ],
       "doi": "10.1145/3493700.3493716",
@@ -1442,7 +1442,7 @@
       "authors": [
         "Sruthi Keerthi Nandita",
         "Goutham Zampani",
-        "Gokul Krishnan",
+        "Gokul S Krishnan",
         "Gitakrishnan Ramadurai",
         "Balaraman Ravindran"
       ],
@@ -1497,7 +1497,7 @@
         "Arjun Manoharan",
         "Sriraam Natarajan",
         "Balaraman Ravindran",
-        "Prasad Tadepalli"
+        "Prasad V. Tadepalli"
       ],
       "doi": "10.48550/arxiv.2110.08318",
       "id": "10.48550/arxiv.2110.08318",
@@ -1568,7 +1568,7 @@
       "authors": [
         "Anasua Mitra",
         "Priyesh Vijayan",
-        "Ranbir Sanasam",
+        "Ranbir Singh Sanasam",
         "Diganta Goswami",
         "Srinivasan Parthasarathy",
         "Balaraman Ravindran"
@@ -1721,7 +1721,7 @@
         "Arjun Manoharan",
         "Sriraam Natarajan",
         "Balaraman Ravindran",
-        "Prasad Tadepalli"
+        "Prasad V. Tadepalli"
       ],
       "doi": "10.1609/icaps.v31i1.16001",
       "id": "10.1609/icaps.v31i1.16001",
@@ -1887,7 +1887,7 @@
         "Neha Madhiwalla",
         "Ramesh Padmanabhan",
         "Aparna Hegde",
-        "Pradeep Varakantham",
+        "Pradeep Reddy Varakantham",
         "Balaraman Ravindran",
         "Milind Tambe"
       ],
@@ -1924,9 +1924,9 @@
     {
       "authors": [
         "Nahas Pareekutty",
-        "Francis James",
+        "Francis Godwin James",
         "Balaraman Ravindran",
-        "Suril V. Shah"
+        "Suril Vijaykumar Shah"
       ],
       "doi": "10.48550/arxiv.2101.02635",
       "id": "10.48550/arxiv.2101.02635",
@@ -2286,7 +2286,7 @@
       "publicationDate": "2020-02-12",
       "source": "openalex",
       "title": "Predicting software defect type using concept-based classification",
-      "type": "book-chapter",
+      "type": "article",
       "url": "https://doi.org/10.1007/s10664-019-09779-6",
       "venue": "Empirical Software Engineering",
       "year": 2020
@@ -2315,7 +2315,7 @@
         "Preksha Nema",
         "Sharan Narasimhan",
         "Mitesh M. Khapra",
-        "B. Srinivasan",
+        "Balaji Vasan Srinivasan",
         "Balaraman Ravindran"
       ],
       "doi": "10.18653/v1/2020.acl-main.387",
@@ -2732,7 +2732,7 @@
         "Preksha Nema",
         "Akash Kumar Mohankumar",
         "Mitesh M. Khapra",
-        "B. Srinivasan",
+        "Balaji Vasan Srinivasan",
         "Balaraman Ravindran"
       ],
       "doi": "10.18653/v1/d19-1326",
@@ -3211,7 +3211,7 @@
     },
     {
       "authors": [
-        "Akash Jain",
+        "Akash K. Jain",
         "Rupesh Nasre",
         "Balaraman Ravindran"
       ],
@@ -3261,7 +3261,7 @@
     },
     {
       "authors": [
-        "Prathamesh Deshpande",
+        "Prathamesh  Prashant Deshpande",
         "Balaraman Ravindran"
       ],
       "doi": "10.1145/3110025.3116193",
@@ -3571,9 +3571,9 @@
     {
       "authors": [
         "Nahas Pareekutty",
-        "Francis James",
+        "Francis Godwin James",
         "Balaraman Ravindran",
-        "Suril V. Shah"
+        "Suril Vijaykumar Shah"
       ],
       "doi": "10.1115/detc2016-60547",
       "id": "10.1115/detc2016-60547",
@@ -3679,9 +3679,9 @@
     },
     {
       "authors": [
-        "Pijus Barman",
+        "Pijus Kanti Barman",
         "Ratnadeep Mukherjee",
-        "Bhupesh K. Prusty",
+        "Bhupesh Kumar Prusty",
         "Sujit Suklabaidya",
         "Shantibhusan Senapati",
         "Balaraman Ravindran"
@@ -4201,7 +4201,7 @@
         "Hugo Larochelle",
         "Mitesh M. Khapra",
         "Balaraman Ravindran",
-        "Vikas C. Raykar",
+        "Vikas Chandrakant Raykar",
         "Amrita Saha"
       ],
       "doi": "10.48550/arxiv.1402.1454",
@@ -4252,6 +4252,21 @@
     },
     {
       "authors": [
+        "Saket Gurukar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2014.6734942",
+      "id": "10.1109/comsnets.2014.6734942",
+      "openAlexId": "W2014455408",
+      "publicationDate": "2014-01-01",
+      "source": "openalex",
+      "title": "Temporal analysis of telecom call graphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2014.6734942",
+      "year": 2014
+    },
+    {
+      "authors": [
         "Nilanjan Banerjee",
         "Dipanjan Chakraborty",
         "Anupam Joshi",
@@ -4268,21 +4283,6 @@
       "type": "conference-paper",
       "url": "https://doi.org/10.1007/978-3-319-11569-6_10",
       "venue": "Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
-      "year": 2014
-    },
-    {
-      "authors": [
-        "Saket Gurukar",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.1109/comsnets.2014.6734942",
-      "id": "10.1109/comsnets.2014.6734942",
-      "openAlexId": "W2014455408",
-      "publicationDate": "2014-01-01",
-      "source": "openalex",
-      "title": "Temporal analysis of telecom call graphs",
-      "type": "conference-paper",
-      "url": "https://doi.org/10.1109/comsnets.2014.6734942",
       "year": 2014
     },
     {
@@ -4318,7 +4318,7 @@
     },
     {
       "authors": [
-        "B. Srinivasan",
+        "Balaji Vasan Srinivasan",
         "Anandhavelu Natarajan",
         "Ritwik Sinha",
         "Vineet Gupta",
@@ -4451,7 +4451,7 @@
     },
     {
       "authors": [
-        "Jose Nunez-Varela",
+        "Jose Ignacio Nunez-Varela",
         "Balaraman Ravindran",
         "Jeremy Wyatt"
       ],
@@ -4534,7 +4534,7 @@
     },
     {
       "authors": [
-        "Jose Nunez-Varela",
+        "Jose Ignacio Nunez-Varela",
         "Balaraman Ravindran",
         "Jeremy Wyatt"
       ],
@@ -4666,7 +4666,7 @@
         "Sajal Bhatia",
         "A. Nadarajan",
         "Balaraman Ravindran",
-        "Alan Tickle",
+        "Alan B. Tickle",
         "R Vijayasarathy"
       ],
       "doi": "10.1007/978-81-322-0277-6_5",
@@ -4731,7 +4731,7 @@
     },
     {
       "authors": [
-        "Mohammed J. Zaki",
+        "Mohammed Javeed Zaki",
         "Jeffrey Xu Yu",
         "Balaraman Ravindran",
         "Vikram Pudi"
@@ -4761,7 +4761,7 @@
     },
     {
       "authors": [
-        "Karthik Aadithya",
+        "Karthik V. Aadithya",
         "Balaraman Ravindran"
       ],
       "doi": "10.5555/1838206.1838431",
@@ -4823,7 +4823,7 @@
     },
     {
       "authors": [
-        "Karthik Aadithya",
+        "Karthik V. Aadithya",
         "Balaraman Ravindran",
         "Tomasz Michalak",
         "Nicholas R. Jennings"
@@ -4875,7 +4875,7 @@
     },
     {
       "authors": [
-        "Mohammed J. Zaki",
+        "Mohammed Javeed Zaki",
         "Jeffrey Xu Yu",
         "Balaraman Ravindran",
         "Vikram Pudi"
@@ -5284,8 +5284,8 @@
         "E. Siva Soumya",
         "Vignesh Muralidharan",
         "Balaraman Ravindran",
-        "V. Kamakoti",
-        "Dinesh Bhatia"
+        "Veezhinathan Kamakoti",
+        "Dinesh K Bhatia"
       ],
       "doi": "10.1109/icvd.2005.137",
       "id": "10.1109/icvd.2005.137",
@@ -5434,7 +5434,7 @@
     {
       "authors": [
         "Richard S. Sutton",
-        "Satinder Singh",
+        "Satinder Pal Singh",
         "Doina Precup",
         "Balaraman Ravindran"
       ],

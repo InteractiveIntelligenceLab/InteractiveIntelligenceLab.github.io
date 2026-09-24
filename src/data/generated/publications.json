@@ -1,6 +1,6 @@
 {
   "count": 298,
-  "generatedAt": "2026-09-23T03:25:08.116Z",
+  "generatedAt": "2026-09-24T03:24:33.566Z",
   "items": [
     {
       "authors": [
@@ -78,6 +78,24 @@
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.2605.21266",
       "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Returaj Burnwal",
+        "Nirav Bhatt",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1609/aaai.v40i24.39061",
+      "id": "10.1609/aaai.v40i24.39061",
+      "oaUrl": "https://ojs.aaai.org/index.php/AAAI/article/download/39061/43023",
+      "openAlexId": "W7138256128",
+      "publicationDate": "2026-03-14",
+      "source": "openalex",
+      "title": "SafeMIL: Learning Offline Safe Imitation Policy from Non-Preferred Trajectories",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1609/aaai.v40i24.39061",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "year": 2026
     },
     {
@@ -161,24 +179,6 @@
       "title": "International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management",
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.2511.19863",
-      "venue": "arXiv (Cornell University)",
-      "year": 2025
-    },
-    {
-      "authors": [
-        "Returaj Burnwal",
-        "Nirav Bhatt",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.2511.08136",
-      "id": "10.48550/arxiv.2511.08136",
-      "oaUrl": "https://arxiv.org/pdf/2511.08136",
-      "openAlexId": "W4416332691",
-      "publicationDate": "2025-11-11",
-      "source": "openalex",
-      "title": "SafeMIL: Learning Offline Safe Imitation Policy from Non-Preferred Trajectories",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2511.08136",
       "venue": "arXiv (Cornell University)",
       "year": 2025
     },

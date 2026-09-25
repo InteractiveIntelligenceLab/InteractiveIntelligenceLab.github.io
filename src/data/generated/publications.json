@@ -1,7 +1,63 @@
 {
-  "count": 298,
-  "generatedAt": "2026-09-24T03:24:33.566Z",
+  "count": 304,
+  "generatedAt": "2026-09-25T03:23:27.293Z",
   "items": [
+    {
+      "authors": [
+        "Abhishek Verma",
+        "Nallarasan V",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.20944/preprints202609.0568.v1",
+      "id": "10.20944/preprints202609.0568.v1",
+      "oaUrl": "https://doi.org/10.20944/preprints202609.0568.v1",
+      "openAlexId": "W7211932886",
+      "publicationDate": "2026-09-08",
+      "source": "openalex",
+      "title": "Curiosity-Guided Graph Neural Skill Discovery for Sparse-Reward Goal-Oriented Dialogue Systems",
+      "type": "preprint",
+      "url": "https://doi.org/10.20944/preprints202609.0568.v1",
+      "venue": "Preprints.org",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Anshul Bagaria",
+        "Sowmya S. Sundaram",
+        "Gokul S Krishnan",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2609.02942",
+      "id": "10.48550/arxiv.2609.02942",
+      "oaUrl": "https://arxiv.org/pdf/2609.02942",
+      "openAlexId": "W7208783751",
+      "publicationDate": "2026-08-31",
+      "source": "openalex",
+      "title": "Judging LLM-as-a-Judge: Concerning Rubric Artifacts in LLM-based Automated Text Generation Evaluation",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2609.02942",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Omir Kumar",
+        "Sriya Sridhar",
+        "Vibhav Mithal",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2608.12863",
+      "id": "10.48550/arxiv.2608.12863",
+      "oaUrl": "https://arxiv.org/pdf/2608.12863",
+      "openAlexId": "W7203446939",
+      "publicationDate": "2026-08-13",
+      "source": "openalex",
+      "title": "AI and Consumer Rights in India Working Paper",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2608.12863",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
     {
       "authors": [
         "Ziyue Luo",
@@ -44,6 +100,103 @@
       "title": "Toward WAN-Aware LLM Training Across Heterogeneous, Geo-Distributed Sites",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3789240.3828748",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Krithi Shailya",
+        "Ananya Lakshmi Ravi",
+        "Venkatanathan K. V.",
+        "Sowmya S. Sundaram",
+        "Gokul S. Krishnan",
+        "Aditi Anand",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2607.24730",
+      "id": "10.48550/arxiv.2607.24730",
+      "oaUrl": "https://doi.org/10.48550/arxiv.2607.24730",
+      "openAlexId": "W7171565481",
+      "publicationDate": "2026-07-27",
+      "source": "openalex",
+      "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2607.24730",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "authors": [
+        "Alicia Parrish",
+        "Rajat Shinde",
+        "Sanket Badhe",
+        "Xinyi Bai",
+        "Sree Bhargavi Balija",
+        "Hua-Rong Chu",
+        "E C Ferrara",
+        "Armstrong Foundjem",
+        "Rajat Ghosh",
+        "A. Gupta",
+        "Xuanli He",
+        "Ong Chen Hui",
+        "Minji Jung",
+        "Madhangi Karimanal",
+        "Faiza Khan Khattak",
+        "Boryoung Kim",
+        "E Kim",
+        "Liliya Lavitas",
+        "Seok Min Lim",
+        "Victor Lu",
+        "Jim Moirangthem",
+        "Dhivya Nagasubramanian",
+        "Deepak Pandita",
+        "Sita Rajagopal",
+        "G. Naga Raju",
+        "Evgeniia Razumovskaia",
+        "A. Rama Mohan Reddy",
+        "Federico Ricciuti",
+        "Nobin Sarwar",
+        "Sungpil Shin",
+        "Sunayana Sitaram",
+        "Snehal Thorat",
+        "Tharindu Cyril Weerasooriya",
+        "Jasmijn Bastings",
+        "Joachim Baumann",
+        "Kongtao Chen",
+        "Murali Emani",
+        "Mariya Hendriksen",
+        "Jiho Jin",
+        "Jun Seong Kim",
+        "Younghoon Ko",
+        "Alicja Kwaśniewska",
+        "Minjae Lee",
+        "Tom Wei-cyuan Lin Kashyap Ramanandula Manjusha",
+        "Junho Myung",
+        "Junyeong Park",
+        "Roma Patel",
+        "Shyam Ratan",
+        "Sudarsun Santhiappan",
+        "Priyanka Suresh",
+        "Tuesday",
+        "Ksheeraj Sai Vepuri Laura Amortegui-Ordonez",
+        "Claire Dennis",
+        "Minsuk Kahng",
+        "Chris Knotz",
+        "Alice Oh",
+        "Balaraman Ravindran",
+        "Soojung Ryu William Bartholomew",
+        "Hiwot Tesfaye",
+        "Lora Aroyo"
+      ],
+      "doi": "10.48550/arxiv.2607.06196",
+      "id": "10.48550/arxiv.2607.06196",
+      "oaUrl": "https://doi.org/10.48550/arxiv.2607.06196",
+      "openAlexId": "W7167674394",
+      "publicationDate": "2026-07-07",
+      "source": "openalex",
+      "title": "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2607.06196",
+      "venue": "arXiv (Cornell University)",
       "year": 2026
     },
     {
@@ -97,6 +250,27 @@
       "url": "https://doi.org/10.1609/aaai.v40i24.39061",
       "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "year": 2026
+    },
+    {
+      "authors": [
+        "Shuchi Grover",
+        "Balaraman Ravindran",
+        "Siu Cheung Kong",
+        "Maria M. T. Rodrigo",
+        "Lung Hsiang Wong",
+        "Weena Naowaprateep"
+      ],
+      "doi": "10.58459/icce.2025.6023",
+      "id": "10.58459/icce.2025.6023",
+      "oaUrl": "https://library.apsce.net/index.php/ICCE/article/download/6023/5953",
+      "openAlexId": "W7199599357",
+      "publicationDate": "2025-12-01",
+      "source": "openalex",
+      "title": "Developing K-12 AI Literacy in Different Countries: Approaches and Challenges",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.58459/icce.2025.6023",
+      "venue": "International Conference on Computers in Education",
+      "year": 2025
     },
     {
       "authors": [
@@ -1024,7 +1198,7 @@
     },
     {
       "authors": [
-        "Tarun Kumar",
+        "Tarun Mummidi Ramesh Kumar",
         "Ramanathan Sethuraman",
         "Sanga Mitra",
         "Balaraman Ravindran",
@@ -2383,7 +2557,7 @@
     },
     {
       "authors": [
-        "Tarun Kumar",
+        "Tarun Mummidi Ramesh Kumar",
         "Sankaran Vaidyanathan",
         "Harini Ananthapadmanabhan",
         "Srinivasan Parthasarathy",
@@ -2660,7 +2834,7 @@
     },
     {
       "authors": [
-        "Tarun Kumar",
+        "Tarun Mummidi Ramesh Kumar",
         "Manikandan Narayanan",
         "Balaraman Ravindran"
       ],
@@ -2748,7 +2922,7 @@
     },
     {
       "authors": [
-        "Tarun Kumar",
+        "Tarun Mummidi Ramesh Kumar",
         "Sankaran Vaidyanathan",
         "Harini Ananthapadmanabhan",
         "Srinivasan Parthasarathy",
@@ -4235,6 +4409,21 @@
     },
     {
       "authors": [
+        "Saket Gurukar",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/comsnets.2014.6734942",
+      "id": "10.1109/comsnets.2014.6734942",
+      "openAlexId": "W2014455408",
+      "publicationDate": "2014-01-01",
+      "source": "openalex",
+      "title": "Temporal analysis of telecom call graphs",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/comsnets.2014.6734942",
+      "year": 2014
+    },
+    {
+      "authors": [
         "Sai Nageswar Satchidanand",
         "Siddharth Jain",
         "Amit Kumar Maurya",
@@ -4248,21 +4437,6 @@
       "title": "Studying Indian Railways Network using hypergraphs",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/comsnets.2014.6734941",
-      "year": 2014
-    },
-    {
-      "authors": [
-        "Saket Gurukar",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.1109/comsnets.2014.6734942",
-      "id": "10.1109/comsnets.2014.6734942",
-      "openAlexId": "W2014455408",
-      "publicationDate": "2014-01-01",
-      "source": "openalex",
-      "title": "Temporal analysis of telecom call graphs",
-      "type": "conference-paper",
-      "url": "https://doi.org/10.1109/comsnets.2014.6734942",
       "year": 2014
     },
     {

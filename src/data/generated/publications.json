@@ -1,11 +1,11 @@
 {
   "count": 304,
-  "generatedAt": "2026-09-25T03:23:27.293Z",
+  "generatedAt": "2026-09-26T03:23:32.128Z",
   "items": [
     {
       "authors": [
         "Abhishek Verma",
-        "Nallarasan V",
+        "V Nallarasan",
         "Balaraman Ravindran"
       ],
       "doi": "10.20944/preprints202609.0568.v1",
@@ -114,7 +114,7 @@
       ],
       "doi": "10.48550/arxiv.2607.24730",
       "id": "10.48550/arxiv.2607.24730",
-      "oaUrl": "https://doi.org/10.48550/arxiv.2607.24730",
+      "oaUrl": "https://arxiv.org/pdf/2607.24730",
       "openAlexId": "W7171565481",
       "publicationDate": "2026-07-27",
       "source": "openalex",
@@ -189,7 +189,7 @@
       ],
       "doi": "10.48550/arxiv.2607.06196",
       "id": "10.48550/arxiv.2607.06196",
-      "oaUrl": "https://doi.org/10.48550/arxiv.2607.06196",
+      "oaUrl": "https://arxiv.org/pdf/2607.06196",
       "openAlexId": "W7167674394",
       "publicationDate": "2026-07-07",
       "source": "openalex",
@@ -223,7 +223,7 @@
       ],
       "doi": "10.48550/arxiv.2605.21266",
       "id": "10.48550/arxiv.2605.21266",
-      "oaUrl": "https://doi.org/10.48550/arxiv.2605.21266",
+      "oaUrl": "https://arxiv.org/pdf/2605.21266",
       "openAlexId": "W7162031929",
       "publicationDate": "2026-05-20",
       "source": "openalex",
@@ -956,6 +956,22 @@
     },
     {
       "authors": [
+        "Siddharth Nishtala",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3632410.3632443",
+      "id": "10.1145/3632410.3632443",
+      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3632410.3632443",
+      "openAlexId": "W4390532434",
+      "publicationDate": "2024-01-03",
+      "source": "openalex",
+      "title": "Cost-Sensitive Trees for Interpretable Reinforcement Learning",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3632410.3632443",
+      "year": 2024
+    },
+    {
+      "authors": [
         "Richa Verma",
         "Durgesh Kalwar",
         "Harshad Khadilkar",
@@ -970,22 +986,6 @@
       "title": "Guiding Offline Reinforcement Learning Using a Safety Expert",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3632410.3632423",
-      "year": 2024
-    },
-    {
-      "authors": [
-        "Siddharth Nishtala",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.1145/3632410.3632443",
-      "id": "10.1145/3632410.3632443",
-      "oaUrl": "https://dl.acm.org/doi/pdf/10.1145/3632410.3632443",
-      "openAlexId": "W4390532434",
-      "publicationDate": "2024-01-03",
-      "source": "openalex",
-      "title": "Cost-Sensitive Trees for Interpretable Reinforcement Learning",
-      "type": "conference-paper",
-      "url": "https://doi.org/10.1145/3632410.3632443",
       "year": 2024
     },
     {
@@ -2505,6 +2505,23 @@
     },
     {
       "authors": [
+        "Siddharth Nayak",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-030-68238-5_12",
+      "id": "10.1007/978-3-030-68238-5_12",
+      "oaUrl": "https://arxiv.org/pdf/2008.08005",
+      "openAlexId": "W3076143500",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "Reinforcement Learning for Improving Object Detection",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-030-68238-5_12",
+      "venue": "Lecture notes in computer science",
+      "year": 2020
+    },
+    {
+      "authors": [
         "Anasua Mitra",
         "Priyesh Vijayan",
         "Srinivasan Parthasarathy",
@@ -2520,23 +2537,6 @@
       "type": "conference-paper",
       "url": "https://doi.org/10.1137/1.9781611976236.55",
       "venue": "Society for Industrial and Applied Mathematics eBooks",
-      "year": 2020
-    },
-    {
-      "authors": [
-        "Siddharth Nayak",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.1007/978-3-030-68238-5_12",
-      "id": "10.1007/978-3-030-68238-5_12",
-      "oaUrl": "https://arxiv.org/pdf/2008.08005",
-      "openAlexId": "W3076143500",
-      "publicationDate": "2020-01-01",
-      "source": "openalex",
-      "title": "Reinforcement Learning for Improving Object Detection",
-      "type": "conference-paper",
-      "url": "https://doi.org/10.1007/978-3-030-68238-5_12",
-      "venue": "Lecture notes in computer science",
       "year": 2020
     },
     {
@@ -3575,13 +3575,13 @@
     {
       "authors": [
         "Sahil Sharma",
-        "Srinivas, Aravind",
+        "Aravind Srinivas",
         "Balaraman Ravindran"
       ],
       "doi": "10.48550/arxiv.1702.06054",
       "id": "10.48550/arxiv.1702.06054",
       "oaUrl": "https://arxiv.org/pdf/1702.06054",
-      "openAlexId": "W2592915494",
+      "openAlexId": "W2950462959",
       "publicationDate": "2017-02-20",
       "source": "openalex",
       "title": "Learning to Repeat: Fine Grained Action Repetition for Deep Reinforcement Learning",
@@ -4966,7 +4966,7 @@
       "authors": [
         "Aswin N Raghavan",
         "Harini Ananthapadmanaban",
-        "Manimaran S Sivamurugan",
+        "Manimaran Sivasamy Sivamurugan",
         "Balaraman Ravindran"
       ],
       "doi": "10.1109/robot.2010.5509232",

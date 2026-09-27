@@ -1,7 +1,29 @@
 {
   "count": 304,
-  "generatedAt": "2026-09-26T03:23:32.128Z",
+  "generatedAt": "2026-09-27T03:24:57.464Z",
   "items": [
+    {
+      "authors": [
+        "Krithi Shailya",
+        "Ananya Lakshmi Ravi",
+        "Venkatanathan K. V.",
+        "Sowmya S. Sundaram",
+        "Gokul S. Krishnan",
+        "Aditi Anand",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1007/978-3-032-38079-1_32",
+      "id": "10.1007/978-3-032-38079-1_32",
+      "oaUrl": "https://arxiv.org/pdf/2607.24730",
+      "openAlexId": "W7171565481",
+      "publicationDate": "2026-09-25",
+      "source": "openalex",
+      "title": "KANEx: Translating Kolmogorov-Arnold Networks’ Interpretability to Medical Explainability",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1007/978-3-032-38079-1_32",
+      "venue": "Lecture notes in computer science",
+      "year": 2026
+    },
     {
       "authors": [
         "Abhishek Verma",
@@ -104,28 +126,6 @@
     },
     {
       "authors": [
-        "Krithi Shailya",
-        "Ananya Lakshmi Ravi",
-        "Venkatanathan K. V.",
-        "Sowmya S. Sundaram",
-        "Gokul S. Krishnan",
-        "Aditi Anand",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.2607.24730",
-      "id": "10.48550/arxiv.2607.24730",
-      "oaUrl": "https://arxiv.org/pdf/2607.24730",
-      "openAlexId": "W7171565481",
-      "publicationDate": "2026-07-27",
-      "source": "openalex",
-      "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2607.24730",
-      "venue": "arXiv (Cornell University)",
-      "year": 2026
-    },
-    {
-      "authors": [
         "Alicia Parrish",
         "Rajat Shinde",
         "Sanket Badhe",
@@ -142,7 +142,7 @@
         "Madhangi Karimanal",
         "Faiza Khan Khattak",
         "Boryoung Kim",
-        "E Kim",
+        "Eun Joo Kim",
         "Liliya Lavitas",
         "Seok Min Lim",
         "Victor Lu",

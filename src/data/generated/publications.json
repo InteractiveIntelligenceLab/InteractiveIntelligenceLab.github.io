@@ -1,6 +1,6 @@
 {
   "count": 304,
-  "generatedAt": "2026-09-27T03:24:57.464Z",
+  "generatedAt": "2026-09-28T03:26:53.390Z",
   "items": [
     {
       "authors": [
@@ -142,7 +142,7 @@
         "Madhangi Karimanal",
         "Faiza Khan Khattak",
         "Boryoung Kim",
-        "Eun Joo Kim",
+        "Kim, Eugenia",
         "Liliya Lavitas",
         "Seok Min Lim",
         "Victor Lu",
@@ -321,7 +321,7 @@
         "Amandeep Singh Gill",
         "Ahmet Hatip",
         "Heikkilä, Juha",
-        "Chris J. Johnson",
+        "Johnson, Chris",
         "Gill E. Jolly",
         "Ziv Katzir",
         "Mary Kerema",
@@ -409,7 +409,7 @@
         "Amandeep Singh Gill",
         "Ahmet Hatip",
         "Heikkilä, Juha",
-        "Chris J. Johnson",
+        "Johnson, Chris",
         "Gill E. Jolly",
         "Ziv Katzir",
         "Mary Kerema",
@@ -686,7 +686,7 @@
         "Mantas Mazeika",
         "Julian Michael",
         "Jessica Cussins Newman",
-        "TP Ng",
+        "Ng, Kwan Yee",
         "Chinasa T. Okolo",
         "Deborah Raji",
         "Girish Sastry",
@@ -707,7 +707,7 @@
         "F. Heintz",
         "Geoffrey E. Hinton",
         "Jennings, Nick",
-        "Andreas Krause",
+        "Krause, Andreas",
         "Susan Leavy",
         "Percy Liang",
         "Teresa Ludermir",
@@ -2098,7 +2098,7 @@
     {
       "authors": [
         "Nahas Pareekutty",
-        "Francis Godwin James",
+        "James, Francis",
         "Balaraman Ravindran",
         "Suril Vijaykumar Shah"
       ],
@@ -2460,7 +2460,7 @@
       "publicationDate": "2020-02-12",
       "source": "openalex",
       "title": "Predicting software defect type using concept-based classification",
-      "type": "article",
+      "type": "book-chapter",
       "url": "https://doi.org/10.1007/s10664-019-09779-6",
       "venue": "Empirical Software Engineering",
       "year": 2020
@@ -3745,7 +3745,7 @@
     {
       "authors": [
         "Nahas Pareekutty",
-        "Francis Godwin James",
+        "Francis James",
         "Balaraman Ravindran",
         "Suril Vijaykumar Shah"
       ],

@@ -1,6 +1,6 @@
 {
-  "count": 304,
-  "generatedAt": "2026-09-28T03:26:53.390Z",
+  "count": 306,
+  "generatedAt": "2026-09-29T03:26:59.754Z",
   "items": [
     {
       "authors": [
@@ -686,16 +686,16 @@
         "Mantas Mazeika",
         "Julian Michael",
         "Jessica Cussins Newman",
-        "Ng, Kwan Yee",
+        "Kwan Yee Ng",
         "Chinasa T. Okolo",
-        "Deborah Raji",
+        "Inioluwa Deborah Raji",
         "Girish Sastry",
         "Elizabeth Seger",
         "Theodora Skeadas",
         "Tobin South",
         "Emma Strubell",
         "Florian Tramèr",
-        "Velasco, Lucia",
+        "Lucia Velasco",
         "Nicole Wheeler",
         "Daron Acemoğlu",
         "Olubayo Adekanmbi",
@@ -706,8 +706,8 @@
         "Pierre‐Olivier Gourinchas",
         "F. Heintz",
         "Geoffrey E. Hinton",
-        "Jennings, Nick",
-        "Krause, Andreas",
+        "Nick Jennings",
+        "Andreas Krause",
         "Susan Leavy",
         "Percy Liang",
         "Teresa Ludermir",
@@ -719,7 +719,7 @@
         "Alondra Nelson",
         "Clara Neppel",
         "Alice H. Oh",
-        "Ramchurn, Gopal",
+        "Gopal Ramchurn",
         "Stuart Russell",
         "Marietje Schaake",
         "Bernhard Schölkopf",
@@ -731,18 +731,18 @@
         "Ya-Qin Zhang",
         "Fahad Albalawi",
         "Marwan Alserkal",
-        "Ajala, Olubunmi",
+        "Olubunmi Ajala",
         "Guillaume Avrin",
-        "Busch, Christian",
+        "Christian Busch",
         "André C. P. L. F. de Carvalho",
         "B. D. Fox",
         "A. S. Gill",
         "Ahmet Hatip",
-        "Heikkilä, Juha",
+        "Juha Heikkilä",
         "Gill E. Jolly",
         "Ziv Katzir",
         "Hiroaki Kitano",
-        "Krüger, Antonio",
+        "Antonio Krüger",
         "Chris A. Johnson",
         "Saif Ahmad Khan",
         "Kyoung Mu Lee",
@@ -758,9 +758,9 @@
         "Hammam Riza",
         "Crystal Rugege",
         "Ciarán Seoighe",
-        "Sheehan, Jerry",
+        "Jerry Sheehan",
         "Haroon Sheikh",
-        "Wong, Denise",
+        "Denise Wong",
         "Yi Zeng"
       ],
       "doi": "10.48550/arxiv.2501.17805",
@@ -2308,6 +2308,24 @@
       "type": "preprint",
       "url": "https://arxiv.org/abs/2007.05516v1",
       "venue": "arXiv (Cornell University)",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Tarun Kumar",
+        "K Darwin",
+        "Srinivasan Parthasarathy",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1145/3394231.3397903",
+      "id": "10.1145/3394231.3397903",
+      "oaUrl": "https://arxiv.org/pdf/2006.11070",
+      "openAlexId": "W3037160975",
+      "publicationDate": "2020-06-23",
+      "source": "openalex",
+      "title": "HPRA: Hyperedge Prediction using Resource Allocation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1145/3394231.3397903",
       "year": 2020
     },
     {
@@ -4592,6 +4610,24 @@
     },
     {
       "authors": [
+        "Tomasz Michalak",
+        "Karthik V. Aadithya",
+        "Piotr L. Szczepański",
+        "Balaraman Ravindran",
+        "Nicholas R. Jennings"
+      ],
+      "id": "W3102501663",
+      "openAlexId": "W3102501663",
+      "publicationDate": "2013-01-01",
+      "source": "openalex",
+      "title": "Efficient Computation of the Shapley Value for Game-Theoretic Network Centrality",
+      "type": "article",
+      "url": "https://eprints.soton.ac.uk/id/eprint/349140/1/Michalak_et_al_JAIR_v08.pdf",
+      "venue": "ePrints Soton (University of Southampton)",
+      "year": 2013
+    },
+    {
+      "authors": [
         "Saradindu Kar",
         "Deepak Vijayakeerthi",
         "Ashish V. Tendulkar",
@@ -4959,7 +4995,7 @@
       "source": "openalex",
       "title": "Visual Object Detection using Frequent Pattern Mining",
       "type": "article",
-      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.853.3261",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.5676",
       "year": 2010
     },
     {

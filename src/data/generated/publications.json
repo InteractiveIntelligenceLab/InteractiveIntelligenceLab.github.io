@@ -1,6 +1,6 @@
 {
   "count": 306,
-  "generatedAt": "2026-09-29T03:26:59.754Z",
+  "generatedAt": "2026-09-30T03:27:17.300Z",
   "items": [
     {
       "authors": [
@@ -152,7 +152,7 @@
         "Sita Rajagopal",
         "G. Naga Raju",
         "Evgeniia Razumovskaia",
-        "A. Rama Mohan Reddy",
+        "Reddy, Aravind",
         "Federico Ricciuti",
         "Nobin Sarwar",
         "Sungpil Shin",
@@ -166,7 +166,7 @@
         "Mariya Hendriksen",
         "Jiho Jin",
         "Jun Seong Kim",
-        "Younghoon Ko",
+        "Ko, Younghoon",
         "Alicja Kwaśniewska",
         "Minjae Lee",
         "Tom Wei-cyuan Lin Kashyap Ramanandula Manjusha",
@@ -282,10 +282,10 @@
         "Peter Fox",
         "Nestor Maslej",
         "Conor McGlynn",
-        "Melanie Murray",
+        "Murray, Malcolm",
         "Shalaleh Rismani",
-        "Stephen T. Casper",
-        "Jessica Cussins Newman",
+        "Casper, Stephen",
+        "Newman, Jessica",
         "Daniel Privitera",
         "Sören Mindermann",
         "Daron Acemoğlu",
@@ -309,7 +309,7 @@
         "Soto, Alavaro",
         "Lee Tiedrich",
         "Gaël Varoquaux",
-        "Andrew I. Yao",
+        "Yao, Andrew",
         "Ya-Qin Zhang",
         "Leandro Aguirre",
         "Ajala, Olubunmi",
@@ -366,12 +366,12 @@
         "Ben Bucknall",
         "Peter Fox",
         "Tiancheng Hu",
-        "Cameron J. Jones",
-        "Sam Manning",
+        "Cameron Jones",
+        "Manning, Sam",
         "Nestor Maslej",
         "Vasilios Mavroudis",
         "Conor McGlynn",
-        "Melanie Murray",
+        "Murray, Malcolm",
         "Charlotte Stix",
         "Lucia Velasco",
         "Nicole Wheeler",
@@ -398,7 +398,7 @@
         "Soto, Alavaro",
         "Lee Tiedrich",
         "Gaël Varoquaux",
-        "Andrew I. Yao",
+        "Yao, Andrew",
         "Ya-Qin Zhang",
         "Leandro Aguirre",
         "Ajala, Olubunmi",
@@ -446,7 +446,7 @@
     },
     {
       "authors": [
-        "G Santhosh",
+        "Santhosh G S",
         "Akshay Govind S",
         "Gokul S Krishnan",
         "Balaraman Ravindran",
@@ -488,7 +488,7 @@
     },
     {
       "authors": [
-        "G Santhosh",
+        "S, Santhosh G",
         "Saurav Prakash",
         "Balaraman Ravindran"
       ],
@@ -671,7 +671,7 @@
         "Daniel Privitera",
         "Tamay Besiroglu",
         "Rishi Bommasani",
-        "Stephen T. Casper",
+        "Casper, Stephen",
         "Yejin Choi",
         "Phillips Fox",
         "Ben Garfinkel",
@@ -685,7 +685,7 @@
         "Vasilios Mavroudis",
         "Mantas Mazeika",
         "Julian Michael",
-        "Jessica Cussins Newman",
+        "Newman, Jessica",
         "Kwan Yee Ng",
         "Chinasa T. Okolo",
         "Inioluwa Deborah Raji",
@@ -727,7 +727,7 @@
         "Álvaro Soto",
         "Lee Tiedrich",
         "Gaël Varoquaux",
-        "Andrew I. Yao",
+        "Yao, Andrew",
         "Ya-Qin Zhang",
         "Fahad Albalawi",
         "Marwan Alserkal",
@@ -735,8 +735,8 @@
         "Guillaume Avrin",
         "Christian Busch",
         "André C. P. L. F. de Carvalho",
-        "B. D. Fox",
-        "A. S. Gill",
+        "Fox, Bronwyn",
+        "Gill, Amandeep Singh",
         "Ahmet Hatip",
         "Juha Heikkilä",
         "Gill E. Jolly",
@@ -1332,7 +1332,7 @@
     },
     {
       "authors": [
-        "Adithya Ramesh",
+        "Ramesh, Adithya",
         "Balaraman Ravindran"
       ],
       "doi": "10.48550/arxiv.2212.02179",
@@ -1598,7 +1598,7 @@
     },
     {
       "authors": [
-        "Sapana Sameer Chaudhary",
+        "Sapana Chaudhary",
         "Balaraman Ravindran"
       ],
       "doi": "10.1145/3493700.3493716",
@@ -3233,7 +3233,7 @@
     },
     {
       "authors": [
-        "T. Chandramohan",
+        "Chandramohan T N",
         "Balaraman Ravindran"
       ],
       "doi": "10.1145/3152494.3152505",
@@ -3317,7 +3317,7 @@
     },
     {
       "authors": [
-        "S. Bhuvaneswari",
+        "S Bhuvaneswari",
         "Ramkrishna Pasumarthy",
         "Balaraman Ravindran",
         "Arun D. Mahindrakar"
@@ -3403,7 +3403,7 @@
     },
     {
       "authors": [
-        "Akash K. Jain",
+        "Akash Jain",
         "Rupesh Nasre",
         "Balaraman Ravindran"
       ],
@@ -3453,7 +3453,7 @@
     },
     {
       "authors": [
-        "Prathamesh  Prashant Deshpande",
+        "Prathamesh Deshpande",
         "Balaraman Ravindran"
       ],
       "doi": "10.1145/3110025.3116193",
@@ -3503,7 +3503,7 @@
       "authors": [
         "Sahil Sharma",
         "Girish Raguvir J",
-        "Srivatsan Ramesh",
+        "Ramesh, Srivatsan",
         "Balaraman Ravindran"
       ],
       "doi": "10.48550/arxiv.1705.07445",
@@ -3521,7 +3521,7 @@
     {
       "authors": [
         "Sahil Sharma",
-        "Aravind Suresh",
+        "Suresh, Aravind",
         "Rahul Ramesh",
         "Balaraman Ravindran"
       ],
@@ -3873,7 +3873,7 @@
       "authors": [
         "Pijus Kanti Barman",
         "Ratnadeep Mukherjee",
-        "Bhupesh Kumar Prusty",
+        "B K Prusty",
         "Sujit Suklabaidya",
         "Shantibhusan Senapati",
         "Balaraman Ravindran"
@@ -4014,7 +4014,7 @@
     },
     {
       "authors": [
-        "Prateek Prasanna",
+        "Prasanna, P.",
         "Sarath Chandar",
         "Balaraman Ravindran"
       ],
@@ -4444,7 +4444,7 @@
       "authors": [
         "Sai Nageswar Satchidanand",
         "Siddharth Jain",
-        "Amit Kumar Maurya",
+        "Amit Maurya",
         "Balaraman Ravindran"
       ],
       "doi": "10.1109/comsnets.2014.6734941",
@@ -4794,7 +4794,7 @@
     {
       "authors": [
         "S. Shivashankar",
-        "Sandeep Srivathsan",
+        "S. Srivathsan",
         "Balaraman Ravindran",
         "Ashish V. Tendulkar"
       ],
@@ -4926,7 +4926,7 @@
     },
     {
       "authors": [
-        "Balaji M. Lakshmanan",
+        "Balaji Lakshmanan",
         "Balaraman Ravindran"
       ],
       "doi": "10.1109/iros.2010.5649422",
@@ -5492,7 +5492,7 @@
       "authors": [
         "R. Manimegalai",
         "E. Siva Soumya",
-        "Vignesh Muralidharan",
+        "V. Muralidharan",
         "Balaraman Ravindran",
         "Veezhinathan Kamakoti",
         "Dinesh K Bhatia"

@@ -1,6 +1,6 @@
 {
   "count": 306,
-  "generatedAt": "2026-09-30T03:27:17.300Z",
+  "generatedAt": "2026-10-01T03:27:35.953Z",
   "items": [
     {
       "authors": [
@@ -142,7 +142,7 @@
         "Madhangi Karimanal",
         "Faiza Khan Khattak",
         "Boryoung Kim",
-        "Kim, Eugenia",
+        "Eugenia Kim",
         "Liliya Lavitas",
         "Seok Min Lim",
         "Victor Lu",
@@ -152,7 +152,7 @@
         "Sita Rajagopal",
         "G. Naga Raju",
         "Evgeniia Razumovskaia",
-        "Reddy, Aravind",
+        "Aravind Reddy",
         "Federico Ricciuti",
         "Nobin Sarwar",
         "Sungpil Shin",
@@ -166,7 +166,7 @@
         "Mariya Hendriksen",
         "Jiho Jin",
         "Jun Seong Kim",
-        "Ko, Younghoon",
+        "Younghoon Ko",
         "Alicja Kwaśniewska",
         "Minjae Lee",
         "Tom Wei-cyuan Lin Kashyap Ramanandula Manjusha",
@@ -2478,7 +2478,7 @@
       "publicationDate": "2020-02-12",
       "source": "openalex",
       "title": "Predicting software defect type using concept-based classification",
-      "type": "book-chapter",
+      "type": "article",
       "url": "https://doi.org/10.1007/s10664-019-09779-6",
       "venue": "Empirical Software Engineering",
       "year": 2020

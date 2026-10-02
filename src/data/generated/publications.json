@@ -1,6 +1,6 @@
 {
-  "count": 306,
-  "generatedAt": "2026-10-01T03:27:35.953Z",
+  "count": 305,
+  "generatedAt": "2026-10-02T03:27:06.144Z",
   "items": [
     {
       "authors": [
@@ -2033,14 +2033,14 @@
         "Neha Madhiwalla",
         "Ramesh Padmanabhan",
         "Aparna Hegde",
-        "Pradeep Varakantham",
+        "Pradeep Reddy Varakantham",
         "Balaraman Ravindran",
         "Milind Tambe"
       ],
       "doi": "10.48550/arxiv.2103.09052",
       "id": "10.48550/arxiv.2103.09052",
       "oaUrl": "https://arxiv.org/pdf/2103.09052",
-      "openAlexId": "W4287280937",
+      "openAlexId": "W3143979877",
       "publicationDate": "2021-03-07",
       "source": "openalex",
       "title": "Selective Intervention Planning using Restless Multi-Armed Bandits to Improve Maternal and Child Health Outcomes",
@@ -2438,7 +2438,7 @@
       "doi": "10.48550/arxiv.2004.10162",
       "id": "10.48550/arxiv.2004.10162",
       "oaUrl": "https://arxiv.org/pdf/2004.10162",
-      "openAlexId": "W3018979822",
+      "openAlexId": "W2996058201",
       "publicationDate": "2020-04-21",
       "source": "openalex",
       "title": "EMPIR: Ensembles of Mixed Precision Deep Networks for Increased Robustness against Adversarial Attacks",
@@ -2481,24 +2481,6 @@
       "type": "article",
       "url": "https://doi.org/10.1007/s10664-019-09779-6",
       "venue": "Empirical Software Engineering",
-      "year": 2020
-    },
-    {
-      "authors": [
-        "Nikita Moghe",
-        "Priyesh Vijayan",
-        "Balaraman Ravindran",
-        "Mitesh M. Khapra"
-      ],
-      "doi": "10.18653/v1/2020.nlp4convai-1.2",
-      "id": "10.18653/v1/2020.nlp4convai-1.2",
-      "oaUrl": "https://www.aclweb.org/anthology/2020.nlp4convai-1.2.pdf",
-      "openAlexId": "W3031080501",
-      "publicationDate": "2020-01-01",
-      "source": "openalex",
-      "title": "On Incorporating Structural Information to improve Dialogue Response Generation",
-      "type": "conference-paper",
-      "url": "https://doi.org/10.18653/v1/2020.nlp4convai-1.2",
       "year": 2020
     },
     {
@@ -2555,6 +2537,24 @@
       "type": "conference-paper",
       "url": "https://doi.org/10.1137/1.9781611976236.55",
       "venue": "Society for Industrial and Applied Mathematics eBooks",
+      "year": 2020
+    },
+    {
+      "authors": [
+        "Nikita Moghe",
+        "Priyesh Vijayan",
+        "Balaraman Ravindran",
+        "Mitesh M. Khapra"
+      ],
+      "doi": "10.18653/v1/2020.nlp4convai-1.2",
+      "id": "10.18653/v1/2020.nlp4convai-1.2",
+      "oaUrl": "https://www.aclweb.org/anthology/2020.nlp4convai-1.2.pdf",
+      "openAlexId": "W3031080501",
+      "publicationDate": "2020-01-01",
+      "source": "openalex",
+      "title": "On Incorporating Structural Information to improve Dialogue Response Generation",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.18653/v1/2020.nlp4convai-1.2",
       "year": 2020
     },
     {
@@ -3137,26 +3137,6 @@
     },
     {
       "authors": [
-        "Priyesh Vijayan",
-        "Yash Chandak",
-        "Mitesh M. Khapra",
-        "Srinivasan Parthasarathy",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.1805.12421",
-      "id": "10.48550/arxiv.1805.12421",
-      "oaUrl": "https://arxiv.org/pdf/1805.12421",
-      "openAlexId": "W4293359238",
-      "publicationDate": "2018-05-31",
-      "source": "openalex",
-      "title": "HOPF: Higher Order Propagation Framework for Deep Collective Classification",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.1805.12421",
-      "venue": "arXiv (Cornell University)",
-      "year": 2018
-    },
-    {
-      "authors": [
         "Ghulam Ahmed Ansari",
         "Sagar J. P",
         "Sarath Chandar",
@@ -3593,13 +3573,13 @@
     {
       "authors": [
         "Sahil Sharma",
-        "Aravind Srinivas",
+        "Srinivas, Aravind",
         "Balaraman Ravindran"
       ],
       "doi": "10.48550/arxiv.1702.06054",
       "id": "10.48550/arxiv.1702.06054",
       "oaUrl": "https://arxiv.org/pdf/1702.06054",
-      "openAlexId": "W2950462959",
+      "openAlexId": "W2592915494",
       "publicationDate": "2017-02-20",
       "source": "openalex",
       "title": "Learning to Repeat: Fine Grained Action Repetition for Deep Reinforcement Learning",

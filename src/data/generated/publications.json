@@ -1,6 +1,6 @@
 {
   "count": 305,
-  "generatedAt": "2026-10-04T05:17:25.648Z",
+  "generatedAt": "2026-10-05T03:28:55.740Z",
   "items": [
     {
       "authors": [
@@ -4867,6 +4867,7 @@
       "title": "Detection and Mitigation of High-Rate Flooding Attacks",
       "type": "book-chapter",
       "url": "https://doi.org/10.1007/978-81-322-0277-6_5",
+      "venue": "Springer eBooks",
       "year": 2011
     },
     {
@@ -5140,6 +5141,7 @@
       "title": "Text Mining of Internet Content: The Bridge Connecting Product Research with Customers in the Digital Era",
       "type": "book-chapter",
       "url": "https://doi.org/10.1007/978-90-481-2860-0_12",
+      "venue": "Springer eBooks",
       "year": 2009
     },
     {
@@ -5306,6 +5308,7 @@
       "title": "Intelligent Tutoring Systems using Reinforcement Learning to teach Autistic Students",
       "type": "conference-paper",
       "url": "https://doi.org/10.1007/978-0-387-73697-6_5",
+      "venue": "Springer eBooks",
       "year": 2007
     },
     {
@@ -5321,7 +5324,7 @@
       "title": "Homogeneous Hierarchical Composition of Areas in Multi-robot Area Coverage",
       "type": "conference-paper",
       "url": "https://doi.org/10.1007/978-3-540-73580-9_24",
-      "venue": "Lecture notes in computer science",
+      "venue": "Springer eBooks",
       "year": 2007
     },
     {
@@ -5500,6 +5503,7 @@
       "title": "Use of neural and other function approximators in reinforcement learning",
       "type": "book-chapter",
       "url": "https://doi.org/10.1887/0750303123/b365c64",
+      "venue": "Institute of Physics eBooks",
       "year": 2004
     },
     {
@@ -5515,6 +5519,7 @@
       "title": "Delayed reinforcement learning methods",
       "type": "book-chapter",
       "url": "https://doi.org/10.1887/0750303123/b365c63",
+      "venue": "Institute of Physics eBooks",
       "year": 2004
     },
     {
@@ -5530,6 +5535,7 @@
       "title": "Delayed reinforcement learning",
       "type": "book-chapter",
       "url": "https://doi.org/10.1887/0750303123/b365c61",
+      "venue": "Institute of Physics eBooks",
       "year": 2004
     },
     {
@@ -5545,6 +5551,7 @@
       "title": "Immediate reinforcement learning",
       "type": "book-chapter",
       "url": "https://doi.org/10.1887/0750303123/b365c60",
+      "venue": "Institute of Physics eBooks",
       "year": 2004
     },
     {
@@ -5668,6 +5675,7 @@
       "title": "Reinforcement Learning",
       "type": "book-chapter",
       "url": "https://doi.org/10.1201/9781420050646.ptc3",
+      "venue": "Taylor & Francis eBooks",
       "year": 1996
     },
     {

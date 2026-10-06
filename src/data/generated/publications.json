@@ -1,6 +1,6 @@
 {
   "count": 305,
-  "generatedAt": "2026-10-05T03:28:55.740Z",
+  "generatedAt": "2026-10-06T10:12:42.665Z",
   "items": [
     {
       "authors": [
@@ -122,6 +122,7 @@
       "title": "Toward WAN-Aware LLM Training Across Heterogeneous, Geo-Distributed Sites",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3789240.3828748",
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
       "year": 2026
     },
     {
@@ -557,6 +558,7 @@
       "title": "QuAKE: Speeding up Model Inference Using Quick and Approximate Kernels for Exponential Non-Linearities",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/islped65674.2025.11261772",
+      "venue": "IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)",
       "year": 2025
     },
     {
@@ -592,6 +594,7 @@
       "title": "LExT: Towards Evaluating Trustworthiness of Natural Language Explanations",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3715275.3732104",
+      "venue": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
       "year": 2025
     },
     {
@@ -813,6 +816,7 @@
       "title": "Where Should I Study? Biased Language Models Decide! Evaluating Fairness in LMs for Academic Recommendations",
       "type": "conference-paper",
       "url": "https://doi.org/10.18653/v1/2025.findings-ijcnlp.141",
+      "venue": "International Joint Conference on Natural Language Processing and Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)",
       "year": 2025
     },
     {
@@ -835,6 +839,7 @@
       "title": "Language Models can Subtly Deceive Without Lying: A Case Study on Strategic Phrasing in Legislation",
       "type": "conference-paper",
       "url": "https://doi.org/10.18653/v1/2025.acl-long.1600",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
       "year": 2025
     },
     {
@@ -952,6 +957,7 @@
       "title": "Zero Shot Learning based Alternatives for Class Imbalanced Learning Problem in Enterprise Software Defect Analysis",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3643991.3645065",
+      "venue": "International Conference on Mining Software Repositories (MSR)",
       "year": 2024
     },
     {
@@ -968,6 +974,7 @@
       "title": "Cost-Sensitive Trees for Interpretable Reinforcement Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3632410.3632443",
+      "venue": "Joint International Conference on Data Science & Management of Data (CODS-COMAD)",
       "year": 2024
     },
     {
@@ -986,6 +993,7 @@
       "title": "Guiding Offline Reinforcement Learning Using a Safety Expert",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3632410.3632423",
+      "venue": "Joint International Conference on Data Science & Management of Data (CODS-COMAD)",
       "year": 2024
     },
     {
@@ -1006,6 +1014,7 @@
       "title": "A Learning Approach for Discovering Cost-Efficient Integrated Sourcing and Routing Strategies in E-Commerce",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3632410.3632426",
+      "venue": "Joint International Conference on Data Science & Management of Data (CODS-COMAD)",
       "year": 2024
     },
     {
@@ -1084,6 +1093,7 @@
       "title": "PolicyClusterGCN: Identifying Efficient Clusters for Training Graph Convolutional Networks",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3625007.3627499",
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
       "year": 2023
     },
     {
@@ -1120,6 +1130,7 @@
       "title": "Optimizing Traffic Control with Model-Based Learning: A Pessimistic Approach to Data-Efficient Policy Inference",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3580305.3599459",
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
       "year": 2023
     },
     {
@@ -1459,7 +1470,7 @@
       "title": "Multi-Variate Time Series Forecasting on Variable Subsets",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3534678.3539394",
-      "venue": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
       "year": 2022
     },
     {
@@ -1479,7 +1490,7 @@
       "title": "Hybrid Deep RePReL: Integrating Relational Planning and Reinforcement Learning for Information Fusion",
       "type": "conference-paper",
       "url": "https://doi.org/10.23919/fusion49751.2022.9841246",
-      "venue": "2022 25th International Conference on Information Fusion (FUSION)",
+      "venue": "International Conference on Information Fusion (FUSION)",
       "year": 2022
     },
     {
@@ -1500,6 +1511,7 @@
       "title": "Evolutionary Approach to Security Games with Signaling",
       "type": "conference-paper",
       "url": "https://doi.org/10.24963/ijcai.2022/88",
+      "venue": "International Joint Conference on Artificial Intelligence",
       "year": 2022
     },
     {
@@ -1536,7 +1548,7 @@
       "title": "Detecting Vehicles on the Edge: Knowledge Distillation to Improve Performance in Heterogeneous Road Traffic",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/cvprw56347.2022.00360",
-      "venue": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "year": 2022
     },
     {
@@ -1610,6 +1622,7 @@
       "title": "Smooth Imitation Learning via Smooth Costs and Smooth Policies",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3493700.3493716",
+      "venue": "Joint International Conference on Data Science & Management of Data (CODS-COMAD)",
       "year": 2022
     },
     {
@@ -1628,6 +1641,7 @@
       "title": "Automated Incident Location Identification for EMS from Ambulance Geospatial Data",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3493700.3493732",
+      "venue": "Joint International Conference on Data Science & Management of Data (CODS-COMAD)",
       "year": 2022
     },
     {
@@ -1645,6 +1659,7 @@
       "title": "An Active Learning Framework for Efficient Robust Policy Search",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3493700.3493712",
+      "venue": "Joint International Conference on Data Science & Management of Data (CODS-COMAD)",
       "year": 2022
     },
     {
@@ -2233,6 +2248,7 @@
       "title": "Understanding Dynamic Scenes using Graph Convolution Networks",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/iros45743.2020.9341018",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "year": 2020
     },
     {
@@ -2326,6 +2342,7 @@
       "title": "HPRA: Hyperedge Prediction using Resource Allocation",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3394231.3397903",
+      "venue": "ACM Conference on Web Science (WebSci)",
       "year": 2020
     },
     {
@@ -2501,6 +2518,7 @@
       "title": "Towards Transparent and Explainable Attention Models",
       "type": "conference-paper",
       "url": "https://doi.org/10.18653/v1/2020.acl-main.387",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
       "year": 2020
     },
     {
@@ -2644,6 +2662,7 @@
       "title": "Generalized random Surfer-Pair models",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3341161.3342914",
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
       "year": 2019
     },
     {
@@ -2661,6 +2680,7 @@
       "title": "Successor Options: An Option Discovery Framework for Reinforcement Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.24963/ijcai.2019/458",
+      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
       "year": 2019
     },
     {
@@ -2978,6 +2998,7 @@
       "title": "Learning to Prevent Monocular SLAM Failure using Reinforcement Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3293353.3293400",
+      "venue": "Indian Conference on Computer Vision, Graphics and Image Processing",
       "year": 2018
     },
     {
@@ -3028,6 +3049,7 @@
       "title": "Looking under the hood of deep neural networks",
       "type": "other",
       "url": "https://doi.org/10.1109/hipc.2018.00009",
+      "venue": "IEEE International Conference on High Performance Computing (HiPC)",
       "year": 2018
     },
     {
@@ -3258,6 +3280,7 @@
       "title": "Training a deep learning architecture for vehicle detection using limited heterogeneous traffic data",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/comsnets.2018.8328279",
+      "venue": "International Conference on Communication Systems & Networks (COMSNETS)",
       "year": 2018
     },
     {
@@ -3310,6 +3333,7 @@
       "title": "Tracking and stabilization of mechanical systems using reinforcement learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/indiancc.2018.8307979",
+      "venue": "Indian Control Conference",
       "year": 2018
     },
     {
@@ -3395,6 +3419,7 @@
       "title": "DCEIL: Distributed Community Detection with the CEIL Score",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/hpcc-smartcity-dss.2017.19",
+      "venue": "IEEE International Conference on High Performance Computing and Communications; IEEE International Conference on Smart City; IEEE International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
       "year": 2017
     },
     {
@@ -3444,6 +3469,7 @@
       "title": "MCEIL",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3110025.3116193",
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
       "year": 2017
     },
     {
@@ -3462,6 +3488,7 @@
       "title": "Thresholding Bandits with Augmented UCB",
       "type": "conference-paper",
       "url": "https://doi.org/10.24963/ijcai.2017/350",
+      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
       "year": 2017
     },
     {
@@ -3672,6 +3699,7 @@
       "title": "Diversity driven attention model for query-based abstractive summarization",
       "type": "conference-paper",
       "url": "https://doi.org/10.18653/v1/p17-1098",
+      "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
       "year": 2017
     },
     {
@@ -3706,6 +3734,7 @@
       "title": "A new Multi-Bug Path Planning algorithm for robot navigation in known environments",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/tencon.2016.7848676",
+      "venue": "IEEE Region 10 Conference (TENCON)",
       "year": 2016
     },
     {
@@ -3922,6 +3951,7 @@
       "title": "Bridge Correlational Neural Networks for Multilingual Multimodal Representation Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.18653/v1/n16-1021",
+      "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
       "year": 2016
     },
     {
@@ -4293,7 +4323,7 @@
       "title": "Multi-label collective classification in multi-attribute multi-relational network data",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/asonam.2014.6921634",
-      "venue": "2014 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2014)",
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
       "year": 2014
     },
     {
@@ -4802,6 +4832,7 @@
       "title": "Plenary talk: Making sense of a connected world: An introduction to social network analysis",
       "type": "other",
       "url": "https://doi.org/10.1109/icrtit.2011.5972502",
+      "venue": "International Conference on Recent Trends in Information Technology",
       "year": 2011
     },
     {
@@ -4918,6 +4949,7 @@
       "title": "Transfer learning across heterogeneous robots with action sequence mapping",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/iros.2010.5649422",
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "year": 2010
     },
     {
@@ -5248,6 +5280,7 @@
       "title": "On the hardness of finding symmetries in Markov decision processes",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/1390156.1390243",
+      "venue": "International Conference on Machine Learning (ICML)",
       "year": 2008
     },
     {
@@ -5406,6 +5439,23 @@
     {
       "authors": [
         "M. Saravanan",
+        "S. Raman",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.1109/iccima.2005.8",
+      "id": "10.1109/iccima.2005.8",
+      "openAlexId": "W2110656997",
+      "publicationDate": "2006-10-11",
+      "source": "openalex",
+      "title": "A Probabilistic Approach to Multi-document Summarization for Generating a Tiled Summary",
+      "type": "conference-paper",
+      "url": "https://doi.org/10.1109/iccima.2005.8",
+      "venue": "International Conference on Computational Intelligence and Multimedia Applications (ICCIMA)",
+      "year": 2006
+    },
+    {
+      "authors": [
+        "M. Saravanan",
         "Balaraman Ravindran",
         "Shanmuganathan Raman"
       ],
@@ -5417,23 +5467,6 @@
       "type": "conference-paper",
       "url": "https://www.cse.iitm.ac.in/~ravi/papers/Saravanan_jurix_06.pdf",
       "venue": "International Conference on Legal Knowledge and Information Systems",
-      "year": 2006
-    },
-    {
-      "authors": [
-        "M. Saravanan",
-        "Shanmuganathan Raman",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.1142/s1469026806001976",
-      "id": "10.1142/s1469026806001976",
-      "openAlexId": "W2006987282",
-      "publicationDate": "2006-06-01",
-      "source": "openalex",
-      "title": "A PROBABILISTIC APPROACH TO MULTI-DOCUMENT SUMMARIZATION FOR GENERATING A TILED SUMMARY",
-      "type": "article",
-      "url": "https://doi.org/10.1142/s1469026806001976",
-      "venue": "International Journal of Computational Intelligence and Applications",
       "year": 2006
     },
     {
@@ -5488,6 +5521,7 @@
       "title": "Placement and routing for 3D-FPGAs using reinforcement learning and support vector machines",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icvd.2005.137",
+      "venue": "International Conference on VLSI Design and International Conference on Embedded Systems (VLSID)",
       "year": 2005
     },
     {

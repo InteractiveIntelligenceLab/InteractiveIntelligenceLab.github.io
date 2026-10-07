@@ -1,6 +1,6 @@
 {
   "count": 305,
-  "generatedAt": "2026-10-06T10:12:42.665Z",
+  "generatedAt": "2026-10-07T10:11:44.478Z",
   "items": [
     {
       "authors": [
@@ -1394,7 +1394,7 @@
       "title": "Revisiting Link Prediction on Heterogeneous Graphs with a Multi-view Perspective",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icdm54844.2022.00046",
-      "venue": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "venue": "Proceedings",
       "year": 2022
     },
     {
@@ -1433,7 +1433,7 @@
       "title": "Domain-Agnostic Contrastive Representations for Learning from Label Proportions",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/3511808.3557293",
-      "venue": "Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management",
+      "venue": "Proceedings of the ... ACM International Conference on Information & Knowledge Management",
       "year": 2022
     },
     {
@@ -1976,6 +1976,7 @@
       "title": "SEERL: Sample Efficient Ensemble Reinforcement Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.65109/yogm8073",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
       "year": 2021
     },
     {
@@ -1995,6 +1996,7 @@
       "title": "Reinforcement Learning for Unified Allocation and Patrolling in Signaling Games with Uncertainty",
       "type": "conference-paper",
       "url": "https://doi.org/10.65109/xouc5888",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
       "year": 2021
     },
     {
@@ -2269,6 +2271,7 @@
       "title": "Towards Accurate Vehicle Behaviour Classification With Multi-Relational Graph Convolutional Networks",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/iv47402.2020.9304822",
+      "venue": "IEEE Intelligent Vehicles Symposium",
       "year": 2020
     },
     {
@@ -2427,6 +2430,7 @@
       "title": "Influence Maximization in Unknown Social Networks: Learning Policies for Effective Graph Sampling",
       "type": "conference-paper",
       "url": "https://doi.org/10.65109/biov1668",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
       "year": 2020
     },
     {
@@ -2444,6 +2448,7 @@
       "title": "ExTra: Transfer-guided Exploration",
       "type": "conference-paper",
       "url": "https://doi.org/10.65109/dgit5441",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
       "year": 2020
     },
     {
@@ -2680,7 +2685,7 @@
       "title": "Successor Options: An Option Discovery Framework for Reinforcement Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.24963/ijcai.2019/458",
-      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
+      "venue": "International Joint Conference on Artificial Intelligence",
       "year": 2019
     },
     {
@@ -2768,6 +2773,7 @@
       "title": "Advice Replay Approach for Richer Knowledge Transfer in Teacher Student Framework",
       "type": "conference-paper",
       "url": "https://doi.org/10.65109/juxj4460",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
       "year": 2019
     },
     {
@@ -3138,6 +3144,7 @@
       "title": "RAIL: Risk-Averse Imitation Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.65109/mogs9397",
+      "venue": "Adaptive Agents and Multi-Agents Systems",
       "year": 2018
     },
     {
@@ -3155,6 +3162,7 @@
       "title": "Overtaking Maneuvers in Simulated Highway Driving using Deep Reinforcement Learning",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/ivs.2018.8500718",
+      "venue": "IEEE Intelligent Vehicles Symposium",
       "year": 2018
     },
     {
@@ -3211,6 +3219,7 @@
       "title": "Recovering from Random Pruning: On the Plasticity of Deep Convolutional Neural Networks",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/wacv.2018.00098",
+      "venue": "IEEE Winter Conference on Applications of Computer Vision",
       "year": 2018
     },
     {
@@ -3488,7 +3497,7 @@
       "title": "Thresholding Bandits with Augmented UCB",
       "type": "conference-paper",
       "url": "https://doi.org/10.24963/ijcai.2017/350",
-      "venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
+      "venue": "International Joint Conference on Artificial Intelligence",
       "year": 2017
     },
     {
@@ -3595,6 +3604,7 @@
       "title": "Role Discovery in Graphs Using Global Features: Algorithms, Applications and a Novel Evaluation Strategy",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icde.2017.128",
+      "venue": "Proceedings - International Conference on Data Engineering",
       "year": 2017
     },
     {
@@ -4000,6 +4010,7 @@
       "title": "Nonparametric Poisson Factorization Machine",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icdm.2015.142",
+      "venue": "Proceedings",
       "year": 2015
     },
     {
@@ -4211,6 +4222,7 @@
       "title": "COMMIT",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/2723372.2737791",
+      "venue": "Proceedings - ACM-SIGMOD International Conference on Management of Data",
       "year": 2015
     },
     {
@@ -4358,6 +4370,7 @@
       "title": "RRTPI: Policy iteration on continuous domains using rapidly-exploring random trees",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icra.2014.6907494",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
       "year": 2014
     },
     {
@@ -4683,6 +4696,7 @@
       "title": "Where do i look now? Gaze allocation during visually guided manipulation",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icra.2012.6225226",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
       "year": 2012
     },
     {
@@ -5026,6 +5040,7 @@
       "title": "Accurate mobile robot localization in indoor environments using bluetooth",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/robot.2010.5509232",
+      "venue": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings",
       "year": 2010
     },
     {
@@ -5140,6 +5155,7 @@
       "title": "MDP based active localization for multiple robots",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/coase.2009.5234142",
+      "venue": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
       "year": 2009
     },
     {
@@ -5189,6 +5205,7 @@
       "title": "Latent Dirichlet Allocation and Singular Value Decomposition Based Multi-document Summarization",
       "type": "conference-paper",
       "url": "https://doi.org/10.1109/icdm.2008.55",
+      "venue": "Proceedings",
       "year": 2008
     },
     {
@@ -5280,7 +5297,7 @@
       "title": "On the hardness of finding symmetries in Markov decision processes",
       "type": "conference-paper",
       "url": "https://doi.org/10.1145/1390156.1390243",
-      "venue": "International Conference on Machine Learning (ICML)",
+      "venue": "International Conference on Machine Learning",
       "year": 2008
     },
     {

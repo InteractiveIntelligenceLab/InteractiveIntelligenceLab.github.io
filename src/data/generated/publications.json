@@ -1,7 +1,30 @@
 {
-  "count": 305,
-  "generatedAt": "2026-10-07T10:11:44.478Z",
+  "count": 306,
+  "generatedAt": "2026-10-08T10:30:12.453Z",
   "items": [
+    {
+      "authors": [
+        "Santhosh GS",
+        "Ananya Ravi",
+        "Devika Jay",
+        "Abhishek Sarkar",
+        "Perepu Satheesh Kumar",
+        "Saurav Prakash",
+        "Kaushik Dey",
+        "Balaraman Ravindran"
+      ],
+      "doi": "10.48550/arxiv.2610.04418",
+      "id": "10.48550/arxiv.2610.04418",
+      "oaUrl": "https://doi.org/10.48550/arxiv.2610.04418",
+      "openAlexId": "W7220671675",
+      "publicationDate": "2026-10-03",
+      "source": "openalex",
+      "title": "CORE-RL: Confidence-Oriented Reliability Evaluation of Black-Box Reinforcement Learning Policies",
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arxiv.2610.04418",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
     {
       "authors": [
         "Krithi Shailya",

@@ -1,6 +1,6 @@
 {
   "count": 306,
-  "generatedAt": "2026-10-08T10:30:12.453Z",
+  "generatedAt": "2026-10-09T10:28:36.861Z",
   "items": [
     {
       "authors": [
@@ -15,7 +15,7 @@
       ],
       "doi": "10.48550/arxiv.2610.04418",
       "id": "10.48550/arxiv.2610.04418",
-      "oaUrl": "https://doi.org/10.48550/arxiv.2610.04418",
+      "oaUrl": "https://arxiv.org/pdf/2610.04418",
       "openAlexId": "W7220671675",
       "publicationDate": "2026-10-03",
       "source": "openalex",

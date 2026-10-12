@@ -1,6 +1,6 @@
 {
   "count": 306,
-  "generatedAt": "2026-10-11T09:56:40.900Z",
+  "generatedAt": "2026-10-12T10:42:34.932Z",
   "items": [
     {
       "authors": [
@@ -390,7 +390,7 @@
         "Ben Bucknall",
         "Peter Fox",
         "Tiancheng Hu",
-        "Cameron Jones",
+        "Jones, Cameron",
         "Manning, Sam",
         "Nestor Maslej",
         "Vasilios Mavroudis",
@@ -407,7 +407,7 @@
         "Geoffrey E. Hinton",
         "Jennings, Nick",
         "Susan Leavy",
-        "Teresa Ludermir",
+        "Teresa B. Ludermir",
         "Vidushi Marda",
         "Helen Zerlina Margetts",
         "John A. McDermid",
@@ -1050,6 +1050,7 @@
       ],
       "doi": "10.1016/j.autcon.2023.105225",
       "id": "10.1016/j.autcon.2023.105225",
+      "oaUrl": "https://www.repository.cam.ac.uk/handle/1810/385451",
       "openAlexId": "W4389560172",
       "publicationDate": "2023-12-10",
       "source": "openalex",

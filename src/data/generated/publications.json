@@ -1,6 +1,6 @@
 {
-  "count": 306,
-  "generatedAt": "2026-10-12T10:42:34.932Z",
+  "count": 304,
+  "generatedAt": "2026-10-13T10:30:08.500Z",
   "items": [
     {
       "authors": [
@@ -186,7 +186,7 @@
         "Jasmijn Bastings",
         "Joachim Baumann",
         "Kongtao Chen",
-        "Murali Emani",
+        "Murali Krishna Emani",
         "Mariya Hendriksen",
         "Jiho Jin",
         "Jun Seong Kim",
@@ -318,7 +318,7 @@
         "Geoffrey E. Hinton",
         "Jennings, Nick",
         "Susan Leavy",
-        "Teresa Ludermir",
+        "Teresa B. Ludermir",
         "Vidushi Marda",
         "Helen Zerlina Margetts",
         "John A. McDermid",
@@ -575,6 +575,7 @@
       ],
       "doi": "10.1109/islped65674.2025.11261772",
       "id": "10.1109/islped65674.2025.11261772",
+      "oaUrl": "https://arxiv.org/pdf/2412.00408",
       "openAlexId": "W4416963822",
       "publicationDate": "2025-08-06",
       "source": "openalex",
@@ -736,7 +737,7 @@
         "Andreas Krause",
         "Susan Leavy",
         "Percy Liang",
-        "Teresa Ludermir",
+        "Teresa B. Ludermir",
         "Vidushi Marda",
         "Helen Zerlina Margetts",
         "John A. McDermid",
@@ -931,7 +932,7 @@
         "Ambreesh Parthasarathy",
         "Aditya Phalnikar",
         "Ameen Jauhar",
-        "Dhruv Somayajula",
+        "Somayajula Dhruv",
         "Gokul S Krishnan",
         "Balaraman Ravindran"
       ],
@@ -1058,26 +1059,6 @@
       "type": "article",
       "url": "https://doi.org/10.1016/j.autcon.2023.105225",
       "venue": "Automation in Construction",
-      "year": 2023
-    },
-    {
-      "authors": [
-        "Tamizharasan Kanagamani",
-        "Rupak Krishnamurthy",
-        "V. Srinivasa Chakravarthy",
-        "Balaraman Ravindran",
-        "Ramshekhar N. Menon"
-      ],
-      "doi": "10.21203/rs.3.rs-2471036/v1",
-      "id": "10.21203/rs.3.rs-2471036/v1",
-      "oaUrl": "https://www.researchsquare.com/article/rs-2471036/latest.pdf",
-      "openAlexId": "W4389141244",
-      "publicationDate": "2023-11-29",
-      "source": "openalex",
-      "title": "Memory Consolidation with Orthogonal Gradients for avoiding Catastrophic Forgetting",
-      "type": "preprint",
-      "url": "https://doi.org/10.21203/rs.3.rs-2471036/v1",
-      "venue": "Research Square",
       "year": 2023
     },
     {
@@ -1268,25 +1249,6 @@
       "type": "article",
       "url": "https://doi.org/10.1145/3593042",
       "venue": "ACM Computing Surveys",
-      "year": 2023
-    },
-    {
-      "authors": [
-        "Aravind Venugopal",
-        "Stephanie Milani",
-        "Fei Fang",
-        "Balaraman Ravindran"
-      ],
-      "doi": "10.48550/arxiv.2304.06011",
-      "id": "10.48550/arxiv.2304.06011",
-      "oaUrl": "https://arxiv.org/pdf/2304.06011",
-      "openAlexId": "W4365597186",
-      "publicationDate": "2023-04-12",
-      "source": "openalex",
-      "title": "MABL: Bi-Level Latent-Variable World Model for Sample-Efficient Multi-Agent Reinforcement Learning",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2304.06011",
-      "venue": "arXiv (Cornell University)",
       "year": 2023
     },
     {
@@ -1540,26 +1502,6 @@
     },
     {
       "authors": [
-        "Kushal Chauhan",
-        "Soumya Chatterjee",
-        "Akash R Reddy",
-        "Balaraman Ravindran",
-        "Pradeep Shenoy"
-      ],
-      "doi": "10.48550/arxiv.2206.05750",
-      "id": "10.48550/arxiv.2206.05750",
-      "oaUrl": "https://arxiv.org/pdf/2206.05750",
-      "openAlexId": "W4282933926",
-      "publicationDate": "2022-06-12",
-      "source": "openalex",
-      "title": "Matching options to tasks using Option-Indexed Hierarchical Reinforcement Learning",
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arxiv.2206.05750",
-      "venue": "arXiv (Cornell University)",
-      "year": 2022
-    },
-    {
-      "authors": [
         "Manoj Bharadhwaj",
         "Gitakrishnan Ramadurai",
         "Balaraman Ravindran"
@@ -1612,6 +1554,26 @@
       "type": "preprint",
       "url": "https://doi.org/10.48550/arxiv.2203.06414",
       "venue": "arXiv (Cornell University)",
+      "year": 2022
+    },
+    {
+      "authors": [
+        "Tamizharasan Kanagamani",
+        "Rupak Krishnamurthy",
+        "V. Srinivasa Chakravarthy",
+        "Balaraman Ravindran",
+        "Ramshekhar N. Menon"
+      ],
+      "doi": "10.1101/2022.02.25.481890",
+      "id": "10.1101/2022.02.25.481890",
+      "oaUrl": "https://www.biorxiv.org/content/biorxiv/early/2022/02/28/2022.02.25.481890.full.pdf",
+      "openAlexId": "W4214627891",
+      "publicationDate": "2022-02-28",
+      "source": "openalex",
+      "title": "Memory Consolidation with Orthogonal Gradients for avoiding Catastrophic Forgetting",
+      "type": "preprint",
+      "url": "https://doi.org/10.1101/2022.02.25.481890",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "year": 2022
     },
     {
@@ -1994,6 +1956,7 @@
       ],
       "doi": "10.65109/yogm8073",
       "id": "10.65109/yogm8073",
+      "oaUrl": "https://arxiv.org/pdf/2001.05209",
       "openAlexId": "W3175281560",
       "publicationDate": "2021-05-03",
       "source": "openalex",
@@ -2448,6 +2411,7 @@
       ],
       "doi": "10.65109/biov1668",
       "id": "10.65109/biov1668",
+      "oaUrl": "https://arxiv.org/pdf/1907.11625",
       "openAlexId": "W3037350926",
       "publicationDate": "2020-05-05",
       "source": "openalex",
@@ -2466,6 +2430,7 @@
       ],
       "doi": "10.65109/dgit5441",
       "id": "10.65109/dgit5441",
+      "oaUrl": "https://arxiv.org/pdf/1906.11785",
       "openAlexId": "W3037023372",
       "publicationDate": "2020-05-05",
       "source": "openalex",
@@ -2944,6 +2909,7 @@
       ],
       "doi": "10.1007/s00138-018-01001-9",
       "id": "10.1007/s00138-018-01001-9",
+      "oaUrl": "https://arxiv.org/pdf/1812.10240",
       "openAlexId": "W2905975100",
       "publicationDate": "2019-01-20",
       "source": "openalex",
@@ -3508,7 +3474,7 @@
     {
       "authors": [
         "Subhojyoti Mukherjee",
-        "Naveen Kolar Purushothama",
+        "Kolar Purushothama Naveen",
         "Nandan Sudarsanam",
         "Balaraman Ravindran"
       ],
@@ -4458,7 +4424,7 @@
     {
       "authors": [
         "Addwiteey Chrungoo",
-        "S. S. Manimaran",
+        "Manimaran Sivasamy Sivamurugan",
         "Balaraman Ravindran"
       ],
       "doi": "10.1007/978-3-319-11973-1_9",

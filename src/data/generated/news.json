@@ -1,6 +1,6 @@
 {
-  "count": 16,
-  "generatedAt": "2026-11-20T07:30:52.961Z",
+  "count": 17,
+  "generatedAt": "2026-11-20T20:34:02.153Z",
   "items": [
     {
       "id": "b2dee4ab3e82f159",
@@ -117,6 +117,15 @@
       "source": "YouTube",
       "title": "How IIT Madras is Producing India’s Top AI Minds ft. Balaraman Ravindran | Tech Talks",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uak5kdmdZeVA2RENuUVZTVVJwXzUzZGkzblRpZ2JmcUdVYVR4MVE1VFNSRklGXzI3RGVaVVkxMzZobXcxeXNZUzVack1DZWJCeUFTUHB6RFpvdnBoUlE?oc=5",
+      "verified": true
+    },
+    {
+      "id": "3c7f427c920719b9",
+      "matchedBy": "exact-full-name",
+      "publishedAt": "2025-01-17T08:00:00.000Z",
+      "source": "Analytics India Magazine",
+      "title": "IIT Madras Professor Balaraman Ravindran Elected AAAI Fellow for Advancing AI Research in India",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTWozNXNrSWJqUFRza1VpbWRUYTBvTUs0T1pWbm04SEpkQ1lPbzY3TG5zWkhsQmZwdVhscF9tYnRYZHI4b09Ca3JXYUc2TDZua3BzM3drcTJwRWZZQXZMTGRrWG0zaFBVS2cweGhlOXdIbjkyNHNIY1NzdjhicU10VTVMWHNMUnJYTDBOcm9hQm1YMHNncWFWV3Y2UDB0UUlJdUZvWG1BbG1ycGNTSHc3Z3RpUXN3S0NvVlg4OFBzd0tzeGFmaTZuTi05My1Pb0k4UVVBYWswZ2k?oc=5",
       "verified": true
     },
     {
